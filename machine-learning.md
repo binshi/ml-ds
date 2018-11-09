@@ -1,5 +1,9 @@
 Andrew Ng: [https://www.coursera.org/learn/machine-learning/home/welcome](https://www.coursera.org/learn/machine-learning/home/welcome)
 
+## ![](/assets/Process-Overview.png)
+
+##### Source: https://machinelearningmastery.com/4-steps-to-get-started-in-machine-learning/
+
 ## What is Machine Learning?
 
 Two definitions of Machine Learning are offered. Arthur Samuel described it as: "the field of study that gives computers the ability to learn without being explicitly programmed." This is an older, informal definition.

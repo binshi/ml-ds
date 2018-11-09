@@ -12,4 +12,5 @@
 * [Links](links.md)
 * [Appendix](chapter1.md)
 * [Books](books.md)
+* [Datasets](datasets.md)
 

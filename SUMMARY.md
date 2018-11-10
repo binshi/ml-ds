@@ -13,4 +13,6 @@
 * [Appendix](chapter1.md)
 * [Books](books.md)
 * [Datasets](datasets.md)
+* [AndrewNg](andrewng.md)
+  * [Model and Cost function](andrewng/sub-article.md)
 

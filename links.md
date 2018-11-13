@@ -8,7 +8,7 @@ Math for ML: [https://towardsdatascience.com/the-mathematics-of-machine-learning
 
 Kaggle links: [https://www.kaggle.com/getting-started/37999](https://www.kaggle.com/getting-started/37999)
 
-https://www.uruit.com/machine-learning-guide/
+[https://www.uruit.com/machine-learning-guide/](https://www.uruit.com/machine-learning-guide/)
 
-
+https://www.linkedin.com/pulse/how-start-data-science-marios-michailidis/
 

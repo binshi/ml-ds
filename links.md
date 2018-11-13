@@ -10,5 +10,9 @@ Kaggle links: [https://www.kaggle.com/getting-started/37999](https://www.kaggle.
 
 [https://www.uruit.com/machine-learning-guide/](https://www.uruit.com/machine-learning-guide/)
 
-https://www.linkedin.com/pulse/how-start-data-science-marios-michailidis/
+[https://www.linkedin.com/pulse/how-start-data-science-marios-michailidis/](https://www.linkedin.com/pulse/how-start-data-science-marios-michailidis/)
+
+http://josephpcohen.com/w/machine-learning-and-deep-learning-references/
+
+
 

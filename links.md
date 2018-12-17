@@ -14,13 +14,13 @@ Kaggle links: [https://www.kaggle.com/getting-started/37999](https://www.kaggle.
 
 [http://josephpcohen.com/w/machine-learning-and-deep-learning-references/](http://josephpcohen.com/w/machine-learning-and-deep-learning-references/)
 
-
-
 GPU Machines:
 
-http://www.paperspace.com
+[http://www.paperspace.com](http://www.paperspace.com)
 
-http://www.crestle.com
+[http://www.crestle.com](http://www.crestle.com)
+
+https://explained.ai/gradient-boosting/index.html
 
 
 

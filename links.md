@@ -20,7 +20,9 @@ GPU Machines:
 
 [http://www.crestle.com](http://www.crestle.com)
 
-https://explained.ai/gradient-boosting/index.html
+[https://explained.ai/gradient-boosting/index.html](https://explained.ai/gradient-boosting/index.html)
+
+http://www.themenyouwanttobe.com/data-science-resources/
 
 
 

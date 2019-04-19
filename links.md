@@ -14,6 +14,14 @@ Kaggle links: [https://www.kaggle.com/getting-started/37999](https://www.kaggle.
 
 [http://josephpcohen.com/w/machine-learning-and-deep-learning-references/](http://josephpcohen.com/w/machine-learning-and-deep-learning-references/)
 
+[https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet)
+
+[https://www.naftaliharris.com/blog/visualizing-k-means-clustering/](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
+
+[https://medium.freecodecamp.org/the-curse-of-dimensionality-how-we-can-save-big-data-from-itself-d9fa0f872335](https://medium.freecodecamp.org/the-curse-of-dimensionality-how-we-can-save-big-data-from-itself-d9fa0f872335)
+
+[http://www.incompleteideas.net/](http://www.incompleteideas.net/)
+
 GPU Machines:
 
 [http://www.paperspace.com](http://www.paperspace.com)
@@ -22,7 +30,7 @@ GPU Machines:
 
 [https://explained.ai/gradient-boosting/index.html](https://explained.ai/gradient-boosting/index.html)
 
-http://www.themenyouwanttobe.com/data-science-resources/
+[http://www.themenyouwanttobe.com/data-science-resources/](http://www.themenyouwanttobe.com/data-science-resources/)
 
 
 

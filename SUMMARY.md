@@ -6,7 +6,7 @@
 * [Unsupervised learning](unsupervised-learning.md)
 * [Reinforcement learning](reinforcement-learning.md)
 * [Neural Networks Basics](neural-networks-basics.md)
-* Deep Learning
+* [Deep Learning](deep-learning.md)
 * [Convolutional Neural Network](convolutional-neural-network.md)
 * [Tools](tools.md)
 * [Links](links.md)

@@ -1,8 +1,8 @@
 Andrew Ng: [https://www.coursera.org/learn/machine-learning/home/welcome](https://www.coursera.org/learn/machine-learning/home/welcome)
 
-Machine learning was defined in 90’s by_**Arthur Samuel**_described as the,”_**it is a field of study that gives the ability to the computer for self-learn without being explicitly programmed**_”, that means imbuing knowledge to machines without hard-coding it.
+Machine learning was defined in 90’s by_**Arthur Samuel**\_described as the,”_**it is a field of study that gives the ability to the computer for self-learn without being explicitly programmed**\_”, that means imbuing knowledge to machines without hard-coding it.
 
-> _**“A computer algorithm/program is said to learn from performance measure P and experience E with some class of tasks T if its performance at tasks in T, as measured by P, improves with experience E.”**_
+> _**“A computer algorithm/program is said to learn from performance measure P and experience E with some class of tasks T if its performance at tasks in T, as measured by P, improves with experience E.”**_  
 > -Tom M. Mitchell.
 
 Machine learning is mainly focused on the development of computer programs which can teach themselves to grow and change when exposed to new data. Machine learning studies algorithms for self-learning to do stuff. It can process massive data faster with the learning algorithm. For instance, it will be interested in learning to complete a task, make accurate predictions, or behave intelligently.
@@ -19,15 +19,15 @@ Machine Learning mainly divided into three categories, which are as follows-
 
 ![](https://cdn-images-1.medium.com/max/1600/1*8OSHpISmR1l79yX4I234wg.jpeg)
 
-Types of Machine Learning
+Types of Machine Learning
 
 ### 1.Supervised Learning:- {#1b67}
 
-_**Supervised Learning**_is the first type of machine learning, in which_**labelled**_data used to train the algorithms. In supervised learning, algorithms are trained using marked data, where the input and the output are known. We input the data in the learning algorithm as a set of inputs, which is called as Features, denoted by X along with the corresponding outputs, which is indicated by Y, and the algorithm learns by comparing its actual production with correct outputs to find errors. It then modifies the model accordingly. The raw data divided into two parts. The first part is for training the algorithm, and the other region used for test the trained algorithm.
+_**Supervised Learning**\_is the first type of machine learning, in which_**labelled**\_data used to train the algorithms. In supervised learning, algorithms are trained using marked data, where the input and the output are known. We input the data in the learning algorithm as a set of inputs, which is called as Features, denoted by X along with the corresponding outputs, which is indicated by Y, and the algorithm learns by comparing its actual production with correct outputs to find errors. It then modifies the model accordingly. The raw data divided into two parts. The first part is for training the algorithm, and the other region used for test the trained algorithm.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*CfsLNK1yyBWXoiAU2qsiig.png)
 
-Supervised Machine Learning
+Supervised Machine Learning
 
 Supervised learning uses the data patterns to predict the values of additional data for the labels. This method will commonly use in applications where historical data predict likely upcoming events. Ex:- It can anticipate when transactions are likely to be fraudulent or which insurance customer is expected to file a claim.
 
@@ -41,7 +41,9 @@ Types of Supervised Learning
 
 ### 1.1.Regression:- {#530e}
 
-_**Regression**_is the type of Supervised Learning in which labelled data used, and this data is used to make predictions in a continuous form. The output of the input is always ongoing, and the graph is linear. Regression is a form of predictive modelling technique which investigates the relationship between a dependent variable\[_**Outputs**_\] and independent variable\[_**Inputs**_\]. This technique used for forecasting the weather, time series modelling, process optimisation. Ex:- One of the examples of the regression technique is House Price Prediction, where the price of the house will predict from the inputs such as No of rooms, Locality, Ease of transport, Age of house, Area of a home.
+**Regression **is a **statistical **measurement used in finance, investing and other disciplines that attempts to determine the strength of the relationship between one dependent variable \(usually denoted by Y\) and a series of other changing variables \(known as independent variables\).
+
+_**Regression**\_is the type of Supervised Learning in which labelled data used, and this data is used to make predictions in a continuous form. The output of the input is always ongoing, and the graph is linear. Regression is a form of predictive modelling technique which investigates the relationship between a dependent variable\[_**Outputs**_\] and independent variable\[_**Inputs**\_\]. This technique used for forecasting the weather, time series modelling, process optimisation. Ex:- One of the examples of the regression technique is House Price Prediction, where the price of the house will predict from the inputs such as No of rooms, Locality, Ease of transport, Age of house, Area of a home.
 
 #### Types of Regression Algorithms:- {#ed8a}
 
@@ -129,7 +131,7 @@ Unsupervised Learning is the second type of machine learning, in which unlabeled
 
 ![](https://cdn-images-1.medium.com/max/1600/1*d0uYbtEC-ykWTwPD5WcrqQ.png)
 
-Unsupervised Machine Learning
+Unsupervised Machine Learning
 
 This learning technique works well on transactional data. For example, it can identify segments of customers with similar attributes who can then be treated similarly in marketing campaigns. Or it can find the primary qualities that separate customer segments from each other. These algorithms are also used to segment text topics, recommend items and identify data outliers.
 
@@ -151,7 +153,7 @@ K-Means clustering is one of the algorithms of Clustering technique, in which si
 
 ![](https://cdn-images-1.medium.com/max/1600/1*ZBkw7-KNoiXRXkTmDwyhZA.jpeg)
 
-K-Means Clustering showing 3 clusters
+K-Means Clustering showing 3 clusters
 
 #### 2.1.2.Hierarchical Clustering:- {#e92a}
 
@@ -219,7 +221,7 @@ Semi-Supervised Learning is the fourth type of Machine Learning, in which both t
 
 ![](https://cdn-images-1.medium.com/max/1600/1*dILZZn_m_Tn3eRoNv_VBgQ.png)
 
-Semi-supervised machine learning
+Semi-supervised machine learning
 
 This technique is useful for a few reasons. First, the process of labelling massive amounts of data for supervised learning is often prohibitively time-consuming and expensive. What’s more, too much labelling can impose human biases on the model. That means including lots of unlabeled data during the training process tends to improve the accuracy of the final model while reducing the time and cost spent building it.
 
@@ -229,7 +231,7 @@ There are many uses of Machine Learning in various fields, some of the areas are
 
 ![](https://cdn-images-1.medium.com/max/1600/1*OtfqDBQjP669bKFcAieCDA.png)
 
-> source: https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab
+> source: [https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab](https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab)
 
 ## ![](/assets/Process-Overview.png)
 

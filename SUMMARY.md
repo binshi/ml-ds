@@ -3,6 +3,8 @@
 * [Introduction](README.md)
 * [Machine Learning](machine-learning.md)
 * [Supervised Learning](supervised-learning.md)
+  * [Gradient Boosting](supervised-learning/gradient-boosting.md)
+  * [Gradient Descent](supervised-learning/gradient-descent.md)
 * [Unsupervised learning](unsupervised-learning.md)
   * [PCA](unsupervised-learning/pca.md)
   * [Outliers](unsupervised-learning/outliers.md)

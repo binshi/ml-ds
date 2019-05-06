@@ -6,7 +6,7 @@
 
 **random variable**: A variable \(a named quantity\) whose value is uncertain.
 
-**normalization constraint**:The constraint that the[probabilities](http://mbmlbook.com/MurderMystery.html#probability)given by a[probability distribution](http://mbmlbook.com/MurderMystery.html#probability_distribution)must add up to 1 over all possible values of the[random variable](http://mbmlbook.com/MurderMystery.html#random_variable). For example, for aBernoulli\(p\)Bernoulli\(p\)distribution the[probability](http://mbmlbook.com/MurderMystery.html#probability)oftrueis ppand so the[probability](http://mbmlbook.com/MurderMystery.html#probability)of the only other statefalsemust be1−p1−p.
+**normalization constraint**:The constraint that the[probabilities](http://mbmlbook.com/MurderMystery.html#probability)given by a[probability distribution](http://mbmlbook.com/MurderMystery.html#probability_distribution)must add up to 1 over all possible values of the[random variable](http://mbmlbook.com/MurderMystery.html#random_variable). For example, for aBernoulli\(p\)Bernoulli\(p\)distribution the[probability](http://mbmlbook.com/MurderMystery.html#probability)oftrueis ppand so the[probability](http://mbmlbook.com/MurderMystery.html#probability)of the only other statefalsemust be1−p1−p.
 
 **probability distribution**: A function which gives the[probability](http://mbmlbook.com/MurderMystery.html#probability)for every possible value of a[random variable](http://mbmlbook.com/MurderMystery.html#random_variable). Written asP\(A\)P\(A\)for a[random variable](http://mbmlbook.com/MurderMystery.html#random_variable)A.
 
@@ -18,8 +18,5 @@
 
 **point mass**: A distribution which gives[probability](http://mbmlbook.com/MurderMystery.html#probability)1 to one value and[probability](http://mbmlbook.com/MurderMystery.html#probability)0 to all other values, which means that the[random variable](http://mbmlbook.com/MurderMystery.html#random_variable)is certain to have the specified value. For example,Bernoulli\(1\)Bernoulli\(1\)is a point mass indicating that the variable is certain to betrue.
 
-
-
-  
-
+**Cost Function: **The cost function compares how the hypothesis matches to the dataset and gives it a number, which represents the error. Thus, we want to find the hypothesis that minimizes the cost function or has the lowest error.
 

@@ -4,3 +4,7 @@ adam:
 
 ada:
 
+
+
+https://keras.io/optimizers/
+

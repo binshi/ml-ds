@@ -1,0 +1,6 @@
+rmsprop:
+
+adam:
+
+ada:
+

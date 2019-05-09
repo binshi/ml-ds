@@ -12,5 +12,9 @@ Deeplearning: [https://github.com/kjw0612/awesome-deep-vision](https://github.co
 
 Self-supervised learning: [https://github.com/jason718/awesome-self-supervised-learning](https://github.com/jason718/awesome-self-supervised-learning)
 
-https://github.com/spmallick/learnopencv
+[https://github.com/spmallick/learnopencv](https://github.com/spmallick/learnopencv)
+
+https://github.com/mjbahmani/10-steps-to-become-a-data-scientist
+
+
 

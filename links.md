@@ -32,5 +32,13 @@ GPU Machines:
 
 [http://www.themenyouwanttobe.com/data-science-resources/](http://www.themenyouwanttobe.com/data-science-resources/)
 
+[http://www.rpca.ac.th/images/e-Book/HowToLieWithStatistics.pdf](http://www.rpca.ac.th/images/e-Book/HowToLieWithStatistics.pdf)
 
+**CNN**:
+
+[https://deepmind.com/blog/wavenet-generative-model-raw-audio/](https://deepmind.com/blog/wavenet-generative-model-raw-audio/)
+
+[http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)
+
+https://code.fb.com/ml-applications/a-novel-approach-to-neural-machine-translation/
 

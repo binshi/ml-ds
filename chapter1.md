@@ -20,3 +20,7 @@
 
 **Cost Function: **The cost function compares how the hypothesis matches to the dataset and gives it a number, which represents the error. Thus, we want to find the hypothesis that minimizes the cost function or has the lowest error.
 
+**Flattening: **the fully connected layer expects a **vector **as input. Convolution outputs a series of filters, which each are a grid shape. Flattening specifies a function mapping from these filters to a vector, so you can backpropagate errors back through the convolutional layers.
+
+**Checkpointing: **[Application checkpointing](https://en.wikipedia.org/wiki/Application_checkpointing) is a fault tolerance technique for long running processes. It is an approach where a snapshot of the state of the system is taken in case of system failure. If there is a problem, not all is lost. The checkpoint may be used directly, or used as the starting point for a new run, picking up where it left off.
+

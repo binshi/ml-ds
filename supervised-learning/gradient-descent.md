@@ -2,9 +2,13 @@
 
 [http://mccormickml.com/2014/03/04/gradient-descent-derivation/](http://mccormickml.com/2014/03/04/gradient-descent-derivation/)
 
-https://medium.com/datadriveninvestor/gradient-descent-5a13f385d403
+[https://medium.com/datadriveninvestor/gradient-descent-5a13f385d403](https://medium.com/datadriveninvestor/gradient-descent-5a13f385d403)
 
-#### Batch Gradient Descent {#f213}
+https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f
+
+https://www.kdnuggets.com/2017/04/simple-understand-gradient-descent-algorithm.html
+
+#### Batch Gradient Descent {#f213}
 
 In batch gradient we**use the entire dataset to compute the gradient of the cost function for each iteration of the gradient descent and then update the weights. **Since we use the entire dataset to compute the gradient convergence is slow.If the dataset is huge and contains millions or billions of data points then it is memory as well as computationally intensive.
 
@@ -18,7 +22,7 @@ In batch gradient we**use the entire dataset to compute the gradient of the cost
 * Can be very slow and intractable as large datasets may not fit in the memory
 * As we take the entire dataset for computation we can update the weights of the model for the new data
 
-#### Stochastic Gradient descent {#8e93}
+#### Stochastic Gradient descent {#8e93}
 
 In stochastic gradient descent we**use a single datapoint or example to calculate the gradient and update the weights with every iteration**. We first need to**shuffle the dataset so that we get a completely randomized dataset**. As the dataset is randomized and weights are updated for each single example, update of the weights and the cost function will be noisy jumping all over the place as shown below. Random sample helps to arrive at a global minima and avoids getting stuck at a local minima.
 
@@ -32,7 +36,7 @@ In stochastic gradient descent we**use a single datapoint or example to calculat
 
 * As we frequently update weights, Cost function fluctuates heavily
 
-#### Mini Batch Gradient descent {#912f}
+#### Mini Batch Gradient descent {#912f}
 
 Mini-batch gradient is a variation of stochastic gradient descent where instead of single training example, mini-batch of samples is used.Mini batch gradient descent is widely used and converges faster and is more stable. Batch size can vary depending on the dataset. As we take a batch with different samples,it reduces the noise which is variance of the weight updates and that helps to have a more stable converge faster.
 
@@ -46,6 +50,5 @@ Mini-batch gradient is a variation of stochastic gradient descent where instead 
 
 * Loss is computed for each mini batch and hence total loss needs to be accumulated across all mini batches
 
-  
 
 

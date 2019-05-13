@@ -17,6 +17,7 @@
     * [Activation Function](deep-learning/data-manipulation/activation-function.md)
     * [Optimizers](deep-learning/data-manipulation/optimizers.md)
     * [Cost/Loss Function](deep-learning/data-manipulation/loss-function.md)
+  * [Multi Layer Perceptron](deep-learning/multi-layer-perceptron.md)
 * [Tools](tools.md)
 * [Links](links.md)
 * [Appendix](chapter1.md)

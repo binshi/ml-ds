@@ -34,11 +34,17 @@ GPU Machines:
 
 [http://www.rpca.ac.th/images/e-Book/HowToLieWithStatistics.pdf](http://www.rpca.ac.th/images/e-Book/HowToLieWithStatistics.pdf)
 
+[https://ml-cheatsheet.readthedocs.io/en/latest/](https://ml-cheatsheet.readthedocs.io/en/latest/)
+
 **CNN**:
 
 [https://deepmind.com/blog/wavenet-generative-model-raw-audio/](https://deepmind.com/blog/wavenet-generative-model-raw-audio/)
 
 [http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)
 
-https://code.fb.com/ml-applications/a-novel-approach-to-neural-machine-translation/
+[https://code.fb.com/ml-applications/a-novel-approach-to-neural-machine-translation/](https://code.fb.com/ml-applications/a-novel-approach-to-neural-machine-translation/)
+
+[http://cs231n.github.io/](http://cs231n.github.io/)
+
+http://blog.kaggle.com/2015/01/02/cifar-10-competition-winners-interviews-with-dr-ben-graham-phil-culliton-zygmunt-zajac/
 

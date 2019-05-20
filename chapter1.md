@@ -24,3 +24,9 @@
 
 **Checkpointing: **[Application checkpointing](https://en.wikipedia.org/wiki/Application_checkpointing) is a fault tolerance technique for long running processes. It is an approach where a snapshot of the state of the system is taken in case of system failure. If there is a problem, not all is lost. The checkpoint may be used directly, or used as the starting point for a new run, picking up where it left off.
 
+A vector is a series of numbers. It is like a matrix with only one row but multiple columns \(or only one column but multiple rows\). An example is: \[1,2,3,5,6,3,2,0\].
+
+**vector**: A feature vector is just a vector that contains information describing an object's important characteristics.
+
+**Feature  vector**: In image processing, features can take many forms. A simple feature representation of an image is the raw intensity value of each pixel. However, more complicated feature representations are also possible. For facial expression analysis, I use mostly SIFT descriptor features \(scale invariant feature transform\). These features capture the prevalence of different line orientations.
+

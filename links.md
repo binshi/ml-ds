@@ -48,7 +48,9 @@ GPU Machines:
 
 [http://blog.kaggle.com/2015/01/02/cifar-10-competition-winners-interviews-with-dr-ben-graham-phil-culliton-zygmunt-zajac/](http://blog.kaggle.com/2015/01/02/cifar-10-competition-winners-interviews-with-dr-ben-graham-phil-culliton-zygmunt-zajac/)
 
-Visualizing and understanding deep neural networks: https://www.youtube.com/watch?v=ghEmQSxT6tw
+Visualizing and understanding deep neural networks: [https://www.youtube.com/watch?v=ghEmQSxT6tw](https://www.youtube.com/watch?v=ghEmQSxT6tw)
+
+https://www.linkedin.com/feed/update/urn:li:activity:6536848706631684096
 
 
 

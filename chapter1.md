@@ -30,3 +30,31 @@ A vector is a series of numbers. It is like a matrix with only one row but multi
 
 **Feature  vector**: In image processing, features can take many forms. A simple feature representation of an image is the raw intensity value of each pixel. However, more complicated feature representations are also possible. For facial expression analysis, I use mostly SIFT descriptor features \(scale invariant feature transform\). These features capture the prevalence of different line orientations.
 
+**Color spaces**:
+
+**RGB** is unintuitive when defining exact shades of a color if you need to define a particular _range_of colors \(useful when tracking objects in a video stream based on color appearance\).
+
+The **HSV** color space tends to be more intuitive in terms of actually defining a particular color \(or range\), but it doesn’t do a great job of representing how humans see and interpret color.
+
+Then we have the **L\*a\*b\*** color space — this color space tries to mimic the methodology in which humans see and interpret color. This implies that the[Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) between two arbitrary colors in the L\*a\*b\* color space have actual _perceptual meaning. _The addition of the perceptual meaning property makes the L\*a\*b\* color space less intuitive and easy to understand than RGB or HSV, but because of the perceptual meaning property, we often use it in computer vision.
+
+**ROC Curve: **
+
+**Confusion Matrix:**
+
+  
+li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'}  
+span.s1 {font: 10.0px Menlo}  
+ul.ul1 {list-style-type: disc}  
+
+
+**Sensitivity**: Of all the people **with** cancer, how many were correctly diagnosed?
+
+**Specificity**: Of all the people **without** cancer, how many were correctly diagnosed?
+
+**Recall**: Of all the people who **have cancer**, how many did **we diagnose** as having cancer?
+
+**Precision**: Of all the people **we diagnosed** with cancer, how many actually **had cancer**?
+
+
+

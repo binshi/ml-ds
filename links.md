@@ -50,7 +50,32 @@ GPU Machines:
 
 Visualizing and understanding deep neural networks: [https://www.youtube.com/watch?v=ghEmQSxT6tw](https://www.youtube.com/watch?v=ghEmQSxT6tw)
 
+[https://www.linkedin.com/feed/update/urn:li:activity:6536848706631684096](https://www.linkedin.com/feed/update/urn:li:activity:6536848706631684096)
+
+The Hitchhiker’s Guide to Feature Extraction \(20 pages\) Python [https://lnkd.in/euzKJDH](https://lnkd.in/euzKJDH)
+
+Step by Step Guide to Data Cleaning with Python \(NumPy and Pandas\) [https://lnkd.in/eGdexzq](https://lnkd.in/eGdexzq)
+
+Practical Introduction to Web Scraping in Python [https://lnkd.in/g7uU\_XG](https://lnkd.in/g7uU_XG)
+
+Build your first chatbot in Python using NLTK [https://lnkd.in/fUu8Ufa](https://lnkd.in/fUu8Ufa)
+
+A Step-by-Step Guide for Building a Tweet Classifier with Python [https://lnkd.in/d4nMQXX](https://lnkd.in/d4nMQXX)
+
+Walkthrough Example Implement Text Classification with Python [https://lnkd.in/eRWQHGe](https://lnkd.in/eRWQHGe)
+
+The Ultimate Guide To Speech Recognition with Python [https://lnkd.in/ehdwVzg](https://lnkd.in/ehdwVzg)
+
+Walkthrough Face Detection with Python [https://lnkd.in/e\_QsRh2](https://lnkd.in/e_QsRh2)
+
+Walkthrough Sentiment Analysis - Model for Predicting Review Sentiment in Python [https://lnkd.in/eH9zTv5](https://lnkd.in/eH9zTv5)
+
+Walkthrough how to use Deep Learning to solve a problem with Python [https://lnkd.in/eBmbaJq](https://lnkd.in/eBmbaJq)
+
+Data Visualization in Python [https://lnkd.in/enTYSHW](https://lnkd.in/enTYSHW)
+
 https://www.linkedin.com/feed/update/urn:li:activity:6536848706631684096
 
+  
 
 

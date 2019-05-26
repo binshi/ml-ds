@@ -32,29 +32,31 @@ A vector is a series of numbers. It is like a matrix with only one row but multi
 
 **Color spaces**:
 
-**RGB** is unintuitive when defining exact shades of a color if you need to define a particular _range_of colors \(useful when tracking objects in a video stream based on color appearance\).
+**RGB** is unintuitive when defining exact shades of a color if you need to define a particular \_range\_of colors \(useful when tracking objects in a video stream based on color appearance\).
 
-The **HSV** color space tends to be more intuitive in terms of actually defining a particular color \(or range\), but it doesn’t do a great job of representing how humans see and interpret color.
+The **HSV** color space tends to be more intuitive in terms of actually defining a particular color \(or range\), but it doesn’t do a great job of representing how humans see and interpret color.
 
-Then we have the **L\*a\*b\*** color space — this color space tries to mimic the methodology in which humans see and interpret color. This implies that the[Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) between two arbitrary colors in the L\*a\*b\* color space have actual _perceptual meaning. _The addition of the perceptual meaning property makes the L\*a\*b\* color space less intuitive and easy to understand than RGB or HSV, but because of the perceptual meaning property, we often use it in computer vision.
+Then we have the **L\*a\*b\*** color space — this color space tries to mimic the methodology in which humans see and interpret color. This implies that the[Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) between two arbitrary colors in the L\*a\*b\* color space have actual \_perceptual meaning. \_The addition of the perceptual meaning property makes the L\*a\*b\* color space less intuitive and easy to understand than RGB or HSV, but because of the perceptual meaning property, we often use it in computer vision.
 
 **ROC Curve: **
 
 **Confusion Matrix:**
 
-  
 li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'}  
 span.s1 {font: 10.0px Menlo}  
-ul.ul1 {list-style-type: disc}  
+ul.ul1 {list-style-type: disc}
 
+**Sensitivity**: Of all the people **with** cancer, how many were correctly diagnosed?
 
-**Sensitivity**: Of all the people **with** cancer, how many were correctly diagnosed?
+**Specificity**: Of all the people **without** cancer, how many were correctly diagnosed?
 
-**Specificity**: Of all the people **without** cancer, how many were correctly diagnosed?
+**Recall**: Of all the people who **have cancer**, how many did **we diagnose** as having cancer?
 
-**Recall**: Of all the people who **have cancer**, how many did **we diagnose** as having cancer?
+**Precision**: Of all the people **we diagnosed** with cancer, how many actually **had cancer**?
 
-**Precision**: Of all the people **we diagnosed** with cancer, how many actually **had cancer**?
+**Ensemble learning **is the process by which multiple models, such as classifiers or experts, are strategically generated and combined to solve a particular computational intelligence problem.
+
+Overfitting is a serious problem in networks Deep neural nets with a large number of parameters. Large networks are also slow to use, making it difficult to deal with overfitting by combining the predictions of many different large neural nets at test time. **Dropout** is a technique for addressing this problem. The key idea is to randomly drop units \(along with their connections\) from the neural network during training. This prevents units from co-adapting too much. During training, dropout samples from an exponential number of different “thinned” networks. At test time, it is easy to approximate the effect of averaging the predictions of all these thinned networks by simply using a single unthinned network that has smaller weights. This significantly reduces overfitting and gives major improvements over other regularization methods. 
 
 
 

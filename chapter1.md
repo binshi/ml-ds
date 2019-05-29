@@ -56,7 +56,9 @@ ul.ul1 {list-style-type: disc}
 
 **Ensemble learning **is the process by which multiple models, such as classifiers or experts, are strategically generated and combined to solve a particular computational intelligence problem.
 
-Overfitting is a serious problem in networks Deep neural nets with a large number of parameters. Large networks are also slow to use, making it difficult to deal with overfitting by combining the predictions of many different large neural nets at test time. **Dropout** is a technique for addressing this problem. The key idea is to randomly drop units \(along with their connections\) from the neural network during training. This prevents units from co-adapting too much. During training, dropout samples from an exponential number of different “thinned” networks. At test time, it is easy to approximate the effect of averaging the predictions of all these thinned networks by simply using a single unthinned network that has smaller weights. This significantly reduces overfitting and gives major improvements over other regularization methods. 
+Overfitting is a serious problem in networks Deep neural nets with a large number of parameters. Large networks are also slow to use, making it difficult to deal with overfitting by combining the predictions of many different large neural nets at test time. **Dropout** is a technique for addressing this problem. The key idea is to randomly drop units \(along with their connections\) from the neural network during training. This prevents units from co-adapting too much. During training, dropout samples from an exponential number of different “thinned” networks. At test time, it is easy to approximate the effect of averaging the predictions of all these thinned networks by simply using a single unthinned network that has smaller weights. This significantly reduces overfitting and gives major improvements over other regularization methods.
 
 
+
+Vanishing Gradient: 
 

@@ -74,8 +74,7 @@ Walkthrough how to use Deep Learning to solve a problem with Python [https://lnk
 
 Data Visualization in Python [https://lnkd.in/enTYSHW](https://lnkd.in/enTYSHW)
 
-https://www.linkedin.com/feed/update/urn:li:activity:6536848706631684096
+[https://www.linkedin.com/feed/update/urn:li:activity:6536848706631684096](https://www.linkedin.com/feed/update/urn:li:activity:6536848706631684096)
 
-  
-
+[http://karpathy.github.io/](http://karpathy.github.io/)
 

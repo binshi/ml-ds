@@ -42,9 +42,7 @@ Then we have the **L\*a\*b\*** color space — this color space tries to mimic t
 
 **Confusion Matrix:**
 
-li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'}  
-span.s1 {font: 10.0px Menlo}  
-ul.ul1 {list-style-type: disc}
+To create a **regularized** model, we modify the objective function by adding a penalizing term whose value is higher when the model is more complex.
 
 **Sensitivity**: Of all the people **with** cancer, how many were correctly diagnosed?
 
@@ -58,7 +56,11 @@ ul.ul1 {list-style-type: disc}
 
 Overfitting is a serious problem in networks Deep neural nets with a large number of parameters. Large networks are also slow to use, making it difficult to deal with overfitting by combining the predictions of many different large neural nets at test time. **Dropout** is a technique for addressing this problem. The key idea is to randomly drop units \(along with their connections\) from the neural network during training. This prevents units from co-adapting too much. During training, dropout samples from an exponential number of different “thinned” networks. At test time, it is easy to approximate the effect of averaging the predictions of all these thinned networks by simply using a single unthinned network that has smaller weights. This significantly reduces overfitting and gives major improvements over other regularization methods.
 
+Vanishing Gradient:
+
+  
+p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Helvetica}  
 
 
-Vanishing Gradient: 
+The problem of transforming raw data into a dataset is called **feature engineering**
 

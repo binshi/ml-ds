@@ -60,5 +60,11 @@ Vanishing Gradient:
 
 The problem of transforming raw data into a dataset is called **feature engineering**
 
-The **error function** needs to be differentiable. Hence it needs to be continuous and should contain only positive values.
+The **error function** needs to be differentiable. Hence it needs to be continuous.
+
+Log Loss Error function:
+
+Activation function It’s just a thing function that you use to get the output of node. It is also known as **Transfer Function**
+
+.
 

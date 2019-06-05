@@ -14,3 +14,5 @@ eg:
 
 The main reason why we use sigmoid function is because it exists between **\(0 to 1\). **Therefore, it is especially used for models where we have to **predict the probability **as an output.Since probability of anything exists only between the range of **0 and 1, **sigmoid is the right choice.The function is **differentiable **.That means, we can find the slope of the sigmoid curve at any two points. The function is **monotonic **but function’s derivative is not. The logistic sigmoid function can cause a neural network to get stuck at the training time. The **softmax function **is a more generalized logistic activation function which is used for multiclass classification.
 
+![](/assets/import.png)
+

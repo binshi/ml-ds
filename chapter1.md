@@ -40,7 +40,7 @@ Then we have the **L\*a\*b\*** color space — this color space tries to mimic t
 
 **ROC Curve: **
 
-**Confusion Matrix:**
+The **confusion matrix** is a table that summarizes how successful the classification model is at predicting examples belonging to various classes. One axis of the confusion matrix is the label that the model predicted, and the other axis is the actual label.
 
 To create a **regularized** model, we modify the objective function by adding a penalizing term whose value is higher when the model is more complex.
 
@@ -58,9 +58,7 @@ Overfitting is a serious problem in networks Deep neural nets with a large numbe
 
 Vanishing Gradient:
 
-  
-p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Helvetica}  
-
-
 The problem of transforming raw data into a dataset is called **feature engineering**
+
+The **error function** needs to be differentiable. Hence it needs to be continuous and should contain only positive values.
 

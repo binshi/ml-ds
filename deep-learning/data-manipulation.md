@@ -48,9 +48,25 @@ Usually, this computational advantage is leveraged by performing many more itera
 
 The way I like to think of how SGD works is to imagine that I have one point that represents my input distribution. My model is attempting to learn that input distribution. Surrounding the input distribution is a shaded area that represents the input distributions of all of the possible minibatches I could sample. It's usually a fair assumption that the minibatch input distributions are close in proximity to the true input distribution. Batch gradient descent, at all steps, takes the steepest route to reach the true input distribution. SGD, on the other hand, chooses a random point within the shaded area, and takes the steepest route towards this point. At each iteration, though, it chooses a new point. The average of all of these steps will approximate the true input distribution, usually quite well.
 
+**If model is not working decrease the learning rate. **Decreasing learning rate. If steep: long steps, if plain small steps.
 
+# Keras Optimizers {#keras-optimizers}
 
-**If model is not working decrease the learning rate.**
+There are many optimizers in Keras, that we encourage you to explore further, in this[link](https://keras.io/optimizers/), or in this excellent[blog post](http://ruder.io/optimizing-gradient-descent/index.html#rmsprop). These optimizers use a combination of the tricks above, plus a few others. Some of the most common are:
 
-Decreasing learning rate. If steep: long steps, if plain small steps.
+#### SGD {#sgd}
+
+This is Stochastic Gradient Descent. It uses the following parameters:
+
+* Learning rate.
+* Momentum \(This takes the weighted average of the previous steps, in order to get a bit of momentum and go over bumps, as a way to not get stuck in local minima\).
+* Nesterov Momentum \(This slows down the gradient when it's close to the solution\).
+
+#### Adam {#adam}
+
+Adam \(Adaptive Moment Estimation\) uses a more complicated exponential decay that consists of not just considering the average \(first moment\), but also the variance \(second moment\) of the previous steps.
+
+#### RMSProp {#rmsprop}
+
+RMSProp \(RMS stands for Root Mean Squared Error\) decreases the learning rate by dividing it by an exponentially decaying average of squared gradients.
 

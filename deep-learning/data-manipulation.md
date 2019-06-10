@@ -18,19 +18,21 @@ The main reason why we use sigmoid function is because it exists between **\(0 t
 
 **Regularization:**
 
-In order to avoid overfitting with large weights \(sigmoid of larger numbers is always close to 1\) we start penalizing larger weight coefficients/weights by \(adding sum of the absolute value of weights or sum of weights squared\) multiplied by lambda to the error function. 
+In order to avoid overfitting with large weights \(sigmoid of larger numbers is always close to 1\) we start penalizing larger weight coefficients/weights by \(adding sum of the absolute value of weights or sum of weights squared\) multiplied by lambda to the error function.
 
 L1: Small weights tend too go towards 0. Good for feature selection as it chooses only ones with maximum impact turning rest into 0. Sparsity \(1,0,1,0,0\)
 
 L2: Tries to maintain  all weights homogenously small. Normally better for training models Sparsity \(0.5, 0.3, -0.2, 0.4, 0.1\)
 
-**Dropout**: Randomly turn off some of the nodes in epochs so the other nodes have to pick up the slack and take more part in the training and thus ensures all nodes are contributing to the training 
+**Dropout**: Randomly turn off some of the nodes in epochs so the other nodes have to pick up the slack and take more part in the training and thus ensures all nodes are contributing to the training
 
 **Gradient Descent problems:**
 
-**Local Minima**: While ‘searching’ for global minimum algorithm may encounter many ‘valleys’ whose bottoms we call local minimum. Depending on the type of algorithm being used, if the ‘valley’ is deep enough, the process might get stuck there and we end up with local minimum instead of global
+**Local Minima**: While ‘searching’ for global minimum algorithm may encounter many ‘valleys’ whose bottoms we call local minimum. Depending on the type of algorithm being used, if the ‘valley’ is deep enough, the process might get stuck there and we end up with local minimum instead of global. One way to solve this is Random restarts and find gradient descents for all of them. Another way is to use momentum.  step = average of last few steps
 
-**Vanishing Gradient: **Certain activation functions, like the sigmoid function, squishes a large input space into a small input space between 0 and 1. Therefore, a large change in the input of the sigmoid function will cause a small change in the output. Hence, the derivative becomes small. Gradients of neural networks are found using backpropagation. Simply put, backpropagation finds the derivatives of the network by moving layer by layer from the final layer to the initial one. By the chain rule, the derivatives of each layer are multiplied down the network \(from the final layer to the initial\) to compute the derivatives of the initial layers. However, when _n _hidden layers use an activation like the sigmoid function,_n _small derivatives are multiplied together. Thus, the gradient decreases exponentially as we propagate down to the initial layers. A small gradient means that the weights and biases of the initial layers will not be updated effectively with each training session. Since these initial layers are often crucial to recognizing the core elements of the input data, it can lead to overall inaccuracy of the whole network. The simplest solution is to use other activation functions, such as ReLU, which doesn’t cause a small derivative.
+![](/assets/Screenshot 2019-06-10 at 5.03.34 PM.png)
+
+**Vanishing Gradient: **Certain activation functions, like the sigmoid function, squishes a large input space into a small input space between 0 and 1. Therefore, a large change in the input of the sigmoid function will cause a small change in the output. Hence, the derivative becomes small. Gradients of neural networks are found using backpropagation. Simply put, backpropagation finds the derivatives of the network by moving layer by layer from the final layer to the initial one. By the chain rule, the derivatives of each layer are multiplied down the network \(from the final layer to the initial\) to compute the derivatives of the initial layers. However, when \_n \_hidden layers use an activation like the sigmoid function,\_n \_small derivatives are multiplied together. Thus, the gradient decreases exponentially as we propagate down to the initial layers. A small gradient means that the weights and biases of the initial layers will not be updated effectively with each training session. Since these initial layers are often crucial to recognizing the core elements of the input data, it can lead to overall inaccuracy of the whole network. The simplest solution is to use other activation functions, such as ReLU, which doesn’t cause a small derivative.
 
 **Stochastic Gradient Descent and Batch Gradient Descent:**
 
@@ -48,7 +50,7 @@ The way I like to think of how SGD works is to imagine that I have one point tha
 
 
 
+**If model is not working decrease the learning rate.**
 
-
-
+Decreasing learning rate. If steep: long steps, if plain small steps.
 

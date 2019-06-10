@@ -68,7 +68,9 @@ Activation function It’s just a thing function that you use to get the output 
 
 **Sigmoid** to convert number between 0 and 1. Add weights subtract bias and then sigmoid it
 
+Model Complexity Graph:
 
+![](/assets/Screenshot 2019-06-10 at 4.17.30 PM.png)
 
 .
 

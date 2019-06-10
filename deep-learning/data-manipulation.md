@@ -16,3 +16,39 @@ The main reason why we use sigmoid function is because it exists between **\(0 t
 
 ![](/assets/import.png)
 
+**Regularization:**
+
+In order to avoid overfitting with large weights \(sigmoid of larger numbers is always close to 1\) we start penalizing larger weight coefficients/weights by \(adding sum of the absolute value of weights or sum of weights squared\) multiplied by lambda to the error function. 
+
+L1: Small weights tend too go towards 0. Good for feature selection as it chooses only ones with maximum impact turning rest into 0. Sparsity \(1,0,1,0,0\)
+
+L2: Tries to maintain  all weights homogenously small. Normally better for training models Sparsity \(0.5, 0.3, -0.2, 0.4, 0.1\)
+
+**Dropout**: Randomly turn off some of the nodes in epochs so the other nodes have to pick up the slack and take more part in the training and thus ensures all nodes are contributing to the training 
+
+**Gradient Descent problems:**
+
+**Local Minima**: While ‘searching’ for global minimum algorithm may encounter many ‘valleys’ whose bottoms we call local minimum. Depending on the type of algorithm being used, if the ‘valley’ is deep enough, the process might get stuck there and we end up with local minimum instead of global
+
+**Vanishing Gradient: **Certain activation functions, like the sigmoid function, squishes a large input space into a small input space between 0 and 1. Therefore, a large change in the input of the sigmoid function will cause a small change in the output. Hence, the derivative becomes small. Gradients of neural networks are found using backpropagation. Simply put, backpropagation finds the derivatives of the network by moving layer by layer from the final layer to the initial one. By the chain rule, the derivatives of each layer are multiplied down the network \(from the final layer to the initial\) to compute the derivatives of the initial layers. However, when _n _hidden layers use an activation like the sigmoid function,_n _small derivatives are multiplied together. Thus, the gradient decreases exponentially as we propagate down to the initial layers. A small gradient means that the weights and biases of the initial layers will not be updated effectively with each training session. Since these initial layers are often crucial to recognizing the core elements of the input data, it can lead to overall inaccuracy of the whole network. The simplest solution is to use other activation functions, such as ReLU, which doesn’t cause a small derivative.
+
+**Stochastic Gradient Descent and Batch Gradient Descent:**
+
+The applicability of batch or stochastic gradient descent really depends on the error manifold expected.
+
+Batch gradient descent computes the gradient using the whole dataset. This is great for convex, or relatively smooth error manifolds. In this case, we move somewhat directly towards an optimum solution, either local or global. Additionally, batch gradient descent, given an annealed learning rate, will eventually find the minimum located in it's basin of attraction.
+
+Stochastic gradient descent \(SGD\) computes the gradient using a single sample. Most applications of SGD actually use a minibatch of several samples, for reasons that will be explained a bit later. SGD works well \(Not well, I suppose, but better than batch gradient descent\) for error manifolds that have lots of local maxima/minima. In this case, the somewhat noisier gradient calculated using the reduced number of samples tends to jerk the model out of local minima into a region that hopefully is more optimal. Single samples are really noisy, while minibatches tend to average a little of the noise out. Thus, the amount of jerk is reduced when using minibatches. A good balance is struck when the minibatch size is small enough to avoid some of the poor local minima, but large enough that it doesn't avoid the global minima or better-performing local minima. \(Incidently, this assumes that the best minima have a larger and deeper basin of attraction, and are therefore easier to fall into.\)
+
+One benefit of SGD is that it's computationally a whole lot faster. Large datasets often can't be held in RAM, which makes vectorization much less efficient. Rather, each sample or batch of samples must be loaded, worked with, the results stored, and so on. Minibatch SGD, on the other hand, is usually intentionally made small enough to be computationally tractable.
+
+Usually, this computational advantage is leveraged by performing many more iterations of SGD, making many more steps than conventional batch gradient descent. This usually results in a model that is very close to that which would be found via batch gradient descent, or better.
+
+The way I like to think of how SGD works is to imagine that I have one point that represents my input distribution. My model is attempting to learn that input distribution. Surrounding the input distribution is a shaded area that represents the input distributions of all of the possible minibatches I could sample. It's usually a fair assumption that the minibatch input distributions are close in proximity to the true input distribution. Batch gradient descent, at all steps, takes the steepest route to reach the true input distribution. SGD, on the other hand, chooses a random point within the shaded area, and takes the steepest route towards this point. At each iteration, though, it chooses a new point. The average of all of these steps will approximate the true input distribution, usually quite well.
+
+
+
+
+
+
+

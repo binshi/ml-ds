@@ -66,5 +66,9 @@ Log Loss Error function:
 
 Activation function It’s just a thing function that you use to get the output of node. It is also known as **Transfer Function**
 
+**Sigmoid** to convert number between 0 and 1. Add weights subtract bias and then sigmoid it
+
+
+
 .
 

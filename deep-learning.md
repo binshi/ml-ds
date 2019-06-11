@@ -12,7 +12,7 @@ Great learning resources include:
 
 [http://www.asimovinstitute.org/neural-network-zoo/](http://www.asimovinstitute.org/neural-network-zoo/)
 
+[http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)
 
-
-
+[https://jalammar.github.io/feedforward-neural-networks-visual-interactive/](https://jalammar.github.io/feedforward-neural-networks-visual-interactive/)
 

@@ -1,4 +1,4 @@
-https://medium.com/technologymadeeasy/the-best-explanation-of-convolutional-neural-networks-on-the-internet-fbb8b1ad5df8
+[https://medium.com/technologymadeeasy/the-best-explanation-of-convolutional-neural-networks-on-the-internet-fbb8b1ad5df8](https://medium.com/technologymadeeasy/the-best-explanation-of-convolutional-neural-networks-on-the-internet-fbb8b1ad5df8)
 
 [http://cs231n.stanford.edu/](http://cs231n.stanford.edu/)
 
@@ -12,11 +12,9 @@ Grid search hyperparameters: [https://machinelearningmastery.com/grid-search-hyp
 
 [http://deeplearning.stanford.edu/wiki/index.php/Feature\_extraction\_using\_convolution](http://deeplearning.stanford.edu/wiki/index.php/Feature_extraction_using_convolution)
 
+**Pooling layers**: [https://machinelearningmastery.com/pooling-layers-for-convolutional-neural-networks/](https://machinelearningmastery.com/pooling-layers-for-convolutional-neural-networks/)
 
-
-**Pooling layers**: https://machinelearningmastery.com/pooling-layers-for-convolutional-neural-networks/
-
-**Image Augmentation**: https://machinelearningmastery.com/image-augmentation-deep-learning-keras/
+**Image Augmentation**: [https://machinelearningmastery.com/image-augmentation-deep-learning-keras/](https://machinelearningmastery.com/image-augmentation-deep-learning-keras/)
 
 If you would like to know more about interpreting CNNs and convolutional layers in particular, you are encouraged to check out these resources:
 
@@ -37,12 +35,23 @@ If you would like to know more about interpreting CNNs and convolutional layers 
 
 * If you'd like to read more about interpretability of CNNs:
 
-  * Here's an
-    [article](https://blog.openai.com/adversarial-example-research/)
-    that details some dangers from using deep learning models \(that are not yet interpretable\) in real-world applications.
-  * There's a lot of active research in this area.
-    [These authors](https://arxiv.org/abs/1611.03530)
-    recently made a step in the right direction.
+  * Here's an [article](https://blog.openai.com/adversarial-example-research/) that details some dangers from using deep learning models \(that are not yet interpretable\) in real-world applications.
+  * There's a lot of active research in this area.[These authors](https://arxiv.org/abs/1611.03530) recently made a step in the right direction.
+
+If you'd like more details about fully connected layers in Keras, check out the [documentation](https://keras.io/layers/core/) for the Dense layer. You can change the way the weights are initialized through supplying values for the `kernel_initializer `and `bias_initializer`parameters. Note that the default values are `'glorot_uniform'`, and `'zeros'`, respectively. You can read more about how each of these initializers work in the corresponding Keras [documentation](https://keras.io/initializers/). 
+
+ There are many different [loss functions](https://keras.io/losses/) in Keras. For this lesson, we will only use`categorical_crossentropy`
+
+Check out the [list of available optimizers](https://keras.io/optimizers/) in Keras. The optimizer is specified when you compile the model \(in Step 7 of the notebook\).
+
+* `'sgd'`: SGD
+* `'rmsprop'`: RMSprop
+* `'adagrad'`Adagrad
+* `'adadelta'`: Adadelta
+* `'adam'`: Adam
+* `'adamax'`: Adamax
+* `'nadam'`: Nadam
+* `'tfoptimizer'`: TFOptimizer
 
 
 

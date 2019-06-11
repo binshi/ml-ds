@@ -26,12 +26,8 @@ If you would like to know more about interpreting CNNs and convolutional layers 
 
 * Read this[Keras blog post](https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html)on visualizing how CNNs see the world. In this post, you can find an accessible introduction to Deep Dreams, along with code for writing your own deep dreams in Keras. When you've read that:
 
-  * Also check out this
-    [music video](https://www.youtube.com/watch?v=XatXy6ZhKZw)
-    that makes use of Deep Dreams \(look at 3:15-3:40\)!
-  * Create your own Deep Dreams \(without writing any code!\) using this
-    [website](https://deepdreamgenerator.com/)
-    .
+  * Also check out this [music video](https://www.youtube.com/watch?v=XatXy6ZhKZw) that makes use of Deep Dreams \(look at 3:15-3:40\)!
+  * Create your own Deep Dreams \(without writing any code!\) using this [website](https://deepdreamgenerator.com/)
 
 * If you'd like to read more about interpretability of CNNs:
 
@@ -53,7 +49,7 @@ Check out the [list of available optimizers](https://keras.io/optimizers/) in Ke
 * `'nadam'`: Nadam
 * `'tfoptimizer'`: TFOptimizer
 
-* There are many callbacks \(such as ModelCheckpoint\) that you can use to monitor your model during the training process. If you'd like, check out the [**details**](https://keras.io/callbacks/#modelcheckpoint) here. You're encouraged to begin with learning more about the EarlyStopping callback. If you'd like to see another code example of ModelCheckpoint, check out  [**this blog**](http://machinelearningmastery.com/check-point-deep-learning-models-keras/)
+* There are many callbacks \(such as ModelCheckpoint\) that you can use to monitor your model during the training process. If you'd like, check out the [**details**](https://keras.io/callbacks/#modelcheckpoint) here. You're encouraged to begin with learning more about the EarlyStopping callback. If you'd like to see another code example of ModelCheckpoint, check out  [**this blog**](http://machinelearningmastery.com/check-point-deep-learning-models-keras/)  
   .
 
 

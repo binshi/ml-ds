@@ -38,9 +38,9 @@ If you would like to know more about interpreting CNNs and convolutional layers 
   * Here's an [article](https://blog.openai.com/adversarial-example-research/) that details some dangers from using deep learning models \(that are not yet interpretable\) in real-world applications.
   * There's a lot of active research in this area.[These authors](https://arxiv.org/abs/1611.03530) recently made a step in the right direction.
 
-If you'd like more details about fully connected layers in Keras, check out the [documentation](https://keras.io/layers/core/) for the Dense layer. You can change the way the weights are initialized through supplying values for the `kernel_initializer `and `bias_initializer`parameters. Note that the default values are `'glorot_uniform'`, and `'zeros'`, respectively. You can read more about how each of these initializers work in the corresponding Keras [documentation](https://keras.io/initializers/). 
+If you'd like more details about fully connected layers in Keras, check out the [documentation](https://keras.io/layers/core/) for the Dense layer. You can change the way the weights are initialized through supplying values for the `kernel_initializer`and `bias_initializer`parameters. Note that the default values are `'glorot_uniform'`, and `'zeros'`, respectively. You can read more about how each of these initializers work in the corresponding Keras [documentation](https://keras.io/initializers/).
 
- There are many different [loss functions](https://keras.io/losses/) in Keras. For this lesson, we will only use`categorical_crossentropy`
+There are many different [loss functions](https://keras.io/losses/) in Keras. For this lesson, we will only use`categorical_crossentropy`
 
 Check out the [list of available optimizers](https://keras.io/optimizers/) in Keras. The optimizer is specified when you compile the model \(in Step 7 of the notebook\).
 
@@ -52,6 +52,9 @@ Check out the [list of available optimizers](https://keras.io/optimizers/) in Ke
 * `'adamax'`: Adamax
 * `'nadam'`: Nadam
 * `'tfoptimizer'`: TFOptimizer
+
+* There are many callbacks \(such as ModelCheckpoint\) that you can use to monitor your model during the training process. If you'd like, check out the [**details**](https://keras.io/callbacks/#modelcheckpoint) here. You're encouraged to begin with learning more about the EarlyStopping callback. If you'd like to see another code example of ModelCheckpoint, check out  [**this blog**](http://machinelearningmastery.com/check-point-deep-learning-models-keras/)
+  .
 
 
 

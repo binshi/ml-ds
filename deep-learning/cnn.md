@@ -52,5 +52,11 @@ Check out the [list of available optimizers](https://keras.io/optimizers/) in Ke
 * There are many callbacks \(such as ModelCheckpoint\) that you can use to monitor your model during the training process. If you'd like, check out the [**details**](https://keras.io/callbacks/#modelcheckpoint) here. You're encouraged to begin with learning more about the EarlyStopping callback. If you'd like to see another code example of ModelCheckpoint, check out  [**this blog**](http://machinelearningmastery.com/check-point-deep-learning-models-keras/)  
   .
 
+When training deep learning models, the **checkpoint** is the weights of the model. These weights can be used to make predictions as is, or used as the basis for ongoing training. The Keras library provides a[checkpointing capability by a callback API](http://keras.io/callbacks/#modelcheckpoint).
+
+The ModelCheckpoint callback class allows you to define where to checkpoint the model weights, how the file should named and under what circumstances to make a checkpoint of the model. The API allows you to specify which metric to monitor, such as loss or accuracy on the training or validation dataset. You can specify whether to look for an improvement in maximizing or minimizing the score. Finally, the filename that you use to store the weights can include variables like the[epoch number](https://machinelearningmastery.com/difference-between-a-batch-and-an-epoch/)or metric.
+
+The ModelCheckpoint can then be passed to the training process when calling the fit\(\) function on the model.
+
 
 

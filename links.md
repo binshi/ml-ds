@@ -78,3 +78,5 @@ Data Visualization in Python [https://lnkd.in/enTYSHW](https://lnkd.in/enTYSHW)
 
 [http://karpathy.github.io/](http://karpathy.github.io/)
 
+Cifar10: [https://github.com/keras-team/keras/blob/master/examples/cifar10\_cnn.py](https://github.com/keras-team/keras/blob/master/examples/cifar10_cnn.py)
+

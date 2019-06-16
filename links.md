@@ -80,3 +80,15 @@ Data Visualization in Python [https://lnkd.in/enTYSHW](https://lnkd.in/enTYSHW)
 
 Cifar10: [https://github.com/keras-team/keras/blob/master/examples/cifar10\_cnn.py](https://github.com/keras-team/keras/blob/master/examples/cifar10_cnn.py)
 
+### Optional Resources {#optional-resources}
+
+* Check out the [AlexNet](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) paper!
+* Read more about [VGGNet](https://arxiv.org/pdf/1409.1556.pdf) here.
+* The [ResNet](https://arxiv.org/pdf/1512.03385v1.pdf) paper can be found here.
+* Here's the Keras [documentation](https://keras.io/applications/) for accessing some famous CNN architectures.
+* Read this [detailed treatment](http://neuralnetworksanddeeplearning.com/chap5.html) of the vanishing gradients problem.
+* Here's a GitHub [repository](https://github.com/jcjohnson/cnn-benchmarks) containing benchmarks for different CNN architectures.
+* Visit the [ImageNet Large Scale Visual Recognition Competition \(ILSVRC\)](http://www.image-net.org/challenges/LSVRC/) website.
+
+
+

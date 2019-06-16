@@ -16,6 +16,8 @@ Grid search hyperparameters: [https://machinelearningmastery.com/grid-search-hyp
 
 **Image Augmentation**: [https://machinelearningmastery.com/image-augmentation-deep-learning-keras/](https://machinelearningmastery.com/image-augmentation-deep-learning-keras/)
 
+[https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html](https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html)
+
 If you would like to know more about interpreting CNNs and convolutional layers in particular, you are encouraged to check out these resources:
 
 * Here's a[section](http://cs231n.github.io/understanding-cnn/)from the Stanford's CS231n course on visualizing what CNNs learn.
@@ -66,15 +68,11 @@ The ModelCheckpoint can then be passed to the training process when calling the 
 
 Neighboring pixels in images tend to have similar values, so conv layers will typically also produce similar values for neighboring pixels in outputs. As a result,**much of the information contained in a conv layer’s output is redundant**. For example, if we use an edge-detecting filter and find a strong edge at a certain location, chances are that we’ll also find relatively strong edges at locations 1 pixel shifted from the original one. However,**these are all the same edge!**We’re not finding anything new.
 
-Pooling layers solve this problem. All they do is reduce the size of the input it’s given by \(you guessed it\)_pooling_values together in the input. The pooling is usually done by a simple operation like`max`,`min`, or`average`. To perform _max _pooling, we traverse the input image in 2x2 blocks \(because pool size = 2\) and put the _max _value into the output image at the corresponding pixel. **Pooling divides the input’s width and height by the pool size**. For our MNIST CNN, we’ll place a Max Pooling layer with a pool size of 2 right after our initial conv layer. The pooling layer will transform a 26x26x8 input into a 13x13x8 output
-
-
+Pooling layers solve this problem. All they do is reduce the size of the input it’s given by \(you guessed it\)\_pooling\_values together in the input. The pooling is usually done by a simple operation like`max`,`min`, or`average`. To perform \_max \_pooling, we traverse the input image in 2x2 blocks \(because pool size = 2\) and put the \_max \_value into the output image at the corresponding pixel. **Pooling divides the input’s width and height by the pool size**. For our MNIST CNN, we’ll place a Max Pooling layer with a pool size of 2 right after our initial conv layer. The pooling layer will transform a 26x26x8 input into a 13x13x8 output
 
 To increase the number of  nodes in a convolutional layer, increase number of filters. To increase the size of the detected  pattern increase the size of the filter
 
 Always add a ReLU activation function to the`Conv2D`layers in your CNN. With the exception of the final layer in the network,`Dense`layers should also have a ReLU activation function.
 
-When constructing a network for classification, the final layer in the network should be a`Dense`layer with a softmax activation function. The number of nodes in the final layer should equal the total number of classes in the dataset. 
-
-
+When constructing a network for classification, the final layer in the network should be a`Dense`layer with a softmax activation function. The number of nodes in the final layer should equal the total number of classes in the dataset.
 

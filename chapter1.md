@@ -76,5 +76,5 @@ One can identify the optimal number of **epochs** from the graph drawn between e
 
 **MLP\(Multi Layer  Perceptons\)** uses fully connected layers and only accepts vectors\(from matrices using flatten\(\)\) as inputs.On the other hand CNNs can also  use sparsely connected layers and also accept matrices as inputs
 
-
+[https://keras.io/callbacks/](https://keras.io/callbacks/) EarlyStopping
 

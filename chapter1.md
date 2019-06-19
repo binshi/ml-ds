@@ -72,5 +72,9 @@ Model Complexity Graph:
 
 ![](/assets/Screenshot 2019-06-10 at 4.17.30 PM.png)
 
-MLP\(Multi Layer  Perceptons\) uses fully connected layers and only accepts vectors\(from matrices using flatten\(\)\) as inputs.On the other hand CNNs can also  use sparsely connected layers and also accept matrices as inputs
+One can identify the optimal number of **epochs** from the graph drawn between epochs and the training-validation loss or graph drawn between epochs and training-validation accuracy
+
+**MLP\(Multi Layer  Perceptons\)** uses fully connected layers and only accepts vectors\(from matrices using flatten\(\)\) as inputs.On the other hand CNNs can also  use sparsely connected layers and also accept matrices as inputs
+
+
 

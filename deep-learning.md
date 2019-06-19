@@ -1,5 +1,7 @@
 [http://www.deeplearningbook.org/](http://www.deeplearningbook.org/)
 
+[https://www.learnopencv.com/image-classification-using-convolutional-neural-networks-in-keras/](https://www.learnopencv.com/image-classification-using-convolutional-neural-networks-in-keras/)
+
 [https://elitedatascience.com/keras-tutorial-deep-learning-in-python](https://elitedatascience.com/keras-tutorial-deep-learning-in-python)
 
 [http://adventuresinmachinelearning.com/keras-tutorial-cnn-11-lines/](http://adventuresinmachinelearning.com/keras-tutorial-cnn-11-lines/)
@@ -19,4 +21,8 @@ Great learning resources include:
 [http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)
 
 [https://jalammar.github.io/feedforward-neural-networks-visual-interactive/](https://jalammar.github.io/feedforward-neural-networks-visual-interactive/)
+
+
+
+[https://www.researchgate.net/post/How\_does\_one\_choose\_optimal\_number\_of\_epochs](https://www.researchgate.net/post/How_does_one_choose_optimal_number_of_epochs)
 

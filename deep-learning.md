@@ -1,5 +1,7 @@
 [http://www.deeplearningbook.org/](http://www.deeplearningbook.org/)
 
+[https://elitedatascience.com/keras-tutorial-deep-learning-in-python](https://elitedatascience.com/keras-tutorial-deep-learning-in-python)
+
 Great learning resources include:
 
 * Coursera’s [Machine Learning](https://www.coursera.org/learn/machine-learning) course by [Andrew Ng](https://twitter.com/AndrewYNg)

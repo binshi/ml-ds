@@ -90,5 +90,9 @@ Cifar10: [https://github.com/keras-team/keras/blob/master/examples/cifar10\_cnn.
 * Here's a GitHub [repository](https://github.com/jcjohnson/cnn-benchmarks) containing benchmarks for different CNN architectures.
 * Visit the [ImageNet Large Scale Visual Recognition Competition \(ILSVRC\)](http://www.image-net.org/challenges/LSVRC/) website.
 
+[http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/](http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/)
+
+[https://deepmind.com/blog/alphago-zero-learning-scratch/](https://deepmind.com/blog/alphago-zero-learning-scratch/)
+
 
 

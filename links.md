@@ -92,7 +92,7 @@ Cifar10: [https://github.com/keras-team/keras/blob/master/examples/cifar10\_cnn.
 
 [http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/](http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/)
 
+[https://github.com/ucaiado/QLearning\_Trading](https://github.com/ucaiado/QLearning_Trading)
+
 [https://deepmind.com/blog/alphago-zero-learning-scratch/](https://deepmind.com/blog/alphago-zero-learning-scratch/)
-
-
 

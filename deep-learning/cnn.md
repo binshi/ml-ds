@@ -6,6 +6,8 @@
 
 [https://github.com/vdumoulin/conv\_arithmetic](https://github.com/vdumoulin/conv_arithmetic)
 
+Tensorflow CNN:** **[https://www.tensorflow.org/tutorials/estimators/cnn](https://www.tensorflow.org/tutorials/estimators/cnn)
+
 **Checkpointing**: [https://machinelearningmastery.com/check-point-deep-learning-models-keras/](https://machinelearningmastery.com/check-point-deep-learning-models-keras/)
 
 **Grid search hyperparameters**: [https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/](https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/)

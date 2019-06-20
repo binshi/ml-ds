@@ -76,3 +76,5 @@ Always add a ReLU activation function to the`Conv2D`layers in your CNN. With the
 
 When constructing a network for classification, the final layer in the network should be a`Dense`layer with a softmax activation function. The number of nodes in the final layer should equal the total number of classes in the dataset.
 
+**Transfer learning**: [https://www.hackerearth.com/practice/machine-learning/transfer-learning/transfer-learning-intro/tutorial/](https://www.hackerearth.com/practice/machine-learning/transfer-learning/transfer-learning-intro/tutorial/)
+

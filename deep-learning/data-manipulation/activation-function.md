@@ -1,8 +1,10 @@
 [https://www.learnopencv.com/understanding-activation-functions-in-deep-learning/](https://www.learnopencv.com/understanding-activation-functions-in-deep-learning/)
 
-https://keras.io/activations/
+[https://keras.io/activations/](https://keras.io/activations/)
 
 [https://www.analyticsvidhya.com/blog/2017/10/fundamentals-deep-learning-activation-functions-when-to-use-them/](https://www.analyticsvidhya.com/blog/2017/10/fundamentals-deep-learning-activation-functions-when-to-use-them/)
+
+[https://medium.com/data-science-group-iitr/loss-functions-and-optimization-algorithms-demystified-bb92daff331c](https://medium.com/data-science-group-iitr/loss-functions-and-optimization-algorithms-demystified-bb92daff331c)
 
 Activation functions are an extremely important feature of the artificial neural networks. They basically decide whether a neuron should be activated or not. Whether the information that the neuron is receiving is relevant for the given information or should it be ignored.
 

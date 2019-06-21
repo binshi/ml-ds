@@ -82,3 +82,54 @@ One can identify the optimal number of **epochs** from the graph drawn between e
 
 [https://keras.io/callbacks/](https://keras.io/callbacks/) EarlyStopping
 
+
+
+
+
+| Apache Spark |
+| :--- |
+
+
+| Apache Spark | A library for distributed computing for large-scale data manipulation and machine learning. |
+| :--- | :--- |
+| Artificial Neural Networks | Machine learning algorithms inspired by biological neural networks. |
+| Backpropagation | An algorithm for training neural networks in which errors are propagated backwards through the network. |
+| Big Data | Data which is difficult to work upon using a single machine, typically in the order of terabytes or more. It can also mean machine learning and other types of analyses on data of this scale. |
+| Classification | A machine learning problem involving the prediction of two or more classes from an observation. |
+| Clustering | The process of grouping observations that are similar according to a particular criterion |
+| Cython | A Python-like language uses to give C-like performance to Python. |
+| Cross Validation | A method for evaluating the performance of a learning algorithm. Particularly useful for small datasets. |
+| Data Science | A field covering machine learning, data cleaning and preparation, and data analysis techniques such as visualisation. |
+| Deep Learning | A class of machine learning algorithms which use artificial neural networks with many layers. |
+| Face Detection | The problem of determining whether a face contains an image. |
+| Face Recognition | The problem of identifying a face in an image. |
+| Feature Extraction | The process of finding relevant features in a set of data. |
+| Gradient Descent | An optimisation method which can find a minimum of a function by following the gradient. |
+| Hyperparameter | A user-defined parameter in a machine learning algorithm. |
+| k-nearest Neighbours | An algorithm which makes a prediction based on the k-nearest observations. |
+| Kaggle | A data science competition. |
+| Linear Algebra | A field of mathematics concerning linear mappings between vector spaces. Essential to machine learning. |
+| Machine Learning | Algorithms which improve their performance with experience. A computational branch of statistics. |
+| Model Selection | The process of choosing hyperparameters for a machine learning algorithm |
+| Natural Language Processing | A field of computer science concerned with the analysis of natural \(human\) languages. |
+| Numpy | A Python array/matrix library. |
+| OpenCV | A computer vision library in C++ with bindings for Python. |
+| Optimisation | The branch of mathematics concerned with finding the minimum or maximum of a function. Essential to many machine learning algorithms. |
+| Pandas | The Python Data Analysis library. |
+| Principal Components Analysis | A classic feature extraction algorithm based on prediction into a subspace. |
+| Python | A high-level programming language, popular for machine learning applications. |
+| Regression | A machine learning problem involving the prediction of a real-valued scalar or vector. |
+| Singular Value Decomposition | A well-known matrix factorisation method. |
+| Scikit-learn | A library for Machine Learning in Python. |
+| Scipy | A Python library for scientific computing. |
+| Statistics | A branch of mathematics concerned with finding useful patterns in data. |
+| Stochastic Gradient Descent | A fast numerical optimisation algorithm commonly used in deep learning algorithms. |
+| Tensor | A multidimensional array. |
+| Tensorflow | A deep learning library developed by Google. |
+| Test Set | A set of examples/observations used for evaluating the prediction performance of an algorithm. |
+| Theano | A tensor manipulation library for Python which can run code on the GPU. |
+| Training Set | A set of examples/observations used for training a machine learning algorithm. |
+| Validation Set | A set of examples/observations used for tuning the parameters of an algorithm whilst training |
+
+
+

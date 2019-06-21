@@ -28,7 +28,4 @@
   * [Model and Cost function](andrewng/sub-article.md)
 * [Interview](interview.md)
 * [Misc](misc.md)
-* [Githubs](papers.md)
-* [Frameworks](frameworks.md)
-  * [Tensorflow](frameworks/tensorflow.md)
 

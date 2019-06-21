@@ -2,6 +2,8 @@
 
 [https://developers.google.com/machine-learning/glossary/](https://developers.google.com/machine-learning/glossary/)
 
+[https://simplyml.com/the-machine-learning-dictionary/](https://simplyml.com/the-machine-learning-dictionary/)
+
 **Regression**: a measure of the relation between the mean value of one variable \(e.g. output\) and corresponding values of other variables \(e.g. time and cost\).
 
 **probability**: A measure of uncertainty which lies between 0 and 1, where 0 means impossible and 1 means certain. Probabilities are often expressed as a percentages \(such as 0%, 50% and 100%\).

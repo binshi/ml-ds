@@ -36,7 +36,7 @@ This is an **episodic task**, where an episode finishes when the game ends. The 
 
 * **Reward Hypothesis**: All goals can be framed as the maximization of \(expected\) cumulative reward.
 
-###  {#cumulative-reward}
+### ![](/assets/Screenshot 2019-06-25 at 7.52.22 AM.png) {#cumulative-reward}
 
 
 

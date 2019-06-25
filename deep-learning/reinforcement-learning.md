@@ -36,39 +36,7 @@ This is an **episodic task**, where an episode finishes when the game ends. The 
 
 * **Reward Hypothesis**: All goals can be framed as the maximization of \(expected\) cumulative reward.
 
-### Cumulative Reward {#cumulative-reward}
+###  {#cumulative-reward}
 
----
-
-* The **return at time step t **is G&lt;sub&gt;t&lt;sub&gt; := R\_{t+1} + R\_{t+2} + R\_{t+3} + \ldots
-  G
-  t
-  ​
-  :
-  =
-  R
-  t
-  +
-  1
-  ​
-  +
-  R
-  t
-  +
-  2
-  ​
-  +
-  R
-  t
-  +
-  3
-  ​
-  +
-  …
-* The agent selects actions with the goal of maximizing expected \(discounted\) return. \(
-  _Note: discounting is covered in the next concept._
-  \)
-
-  
 
 

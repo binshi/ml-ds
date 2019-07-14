@@ -14,8 +14,6 @@ Say you are an agent, and your goal is to play chess. At every time step, you ch
 
 ![](/assets/Screenshot 2019-07-09 at 3.58.24 PM.png)
 
-
-
 This is an **episodic task**, where an episode finishes when the game ends. The idea is that by playing the game many times, or by interacting with the environment in many episodes, you can learn to play chess better and better.
 
 * **task **is an instance of the reinforcement learning \(RL\) problem.
@@ -52,7 +50,13 @@ This is an **episodic task**, where an episode finishes when the game ends. The 
 
 * **Reward Hypothesis**: All goals can be framed as the maximization of \(expected\) cumulative reward.
 
-### ![](/assets/Screenshot 2019-06-25 at 7.52.22 AM.png) {#cumulative-reward}
+### ![](/assets/Screenshot 2019-06-25 at 7.52.22 AM.png)Dynamic Programming {#cumulative-reward}
+
+In **policy iteration **algorithms, you start with a random policy, then find the value function of that policy \(policy evaluation step\), then find a new \(improved\) policy based on the previous value function, and so on. In this process, each policy is guaranteed to be a strict improvement over the previous one \(unless it is already optimal\). Given a policy, its value function can be obtained using the Bellman operator. 
+
+In **value iteration**, you start with a random value function and then find a new \(improved\) value function in an iterative process, until reaching the optimal value function. Notice that you can derive easily the optimal policy from the optimal value function. This process is based on the optimality Bellman operator
+
+In some sense, both algorithms share the same working principle, and they can be seen as two cases of the generalized policy iteration. However, the optimality Bellman operator contains a max operator, which is non linear and, therefore, it has different features. In addition, it's possible to use hybrid methods between pure value iteration and pure policy iteration.
 
 
 

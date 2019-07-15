@@ -1,3 +1,7 @@
+[https://www.analyticsvidhya.com/blog/2018/09/reinforcement-learning-model-based-planning-dynamic-programming/](https://www.analyticsvidhya.com/blog/2018/09/reinforcement-learning-model-based-planning-dynamic-programming/)
+
+
+
 Beyond the agent and the environment, one can identify four main subelements of a reinforcement learning system: a **policy**, a **reward signal**, a **value function**, and, optionally, a **model of the environment**.
 
 A **policy** defines the learning agent’s way of behaving at a given time. Roughly speaking, a policy is a mapping from perceived states of the environment to actions to be taken when in those states. It corresponds to what in psychology would be called a set of stimulus–response rules or associations. In some cases the policy may be a simple function or lookup table, whereas in others it may involve extensive computation such as a search process.
@@ -52,11 +56,23 @@ This is an **episodic task**, where an episode finishes when the game ends. The 
 
 ### ![](/assets/Screenshot 2019-06-25 at 7.52.22 AM.png)Dynamic Programming {#cumulative-reward}
 
-In **policy iteration **algorithms, you start with a random policy, then find the value function of that policy \(policy evaluation step\), then find a new \(improved\) policy based on the previous value function, and so on. In this process, each policy is guaranteed to be a strict improvement over the previous one \(unless it is already optimal\). Given a policy, its value function can be obtained using the Bellman operator. 
+In **policy iteration **algorithms, you start with a random policy, then find the value function of that policy \(policy evaluation step\), then find a new \(improved\) policy based on the previous value function, and so on. In this process, each policy is guaranteed to be a strict improvement over the previous one \(unless it is already optimal\). Given a policy, its value function can be obtained using the Bellman operator.
 
 In **value iteration**, you start with a random value function and then find a new \(improved\) value function in an iterative process, until reaching the optimal value function. Notice that you can derive easily the optimal policy from the optimal value function. This process is based on the optimality Bellman operator
 
 In some sense, both algorithms share the same working principle, and they can be seen as two cases of the generalized policy iteration. However, the optimality Bellman operator contains a max operator, which is non linear and, therefore, it has different features. In addition, it's possible to use hybrid methods between pure value iteration and pure policy iteration.
 
+### **Prediction and Control**
 
+The difference between **prediction** and **control** is to do with goals regarding the policy. The policy describes the way of acting depending on current state, and in the literature is often noted as𝜋\(𝑎\|𝑠\)π\(a\|s\), the probability of taking action𝑎awhen in state𝑠s.
+
+> So, my question is for prediction, predict what?
+
+A prediction task in RL is where the policy is supplied, and the goal is to measure how well it performs. That is, to predict the expected total reward from any given state assuming the function𝜋\(𝑎\|𝑠\)π\(a\|s\)is fixed.
+
+> for control, control what？
+
+A control task in RL is where the policy is not fixed, and the goal is to find the optimal policy. That is, to find the policy𝜋\(𝑎\|𝑠\)π\(a\|s\)that maximises the expected total reward from any given state.
+
+A control algorithm based on value functions \(of which Monte Carlo Control is one example\) usually works by also solving the prediction problem, i.e. it predicts the values of acting in different ways, and adjusts the policy to choose the best actions at each step. As a result, the output of the value-based algorithms is usually an approximately optimal policy and the expected future rewards for following that policy.
 

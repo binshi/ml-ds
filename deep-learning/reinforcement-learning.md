@@ -1,6 +1,6 @@
+[https://www.analyticsvidhya.com/blog/2018/09/reinforcement-multi-armed-bandit-scratch-python/](https://www.analyticsvidhya.com/blog/2018/09/reinforcement-multi-armed-bandit-scratch-python/)
+
 [https://www.analyticsvidhya.com/blog/2018/09/reinforcement-learning-model-based-planning-dynamic-programming/](https://www.analyticsvidhya.com/blog/2018/09/reinforcement-learning-model-based-planning-dynamic-programming/)
-
-
 
 Beyond the agent and the environment, one can identify four main subelements of a reinforcement learning system: a **policy**, a **reward signal**, a **value function**, and, optionally, a **model of the environment**.
 
@@ -75,4 +75,20 @@ A prediction task in RL is where the policy is supplied, and the goal is to meas
 A control task in RL is where the policy is not fixed, and the goal is to find the optimal policy. That is, to find the policy𝜋\(𝑎\|𝑠\)π\(a\|s\)that maximises the expected total reward from any given state.
 
 A control algorithm based on value functions \(of which Monte Carlo Control is one example\) usually works by also solving the prediction problem, i.e. it predicts the values of acting in different ways, and adjusts the policy to choose the best actions at each step. As a result, the output of the value-based algorithms is usually an approximately optimal policy and the expected future rewards for following that policy.
+
+### On-policy vs Off-policy 
+
+There are two ideas to take away the Exploring Starts assumption: - 
+
+On-policy methods: 
+
+* Learning while doing the job 
+* Learning policy π from the episodes that generated using π - 
+
+Off-policy methods: 
+
+* Learning while watching other people doing the job 
+* Learning policy π from the episodes generated using another policy u
+
+
 

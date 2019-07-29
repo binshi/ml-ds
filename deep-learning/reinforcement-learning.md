@@ -96,21 +96,57 @@ Off-policy methods:
 * Learning while watching other people doing the job 
 * Learning policy π from the episodes generated using another policy u
 
-p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'}
+Monte-Carlo Reinforcement learning:
 
-Dynamic programming, MonteCarlo methods and Temporal Difference methods:  
+* MC methods learn directly from episodes of experience
+
+* MC is model-free: no knowledge of MDP transitions / rewards
+
+* MC learns from complete episodes: no bootstrapping
+
+* MC uses the simplest possible idea: value = mean return
+
+Caveat: can only apply MC to episodic MDPs
+
+* All episodes must terminate
+
+
+
+Dynamic programming, MonteCarlo methods and Temporal Difference methods:
 
 * TD exploits Markov property Usually more efficient in Markov environments
 
 * MC does not exploit Markov property Usually more effective in non-Markov environments
 
+* **Bootstrapping: update involves an estimate**
+
+  MC does not bootstrap
+
+  DP, TD bootstraps
+
+  **Sampling: update samples an expectation**
+
+  MC, TD samples
+
+  DP does not sample
+
+Monte-Carlo
+
+→ it only works for episodic tasks
+
+→ it can only learn from complete sequences
+
+→it has to wait until the end of the episode to get the reward
+
+TD
+
+→ it only for both episodic and continuous tasks
+
+→it can learn from incomplete sequences
+
+→ it will only wait until the next time step to update the value estimates.
+
 ![](/assets/Screenshot 2019-07-29 at 6.01.26 PM.png)
 
 ![](/assets/Screenshot 2019-07-29 at 6.01.00 PM.png)![](/assets/Screenshot 2019-07-29 at 6.01.12 PM.png)
-
-
-
-
-
-
 

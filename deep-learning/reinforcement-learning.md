@@ -88,9 +88,13 @@ A control algorithm based on value functions \(of which Monte Carlo Control is o
 
 The **state value function** describes the value of a state when following a policy. It is the expected return when starting from state![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-ae1901659f469e6be883797bfd30f4f8_l3.svg "s") acting according to our policy![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-26d6788550ffd50fe94542bb3e8ee615_l3.svg "\pi"):
 
+![](/assets/Screenshot 2019-07-30 at 5.22.09 PM.png)
+
 ![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-814f9fadd2ab8ee9cb85e12999a17eec_l3.svg "\\[V^{\pi}\(s\) = \mathbb{E}\_{\pi} \big\[R\_t \| s\_t = s \big\] \\]") -- \(1\)
 
 The **action value function** tells us the value of taking an action in some state when following a certain policy. It is the expected return given the state and action under![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-26d6788550ffd50fe94542bb3e8ee615_l3.svg "\pi"):
+
+![](/assets/Screenshot 2019-07-30 at 5.22.01 PM.png)
 
 ![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-5171067fa940af561a4eebe7d3c2d190_l3.svg "\\[Q^{\pi}\(s, a\) = \mathbb{E}\_{\pi} \big\[ R\_t \| s\_t = s, a\_t = a \big\] \\]")-- \(2\)
 

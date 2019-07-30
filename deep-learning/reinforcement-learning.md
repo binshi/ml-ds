@@ -107,7 +107,7 @@ If we pull out the first reward from the sum, we can rewrite it like so:
 
 ![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-fd233324765a62145b2cd184ea79bfdc_l3.svg "\\[V^{\pi}\(s\) = \mathbb{E}\_{\pi} \Big\[r\_{t+1} + \gamma \sum\_{k=0}^{\infty} \gamma^k r\_{t+k+2} \| s\_t = s \Big\]\\]")
 
-The expectation here describes what we expect the return to be if we continue from state![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-ae1901659f469e6be883797bfd30f4f8_l3.svg "s")following policy![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-26d6788550ffd50fe94542bb3e8ee615_l3.svg "\pi"). The expectation can be written explicitly by summing over all possible actions and all possible returned states. The next two equations can help us make the next step.
+The expectation here describes what we expect the return to be if we continue from state![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-ae1901659f469e6be883797bfd30f4f8_l3.svg "s") following policy![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-26d6788550ffd50fe94542bb3e8ee615_l3.svg "\pi"). The expectation can be written explicitly by summing over all possible actions and all possible returned states. The next two equations can help us make the next step.
 
 ![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-ca9f4855134a11198035c0954a7d552d_l3.svg "\\[\mathbb{E}\_{\pi} \[r\_{t+1} \| s\_t = s\] = \sum\_{a} \pi\(s, a\) \sum\_{s&apos;} \mathcal{P}\_{s s&apos;}^{a} \mathcal{R}\_{s s&apos;}^{a}\\]")
 
@@ -126,6 +126,20 @@ The Bellman equation for the action value function can be derived in a similar w
 ![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-90b37bda96ae8a5a5cee8b8d5b799b27_l3.svg "\\[Q^{\pi}\(s,a\) = \sum\_{s&apos;} \mathcal{P}\_{s s&apos;}^{a} \Big\[ \mathcal{R}\_{s s&apos;}^{a} + \gamma \sum\_{a&apos;} \pi \(s&apos;, a&apos;\) Q^{\pi}\(s&apos;, a&apos;\) \Big\]\\]") --\(4\)
 
 The importance of the Bellman equations is that they let us express values of states as values of other states. This means that if we know the value of![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-e1ca7f575bfa511f2754fe9d99096594_l3.svg "s\_{t+1}"), we can very easily calculate the value of![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-e86795deb37ff5f5055e741b17eb25d7_l3.svg "s\_t"). This opens a lot of doors for iterative approaches for calculating the value for each state, since if we know the value of the next state, we can know the value of the current state. The most important things to remember here are the numbered equations. Finally, with the Bellman equations in hand, we can start looking at how to calculate optimal policies and code our first reinforcement learning agent.
+
+**Deriving the Bellman equation for the Action Value Function**
+
+Following much the same process as for when we derived the Bellman equation for the state value function, we get this series of equations, starting with equation \(2\):
+
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-071e92db4f4c26ef2961ab200f0b1d12_l3.svg "\\[Q^{\pi}\(s, a\) = \mathbb{E}\_{\pi} \Big\[ r\_{t+1} + \gamma r\_{t+2} + \gamma^2 r\_{t+3} + ... \| s\_t = s, a\_t = a \Big\] = \mathbb{E}\_{\pi} \Big\[ \sum\_{k = 0}^{\infty} \gamma^k r\_{t + k + 1} \| s\_t = s, a\_t = a \Big\]\\]")
+
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-47ece2d37bc8fd413541fd6ced3c29a2_l3.svg "\\[Q^{\pi}\(s,a\) = \mathbb{E}\_{\pi} \Big\[ r\_{t+1} + \gamma \sum\_{k=0}^{\infty}\gamma^k r\_{t+k+2} \| s\_t = s, a\_t = a \Big\]\\]")
+
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-a2de582ca44d7985c83aefc9374c3f3c_l3.svg "\\[Q^{\pi}\(s,a\) = \sum\_{s&apos;} \mathcal{P}\_{s s&apos;}^{a} \Bigg\[ \mathcal{R}\_{s s&apos;}^{a} + \gamma \mathbb{E}\_{\pi} \Big\[ \sum\_{k=0}^{\infty} \gamma^k r\_{t+k+2} \| s\_{t+1} = s&apos; \Big\] \Bigg\]\\]")
+
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-11c7c8ff51bac03e422203a64e4e0268_l3.svg "\\[Q^{\pi}\(s,a\) = \sum\_{s&apos;} \mathcal{P}\_{s s&apos;}^{a} \Bigg\[ \mathcal{R}\_{s s&apos;}^{a} + \gamma \sum\_{a&apos;} \mathbb{E}\_{\pi} \Big\[ \sum\_{k=0}^{\infty} \gamma^k r\_{t+k+2} \| s\_{t+1} = s&apos;, a\_{t+1} = a&apos; \Big\] \Bigg\]\\]")
+
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-99c8f3a5ae50d58f9ca64c714a63f62c_l3.svg "\\[Q^{\pi}\(s,a\) = \sum\_{s&apos;} \mathcal{P}\_{s s&apos;}^{a} \Big\[ \mathcal{R}\_{s s&apos;}^{a} + \gamma \sum\_{a&apos;} \pi \(s&apos;, a&apos;\) Q^{\pi}\(s&apos;, a&apos;\) \Big\]\\]")
 
 ### On-policy vs Off-policy
 

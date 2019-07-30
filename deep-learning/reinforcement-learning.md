@@ -84,15 +84,13 @@ A control task in RL is where the policy is not fixed, and the goal is to find t
 
 A control algorithm based on value functions \(of which Monte Carlo Control is one example\) usually works by also solving the prediction problem, i.e. it predicts the values of acting in different ways, and adjusts the policy to choose the best actions at each step. As a result, the output of the value-based algorithms is usually an approximately optimal policy and the expected future rewards for following that policy.
 
-
-
 The **state value function** describes the value of a state when following a policy. It is the expected return when starting from state![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-ae1901659f469e6be883797bfd30f4f8_l3.svg "s") acting according to our policy![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-26d6788550ffd50fe94542bb3e8ee615_l3.svg "\pi"):
 
-![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-814f9fadd2ab8ee9cb85e12999a17eec_l3.svg "\\[V^{\pi}\(s\) = \mathbb{E}\_{\pi} \big\[R\_t \| s\_t = s \big\] \\]")
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-814f9fadd2ab8ee9cb85e12999a17eec_l3.svg "\\[V^{\pi}\(s\) = \mathbb{E}\_{\pi} \big\[R\_t \| s\_t = s \big\] \\]") -- \(1\)
 
 The **action value function** tells us the value of taking an action in some state when following a certain policy. It is the expected return given the state and action under![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-26d6788550ffd50fe94542bb3e8ee615_l3.svg "\pi"):
 
-![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-5171067fa940af561a4eebe7d3c2d190_l3.svg "\\[Q^{\pi}\(s, a\) = \mathbb{E}\_{\pi} \big\[ R\_t \| s\_t = s, a\_t = a \big\] \\]")
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-5171067fa940af561a4eebe7d3c2d190_l3.svg "\\[Q^{\pi}\(s, a\) = \mathbb{E}\_{\pi} \big\[ R\_t \| s\_t = s, a\_t = a \big\] \\]")-- \(2\)
 
 ![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-5bed2094d6826d2cb5b8f63cef61b30e_l3.svg "\mathcal{P}") is the **transition probability**. If we start at state![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-ae1901659f469e6be883797bfd30f4f8_l3.svg "s")and take action![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-5c53d6ebabdbcfa4e107550ea60b1b19_l3.svg "a")we end up in state![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-7bc7053f2932cafc2f41141faa219498_l3.svg "s&apos;")with probability![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-12aae9389c7680f52974720aa071b6fb_l3.svg "\mathcal{P}\_{s s&apos;}^{a}").
 
@@ -101,9 +99,33 @@ The **action value function** tells us the value of taking an action in some sta
 ![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-f751bd5163b0f1cb61f7974f3b249369_l3.svg "\mathcal{R}\_{s s&apos;}^{a}") is another way of writing the **expected \(or mean\) reward** that we receive when starting in state![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-ae1901659f469e6be883797bfd30f4f8_l3.svg "s"), taking action![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-5c53d6ebabdbcfa4e107550ea60b1b19_l3.svg "a"), and moving into state![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-7bc7053f2932cafc2f41141faa219498_l3.svg "s&apos;").  
 ![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-780b8ccdb127cddc56fab4e2ce32d3d5_l3.svg "\\[\mathcal{R}\_{s s&apos;}^{a} = \mathbb{E}\[ r\_{t+1} \| s\_t = s, s\_{t+1} = s&apos;, a\_t = a \]\\]")
 
+Finally, with these in hand, we are ready to derive the Bellman equations. We will consider the Bellman equation for the state value function. Using the definition for return, we could rewrite equation \(1\) as follows:
 
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-e5ae4c2fb5d42ec59599abb215da65ad_l3.svg "\\[V^{\pi}\(s\) =\mathbb{E}\_{\pi} \Big\[r\_{t+1} + \gamma r\_{t+2} + \gamma^2 r\_{t+3} + ... \| s\_t = s \Big\] = \mathbb{E}\_{\pi} \Big\[ \sum\_{k=0}^{\infty} \gamma^k r\_{t+k+1} \| s\_t = s \Big\]\\]")
 
+If we pull out the first reward from the sum, we can rewrite it like so:
 
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-fd233324765a62145b2cd184ea79bfdc_l3.svg "\\[V^{\pi}\(s\) = \mathbb{E}\_{\pi} \Big\[r\_{t+1} + \gamma \sum\_{k=0}^{\infty} \gamma^k r\_{t+k+2} \| s\_t = s \Big\]\\]")
+
+The expectation here describes what we expect the return to be if we continue from state![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-ae1901659f469e6be883797bfd30f4f8_l3.svg "s")following policy![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-26d6788550ffd50fe94542bb3e8ee615_l3.svg "\pi"). The expectation can be written explicitly by summing over all possible actions and all possible returned states. The next two equations can help us make the next step.
+
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-ca9f4855134a11198035c0954a7d552d_l3.svg "\\[\mathbb{E}\_{\pi} \[r\_{t+1} \| s\_t = s\] = \sum\_{a} \pi\(s, a\) \sum\_{s&apos;} \mathcal{P}\_{s s&apos;}^{a} \mathcal{R}\_{s s&apos;}^{a}\\]")
+
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-59ddf9765906161069a1c1095de964f4_l3.svg "\\[\mathbb{E}\_{\pi} \Big\[ \gamma \sum\_{k=0}^{\infty} \gamma^k r\_{t+k+2} \| s\_t = s \Big\] = \sum\_{a} \pi\(s, a\) \sum\_{s&apos;} \mathcal{P}\_{s s&apos;}^{a} \gamma \mathbb{E}\_{\pi} \Big\[ \sum\_{k=0}^{\infty} \gamma^k r\_{t+k+2} \| s\_{t+1} = s&apos; \Big\]\\]")
+
+By distributing the expectation between these two parts, we can then manipulate our equation into the form:
+
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-32cdfdc98b2312015a69a4567e6f331b_l3.svg "\\[V^{\pi}\(s\) = \sum\_{a} \pi \(s, a\) \sum\_{s&apos;} \mathcal{P}\_{s s&apos;}^{a} \Bigg\[ \mathcal{R}\_{s s&apos;}^{a} +\gamma \mathbb{E}\_{\pi} \Big\[ \sum\_{k=0}^{\infty} \gamma^k r\_{t+k+2}  \| s\_{t+1} = s&apos; \Big\] \Bigg\]\\]")
+
+Now, note that equation \(1\) is in the same form as the end of this equation. We can therefore substitute it in, giving us
+
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-702aff0ad857f6d6bb470e10b43de4e9_l3.svg "\\[V^{\pi}\(s\) = \sum\_{a} \pi \(s, a\) \sum\_{s&apos;} \mathcal{P}\_{s s&apos;}^{a} \Big\[ \mathcal{R}\_{s s&apos;}^{a} + \gamma V^{\pi}\(s&apos;\) \Big\] \\]") -- \(3\)
+
+The Bellman equation for the action value function can be derived in a similar way. The specific steps are included at the end of this post for those interested. The end result is as follows:
+
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-90b37bda96ae8a5a5cee8b8d5b799b27_l3.svg "\\[Q^{\pi}\(s,a\) = \sum\_{s&apos;} \mathcal{P}\_{s s&apos;}^{a} \Big\[ \mathcal{R}\_{s s&apos;}^{a} + \gamma \sum\_{a&apos;} \pi \(s&apos;, a&apos;\) Q^{\pi}\(s&apos;, a&apos;\) \Big\]\\]") --\(4\)
+
+The importance of the Bellman equations is that they let us express values of states as values of other states. This means that if we know the value of![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-e1ca7f575bfa511f2754fe9d99096594_l3.svg "s\_{t+1}"), we can very easily calculate the value of![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-e86795deb37ff5f5055e741b17eb25d7_l3.svg "s\_t"). This opens a lot of doors for iterative approaches for calculating the value for each state, since if we know the value of the next state, we can know the value of the current state. The most important things to remember here are the numbered equations. Finally, with the Bellman equations in hand, we can start looking at how to calculate optimal policies and code our first reinforcement learning agent.
 
 ### On-policy vs Off-policy
 

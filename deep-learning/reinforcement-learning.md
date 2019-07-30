@@ -10,6 +10,8 @@
 
 [https://medium.com/deep-math-machine-learning-ai/ch-12-1-model-free-reinforcement-learning-algorithms-monte-carlo-sarsa-q-learning-65267cb8d1b4](https://medium.com/deep-math-machine-learning-ai/ch-12-1-model-free-reinforcement-learning-algorithms-monte-carlo-sarsa-q-learning-65267cb8d1b4)
 
+[https://xaviergeerinck.com/bellman-equations](https://xaviergeerinck.com/bellman-equations)
+
 Beyond the agent and the environment, one can identify four main subelements of a reinforcement learning system: a **policy**, a **reward signal**, a **value function**, and, optionally, a **model of the environment**.
 
 A **policy** defines the learning agent’s way of behaving at a given time. Roughly speaking, a policy is a mapping from perceived states of the environment to actions to be taken when in those states. It corresponds to what in psychology would be called a set of stimulus–response rules or associations. In some cases the policy may be a simple function or lookup table, whereas in others it may involve extensive computation such as a search process.
@@ -108,6 +110,8 @@ If we pull out the first reward from the sum, we can rewrite it like so:
 ![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-fd233324765a62145b2cd184ea79bfdc_l3.svg "\\[V^{\pi}\(s\) = \mathbb{E}\_{\pi} \Big\[r\_{t+1} + \gamma \sum\_{k=0}^{\infty} \gamma^k r\_{t+k+2} \| s\_t = s \Big\]\\]")
 
 The expectation here describes what we expect the return to be if we continue from state![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-ae1901659f469e6be883797bfd30f4f8_l3.svg "s") following policy![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-26d6788550ffd50fe94542bb3e8ee615_l3.svg "\pi"). The expectation can be written explicitly by summing over all possible actions and all possible returned states. The next two equations can help us make the next step.
+
+[https://www.quora.com/In-Sutton-Bartos-book-on-reinforcement-learning-what-is-the-derivation-of-the-Bellman-equation-for-value-functions](https://www.quora.com/In-Sutton-Bartos-book-on-reinforcement-learning-what-is-the-derivation-of-the-Bellman-equation-for-value-functions)
 
 ![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-ca9f4855134a11198035c0954a7d552d_l3.svg "\\[\mathbb{E}\_{\pi} \[r\_{t+1} \| s\_t = s\] = \sum\_{a} \pi\(s, a\) \sum\_{s&apos;} \mathcal{P}\_{s s&apos;}^{a} \mathcal{R}\_{s s&apos;}^{a}\\]")
 

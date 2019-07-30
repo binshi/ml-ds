@@ -6,6 +6,8 @@
 
 [https://github.com/aikorea/awesome-rl](https://github.com/aikorea/awesome-rl)
 
+[https://joshgreaves.com/reinforcement-learning/understanding-rl-the-bellman-equations/](https://joshgreaves.com/reinforcement-learning/understanding-rl-the-bellman-equations/)
+
 [https://medium.com/deep-math-machine-learning-ai/ch-12-1-model-free-reinforcement-learning-algorithms-monte-carlo-sarsa-q-learning-65267cb8d1b4](https://medium.com/deep-math-machine-learning-ai/ch-12-1-model-free-reinforcement-learning-algorithms-monte-carlo-sarsa-q-learning-65267cb8d1b4)
 
 Beyond the agent and the environment, one can identify four main subelements of a reinforcement learning system: a **policy**, a **reward signal**, a **value function**, and, optionally, a **model of the environment**.
@@ -109,8 +111,6 @@ Monte-Carlo Reinforcement learning:
 Caveat: can only apply MC to episodic MDPs
 
 * All episodes must terminate
-
-
 
 Dynamic programming, MonteCarlo methods and Temporal Difference methods:
 

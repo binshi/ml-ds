@@ -84,6 +84,27 @@ A control task in RL is where the policy is not fixed, and the goal is to find t
 
 A control algorithm based on value functions \(of which Monte Carlo Control is one example\) usually works by also solving the prediction problem, i.e. it predicts the values of acting in different ways, and adjusts the policy to choose the best actions at each step. As a result, the output of the value-based algorithms is usually an approximately optimal policy and the expected future rewards for following that policy.
 
+
+
+The **state value function** describes the value of a state when following a policy. It is the expected return when starting from state![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-ae1901659f469e6be883797bfd30f4f8_l3.svg "s") acting according to our policy![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-26d6788550ffd50fe94542bb3e8ee615_l3.svg "\pi"):
+
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-814f9fadd2ab8ee9cb85e12999a17eec_l3.svg "\\[V^{\pi}\(s\) = \mathbb{E}\_{\pi} \big\[R\_t \| s\_t = s \big\] \\]")
+
+The **action value function** tells us the value of taking an action in some state when following a certain policy. It is the expected return given the state and action under![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-26d6788550ffd50fe94542bb3e8ee615_l3.svg "\pi"):
+
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-5171067fa940af561a4eebe7d3c2d190_l3.svg "\\[Q^{\pi}\(s, a\) = \mathbb{E}\_{\pi} \big\[ R\_t \| s\_t = s, a\_t = a \big\] \\]")
+
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-5bed2094d6826d2cb5b8f63cef61b30e_l3.svg "\mathcal{P}") is the **transition probability**. If we start at state![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-ae1901659f469e6be883797bfd30f4f8_l3.svg "s")and take action![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-5c53d6ebabdbcfa4e107550ea60b1b19_l3.svg "a")we end up in state![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-7bc7053f2932cafc2f41141faa219498_l3.svg "s&apos;")with probability![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-12aae9389c7680f52974720aa071b6fb_l3.svg "\mathcal{P}\_{s s&apos;}^{a}").
+
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-460feeb1f51606e1755e5b10cb6ee697_l3.svg "\\[\mathcal{P}\_{s s&apos;}^{a} = Pr\(s\_{t+1} = s&apos; \| s\_t = s, a\_t = a\)\\]")
+
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-f751bd5163b0f1cb61f7974f3b249369_l3.svg "\mathcal{R}\_{s s&apos;}^{a}") is another way of writing the **expected \(or mean\) reward** that we receive when starting in state![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-ae1901659f469e6be883797bfd30f4f8_l3.svg "s"), taking action![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-5c53d6ebabdbcfa4e107550ea60b1b19_l3.svg "a"), and moving into state![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-7bc7053f2932cafc2f41141faa219498_l3.svg "s&apos;").  
+![](https://joshgreaves.com/wp-content/ql-cache/quicklatex.com-780b8ccdb127cddc56fab4e2ce32d3d5_l3.svg "\\[\mathcal{R}\_{s s&apos;}^{a} = \mathbb{E}\[ r\_{t+1} \| s\_t = s, s\_{t+1} = s&apos;, a\_t = a \]\\]")
+
+
+
+
+
 ### On-policy vs Off-policy
 
 There are two ideas to take away the Exploring Starts assumption: -

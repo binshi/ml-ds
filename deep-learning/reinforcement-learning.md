@@ -4,6 +4,8 @@
 
 [https://www.analyticsvidhya.com/blog/2018/09/reinforcement-learning-model-based-planning-dynamic-programming/](https://www.analyticsvidhya.com/blog/2018/09/reinforcement-learning-model-based-planning-dynamic-programming/)
 
+[https://www.intel.ai/demystifying-deep-reinforcement-learning/\#gs.stya7i](https://www.intel.ai/demystifying-deep-reinforcement-learning/#gs.stya7i)
+
 [https://github.com/aikorea/awesome-rl](https://github.com/aikorea/awesome-rl)
 
 [https://joshgreaves.com/reinforcement-learning/understanding-rl-the-bellman-equations/](https://joshgreaves.com/reinforcement-learning/understanding-rl-the-bellman-equations/)

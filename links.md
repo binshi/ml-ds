@@ -1,3 +1,5 @@
+[https://www.quora.com/Where-should-I-start-learning-AI/answer/Parnian-Barekatin?share=edfa7c0d&srid=Yc3G](https://www.quora.com/Where-should-I-start-learning-AI/answer/Parnian-Barekatin?share=edfa7c0d&srid=Yc3G)
+
 Math for ML: [https://towardsdatascience.com/the-mathematics-of-machine-learning-894f046c568](https://towardsdatascience.com/the-mathematics-of-machine-learning-894f046c568)
 
 [https://www.pythonforengineers.com/machine-learning-for-complete-beginners/](https://www.pythonforengineers.com/machine-learning-for-complete-beginners/)

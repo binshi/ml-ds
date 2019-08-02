@@ -16,11 +16,15 @@
 
 [https://xaviergeerinck.com/bellman-equations](https://xaviergeerinck.com/bellman-equations)
 
+[http://www2.econ.iastate.edu/tesfatsi/RLUsersGuide.ICAC2005.pdf](http://www2.econ.iastate.edu/tesfatsi/RLUsersGuide.ICAC2005.pdf)
+
 Videos:
 
 DeepRL Boootcamp \(UC Berkley\): [https://sites.google.com/view/deep-rl-bootcamp/lectures?source=post\_page---------------------------](https://sites.google.com/view/deep-rl-bootcamp/lectures?source=post_page---------------------------)
 
 CS294-112 Fa18:  [https://www.youtube.com/playlist?list=PLkFD6\_40KJIxJMR-j5A1mkxK26gh\_qg37](https://www.youtube.com/playlist?list=PLkFD6_40KJIxJMR-j5A1mkxK26gh_qg37)
+
+Stanford CS234: Reinforcement Learning \| Winter 2019: [https://www.youtube.com/watch?v=FgzM3zpZ55o&list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u&index=1](https://www.youtube.com/watch?v=FgzM3zpZ55o&list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u&index=1)
 
 
 

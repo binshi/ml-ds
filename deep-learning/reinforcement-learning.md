@@ -24,9 +24,7 @@ DeepRL Boootcamp \(UC Berkley\): [https://sites.google.com/view/deep-rl-bootcamp
 
 CS294-112 Fa18:  [https://www.youtube.com/playlist?list=PLkFD6\_40KJIxJMR-j5A1mkxK26gh\_qg37](https://www.youtube.com/playlist?list=PLkFD6_40KJIxJMR-j5A1mkxK26gh_qg37)
 
-Stanford CS234: Reinforcement Learning \| Winter 2019: [https://www.youtube.com/watch?v=FgzM3zpZ55o&list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u&index=1](https://www.youtube.com/watch?v=FgzM3zpZ55o&list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u&index=1)
-
-
+Emma Burnskill - Stanford CS234: Reinforcement Learning \| Winter 2019: [https://www.youtube.com/watch?v=FgzM3zpZ55o&list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u&index=1](https://www.youtube.com/watch?v=FgzM3zpZ55o&list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u&index=1)
 
 Beyond the agent and the environment, one can identify four main subelements of a reinforcement learning system: a **policy**, a **reward signal**, a **value function**, and, optionally, a **model of the environment**.
 

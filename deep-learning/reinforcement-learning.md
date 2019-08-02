@@ -18,6 +18,8 @@
 
 [http://www2.econ.iastate.edu/tesfatsi/RLUsersGuide.ICAC2005.pdf](http://www2.econ.iastate.edu/tesfatsi/RLUsersGuide.ICAC2005.pdf)
 
+[http://incompleteideas.net/book/ebook/node1.html](http://incompleteideas.net/book/ebook/node1.html)
+
 Videos:
 
 DeepRL Boootcamp \(UC Berkley\): [https://sites.google.com/view/deep-rl-bootcamp/lectures?source=post\_page---------------------------](https://sites.google.com/view/deep-rl-bootcamp/lectures?source=post_page---------------------------)

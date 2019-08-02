@@ -6,6 +6,8 @@
 
 [https://www.intel.ai/demystifying-deep-reinforcement-learning/\#gs.stya7i](https://www.intel.ai/demystifying-deep-reinforcement-learning/#gs.stya7i)
 
+[https://medium.com/@jonathan\_hui/rl-reinforcement-learning-algorithms-quick-overview-6bf69736694d](https://medium.com/@jonathan_hui/rl-reinforcement-learning-algorithms-quick-overview-6bf69736694d)
+
 [https://github.com/aikorea/awesome-rl](https://github.com/aikorea/awesome-rl)
 
 [https://joshgreaves.com/reinforcement-learning/understanding-rl-the-bellman-equations/](https://joshgreaves.com/reinforcement-learning/understanding-rl-the-bellman-equations/)
@@ -13,6 +15,14 @@
 [https://medium.com/deep-math-machine-learning-ai/ch-12-1-model-free-reinforcement-learning-algorithms-monte-carlo-sarsa-q-learning-65267cb8d1b4](https://medium.com/deep-math-machine-learning-ai/ch-12-1-model-free-reinforcement-learning-algorithms-monte-carlo-sarsa-q-learning-65267cb8d1b4)
 
 [https://xaviergeerinck.com/bellman-equations](https://xaviergeerinck.com/bellman-equations)
+
+Videos:
+
+DeepRL Boootcamp \(UC Berkley\): [https://sites.google.com/view/deep-rl-bootcamp/lectures?source=post\_page---------------------------](https://sites.google.com/view/deep-rl-bootcamp/lectures?source=post_page---------------------------)
+
+CS294-112 Fa18:  [https://www.youtube.com/playlist?list=PLkFD6\_40KJIxJMR-j5A1mkxK26gh\_qg37](https://www.youtube.com/playlist?list=PLkFD6_40KJIxJMR-j5A1mkxK26gh_qg37)
+
+
 
 Beyond the agent and the environment, one can identify four main subelements of a reinforcement learning system: a **policy**, a **reward signal**, a **value function**, and, optionally, a **model of the environment**.
 

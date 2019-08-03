@@ -249,5 +249,5 @@ If one had to identify one idea as central and novel to reinforcement learning, 
 
 **Eligibility traces combine both heuristics**
 
-![](/assets/Screenshot 2019-08-03 at 12.22.19 PM.png)
+![](/assets/Screenshot 2019-08-03 at 12.22.19 PM.png)![](/assets/Screenshot 2019-08-03 at 1.25.24 PM.png)
 

@@ -233,3 +233,21 @@ TD
 
 ![](/assets/Screenshot 2019-07-29 at 6.01.00 PM.png)![](/assets/Screenshot 2019-07-29 at 6.01.12 PM.png)
 
+**Monte Carlo Policy Evaluation**
+
+We begin by considering Monte Carlo methods for learning the state-value function for a given policy. Recall that the value of a state is the expected return--expected cumulative future discounted reward--starting from that state. An obvious way to estimate it from experience, then, is simply to average the returns observed after visits to that state. As more returns are observed, the average should converge to the expected value. This idea underlies all Monte Carlo methods.
+
+In particular, suppose we wish to estimate![](http://incompleteideas.net/book/ebook/inimgtmp784.png), the value of a state![](http://incompleteideas.net/book/ebook/inimgtmp785.png) under policy![](http://incompleteideas.net/book/ebook/inimgtmp786.png), given a set of episodes obtained by following![](http://incompleteideas.net/book/ebook/inimgtmp787.png) and passing through![](http://incompleteideas.net/book/ebook/inimgtmp788.png). Each occurrence of state ![](http://incompleteideas.net/book/ebook/inimgtmp789.png) in an episode is called a visit to![](http://incompleteideas.net/book/ebook/inimgtmp790.png). The every-visit MC method estimates![](http://incompleteideas.net/book/ebook/inimgtmp791.png) as the average of the returns following all the visits to ![](http://incompleteideas.net/book/ebook/inimgtmp792.png) in a set of episodes. Within a given episode, the first time![](http://incompleteideas.net/book/ebook/inimgtmp793.png) is visited is called the first visit to![](http://incompleteideas.net/book/ebook/inimgtmp794.png). The first-visit MC method averages just the returns following first visits to![](http://incompleteideas.net/book/ebook/inimgtmp795.png). These two Monte Carlo methods are very similar but have slightly different theoretical properties.
+
+T**emporal-difference\(TD\) learning**
+
+If one had to identify one idea as central and novel to reinforcement learning, it would undoubtedly be temporal-difference\(TD\) learning. TD learning is a combination of Monte Carlo ideas and dynamic programming \(DP\) ideas. Like Monte Carlo methods, TD methods can learn directly from raw experience without a model of the environment's dynamics. Like DP, TD methods update estimates based in part on other learned estimates, without waiting for a final outcome \(they bootstrap\). The relationship between TD, DP, and Monte Carlo methods is a recurring theme in the theory of reinforcement learning. This chapter is the beginning of our exploration of it. Before we are done, we will see that these ideas and methods blend into each other and can be combined in many ways. In particular, in Chapter 7 we introduce the TD\(![](http://incompleteideas.net/book/ebook/inimgtmp926.png)\) algorithm, which seamlessly integrates TD and Monte Carlo methods.
+
+**Eligiibility Traces**
+
+**Frequency heuristic**: assign credit to most frequent states. **Recency heuristic**: assign credit to most recent states
+
+**Eligibility traces combine both heuristics**
+
+![](/assets/Screenshot 2019-08-03 at 12.22.19 PM.png)
+

@@ -4,6 +4,27 @@
 
 [https://simplyml.com/the-machine-learning-dictionary/](https://simplyml.com/the-machine-learning-dictionary/)
 
+**Confusion Matrix** = 
+
+|  | Guessed Positive | Guessed Negative |
+| :--- | :--- | :--- |
+| Positive | True Positives | False Negative |
+| Negative | False Positives | True Negative |
+
+**Accuracy**: Correctly classified points/Total points = \(TP+TN\)/Total points
+
+**Precision**: TP/\(TP+FP\)
+
+**Recall**: TP/\(TP+FN\)
+
+**F1 score**: A combination of precision and recall:  2\*\(precision\*recall\)/\(precision+recall\)
+
+![](/assets/Screenshot 2019-08-08 at 1.11.21 PM.png)
+
+**R2 score:**
+
+** **![](/assets/Screenshot 2019-08-08 at 12.44.55 PM.png)
+
 **Regression**: a measure of the relation between the mean value of one variable \(e.g. output\) and corresponding values of other variables \(e.g. time and cost\).
 
 **probability**: A measure of uncertainty which lies between 0 and 1, where 0 means impossible and 1 means certain. Probabilities are often expressed as a percentages \(such as 0%, 50% and 100%\).
@@ -81,10 +102,6 @@ One can identify the optimal number of **epochs** from the graph drawn between e
 **MLP\(Multi Layer  Perceptons\)** uses fully connected layers and only accepts vectors\(from matrices using flatten\(\)\) as inputs.On the other hand CNNs can also  use sparsely connected layers and also accept matrices as inputs
 
 [https://keras.io/callbacks/](https://keras.io/callbacks/) EarlyStopping
-
-
-
-
 
 | Apache Spark |
 | :--- |

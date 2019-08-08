@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+  * Basic Concepts
 * [Machine Learning](machine-learning.md)
 * [Supervised Learning](supervised-learning.md)
   * [Gradient Boosting](supervised-learning/gradient-boosting.md)

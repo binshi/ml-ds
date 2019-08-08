@@ -7,6 +7,7 @@
   * [Gradient Boosting](supervised-learning/gradient-boosting.md)
   * [Gradient Descent](supervised-learning/gradient-descent.md)
   * [Linear Regression](supervised-learning/linear-regression.md)
+  * [Classification](supervised-learning/classification.md)
 * [Unsupervised learning](unsupervised-learning.md)
   * [PCA](unsupervised-learning/pca.md)
   * [Outliers](unsupervised-learning/outliers.md)

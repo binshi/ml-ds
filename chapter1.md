@@ -4,7 +4,7 @@
 
 [https://simplyml.com/the-machine-learning-dictionary/](https://simplyml.com/the-machine-learning-dictionary/)
 
-**Confusion Matrix** = 
+**Confusion Matrix** =
 
 |  | Guessed Positive | Guessed Negative |
 | :--- | :--- | :--- |
@@ -17,9 +17,21 @@
 
 **Recall**: TP/\(TP+FN\)
 
-**F1 score**: A combination of precision and recall:  2\*\(precision\*recall\)/\(precision+recall\)
+**F1 score**: F1 score is closed to the smallest of precision and recall. So if one is particularly low it raises a flag. 
+
+A combination of precision and recall:   2\*\(precision\*recall\)/\(precision+recall\)
 
 ![](/assets/Screenshot 2019-08-08 at 1.11.21 PM.png)
+
+**FBeta Score**: ![](/assets/Screenshot 2019-08-08 at 1.16.58 PM.png)**ROC curve\(Receiver Operating Characteristic\): **The closer the area under ROC curve is closer to 1 the better the model is.
+
+ROC is derived by plotting the below points
+
+True Positive Rate = True Positives/All Positives
+
+False Positive Rate = False Positives/All Negatives
+
+![](/assets/Screenshot 2019-08-08 at 1.25.59 PM.png)![](/assets/Screenshot 2019-08-08 at 1.25.34 PM.png)![](/assets/Screenshot 2019-08-08 at 1.25.15 PM.png)
 
 **R2 score:**
 

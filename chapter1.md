@@ -37,6 +37,8 @@ False Positive Rate = False Positives/All Negatives
 
 **R2 score:**
 
+The values for R2 range from 0 to 1, which captures the percentage of squared correlation between the predicted and actual values of the **target variable**. A model with an R2 of 0 is no better than a model that always predicts the _mean _of the target variable, whereas a model with an R2 of 1 perfectly predicts the target variable. Any value between 0 and 1 indicates what percentage of the target variable, using this model, can be explained by the **features**. _A model can be given a negative R2 as well, which indicates that the model is **arbitrarily worse **than one that always predicts the mean of the target variable._
+
 ** **![](/assets/Screenshot 2019-08-08 at 12.44.55 PM.png)
 
 #### Model Selection
@@ -59,7 +61,7 @@ False Positive Rate = False Positives/All Negatives
 
 ![](/assets/Screenshot 2019-08-08 at 3.08.19 PM.png)![](/assets/Screenshot 2019-08-08 at 3.14.40 PM.png)![](/assets/Screenshot 2019-08-08 at 3.16.29 PM.png)
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 **Regression**: a measure of the relation between the mean value of one variable \(e.g. output\) and corresponding values of other variables \(e.g. time and cost\).
 

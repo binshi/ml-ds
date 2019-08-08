@@ -37,9 +37,9 @@ False Positive Rate = False Positives/All Negatives
 
 ** **![](/assets/Screenshot 2019-08-08 at 12.44.55 PM.png)
 
-**Underfitting**: Error due to bias
+**Underfitting**: Model does not do well in training set. Error due to bias
 
-**Overfitting**: Error due to variance
+**Overfitting**: Model does not do well in test set. Error due to variance
 
 **Regression**: a measure of the relation between the mean value of one variable \(e.g. output\) and corresponding values of other variables \(e.g. time and cost\).
 

@@ -56,6 +56,15 @@ When this algorithm has taken sufficient steps, it will eventually get to a loca
 
 #### **4. Gradient Descent Methods**
 
+At this point, it seems that we've seen two ways of doing linear regression.
+
+* By applying the squared \(or absolute\) trick at every point in our data _one by one_, and repeating this process many times.
+* By applying the squared \(or absolute\) trick at every point in our data _all at the same time_, and repeating this process many times.
+
+More specifically, the squared \(or absolute\) trick, when applied to a point, gives us some values to add to the weights of the model. We can add these values, update our weights, and then apply the squared \(or absolute\) trick on the next point. Or we can calculate these values for all the points, add them, and then update the weights with the sum of these values.
+
+The latter is called _batch gradient descent_. The former is called_stochastic gradient descent_.
+
 **4.1 Stochastic Gradient Descent**
 
 When the gradient descent is done point by point.
@@ -68,13 +77,7 @@ When applying the squared or absolute trick to all data points, we get some valu
 
 In practice, neither of the previous methods is used, becaused both are slow computationally speaking. The best way to to perform a linear regression, is to split the data into many small batches. Each batch, with approximately the same number of points. Then use each batch to update the weights. This method is called Mini-Batch Gradient Descent.
 
-
-
-
-
-
-
-####  **9. Evaluation Metrics**
+#### **9. Evaluation Metrics**
 
 In order to keep track of how well our model is performing, we need to set up some evaluation metrics. This evaluatioin metric is the error computed from the generated line \(or hyperplane\) to the real points and will be the function to minimize by the gradient descent .
 
@@ -124,8 +127,5 @@ Technically, the R² is the fraction of the response variance that is captured b
 
 ![](https://miro.medium.com/max/562/0*_j3Q5--UHQz97P5G.png)
 
-![](/assets/Screenshot 2019-08-08 at 5.40.31 PM.png)  
-
-
-
+![](/assets/Screenshot 2019-08-08 at 5.40.31 PM.png)
 

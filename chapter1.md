@@ -19,7 +19,7 @@
 
 **Recall**: TP/\(TP+FN\)
 
-**F1 score**: F1 score is closed to the smallest of precision and recall. So if one is particularly low it raises a flag.
+**F1 score**: F1 score is close to the smallest of precision and recall. So if one is particularly low it raises a flag.
 
 A combination of precision and recall:   2\*\(precision\*recall\)/\(precision+recall\)
 
@@ -52,10 +52,6 @@ False Positive Rate = False Positives/All Negatives
 **We first get a model with polynomial\(Degree=1\) then we use the training data to get the slope, curve etc\(parameter\) then using cross validation we find the F1 score using which we select the best model. Then we use the testing data to find out if our model is indeed good. So parameters are coefficients of of our polynomials. Below are for Logistic regression, Decision tree and SVM**
 
 ![](/assets/Screenshot 2019-08-08 at 3.08.19 PM.png)![](/assets/Screenshot 2019-08-08 at 3.14.40 PM.png)![](/assets/Screenshot 2019-08-08 at 3.16.29 PM.png)
-
-
-
-
 
 **Regression**: a measure of the relation between the mean value of one variable \(e.g. output\) and corresponding values of other variables \(e.g. time and cost\).
 

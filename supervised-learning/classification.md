@@ -1,4 +1,4 @@
-Source: https://towardsdatascience.com/supervised-learning-basics-of-classification-and-main-algorithms-c16b06806cd3
+Source: [https://towardsdatascience.com/supervised-learning-basics-of-classification-and-main-algorithms-c16b06806cd3](https://towardsdatascience.com/supervised-learning-basics-of-classification-and-main-algorithms-c16b06806cd3)
 
 Classification is a subcategory of supervised learning where the goal is to predict the categorical class labels \(discrete, unoredered values, group membership\) of new instances based on past observations.
 
@@ -42,7 +42,7 @@ To remind ourselves the six main steps to do in the development of a machine lea
 
 Next, well proceed to explore the different classification algorithms and learn which one is more suitable to perform each task.
 
-# Logistic Regression {#785d}
+### Logistic Regression
 
 One of the main problems in classification problems occurs when the algorithm never converges in the weight’s updating, while being trained.
 
@@ -128,7 +128,7 @@ And this is one of the main reasons why the logistic regression algorithm is so 
 
 This is extremely useful in cases like weather forecasting, where you don’t only would like if its going to be rainny day but also the chance of getting rain. Or to predict the chance of a patient on having a certain disease.
 
-# Support Vector Machines \(SVM\) {#751f}
+### Support Vector Machines \(SVM\)
 
 This algorithm can be considered as an extension of [the perceptron algorithm](https://towardsdatascience.com/perceptron-learning-algorithm-d5db0deab975). In SVM, The optimization objective is to set a decision line that separates the classes by maximizing the marging between this line and the sample points that are closest to this hyperplane. This points are called support vectors.
 
@@ -150,19 +150,19 @@ The maximization function \(marging of error\) is calculated as follows:
 
 ![](https://miro.medium.com/max/358/1*SUhsVG6J1mtd3KuyuTir-w.png)
 
-2. Substracting \(1\) and \(2\) from each other:
+1. Substracting \(1\) and \(2\) from each other:
 
 ![](https://miro.medium.com/max/30/1*wbFs5654qdOYdUMFG3DZ_w.png?q=20)
 
 ![](https://miro.medium.com/max/352/1*wbFs5654qdOYdUMFG3DZ_w.png)
 
-3. Normalizing the previous equation by the length of the _w_ vector, whicch is:
+1. Normalizing the previous equation by the length of the _w_ vector, whicch is:
 
 ![](https://miro.medium.com/max/30/1*2hnA3MlTZHG9bIJsDEZ7LQ.png?q=20)
 
 ![](https://miro.medium.com/max/263/1*2hnA3MlTZHG9bIJsDEZ7LQ.png)
 
-4. We arrive to the margin error equation:
+1. We arrive to the margin error equation:
 
 ![](https://miro.medium.com/max/30/1*4Gb8ZXovU0-NjrnxZy_ULg.png?q=20)
 
@@ -250,7 +250,7 @@ This parameter comes from the formula of the normal distribution:
 
 ![](https://miro.medium.com/max/700/1*7H6ddQZwwkz2B85lnDiN9g.png)
 
-# Decision Trees Algorithms {#db38}
+### Decision Trees Algorithms
 
 Decision trees algorithms break down the dataset by making questions until they have narrowed data enough to make a prediction.
 
@@ -298,7 +298,7 @@ We can solve this issue by selecting each colum randomly and making decision tre
 
 ![](https://miro.medium.com/proxy/1*i0o8mjFfCn-uD79-F1Cqkw.png "Resultado de imagen de random forests")
 
-Original picture from 
+Original picture from
 
 [this article](https://medium.com/@williamkoehrsen/random-forest-simple-explanation-377895a60d2d)
 

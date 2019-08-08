@@ -45,6 +45,12 @@ False Positive Rate = False Positives/All Negatives
 
 **Overfitting**: Model does not do well in test set. Error due to variance
 
+**K-fold cross validation**: This approach involves randomly dividing the set of observations into k groups, or folds, of approximately equal size. The first fold is treated as a validation set, and the method is fit on the remaining k − 1 folds.
+
+![](/assets/Screenshot 2019-08-08 at 2.57.28 PM.png)
+
+
+
 
 
 

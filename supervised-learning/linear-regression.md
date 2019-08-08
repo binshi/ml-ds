@@ -77,6 +77,89 @@ When applying the squared or absolute trick to all data points, we get some valu
 
 In practice, neither of the previous methods is used, becaused both are slow computationally speaking. The best way to to perform a linear regression, is to split the data into many small batches. Each batch, with approximately the same number of points. Then use each batch to update the weights. This method is called Mini-Batch Gradient Descent.
 
+#### **5. Higher Dimensions**
+
+When we have one input column and one output column, we are facing a two-dimensional problem and the regression is a line. The prediction will be a constant by the independent variable plus other constant.
+
+If we have more input columns, it means that there are more dimensions and the output will not be a line anymore, but planes or hyperplanes \(depending on the number of dimensions\).
+
+![](https://miro.medium.com/max/30/1*nTReJPwY8ToEX1CSonTWAg.png?q=20)
+
+![](https://miro.medium.com/max/505/1*nTReJPwY8ToEX1CSonTWAg.png)
+
+#### **6. Multiple Linear Regression**
+
+Independent variables are also known as predictors, which are variables we look at to make predictions about other variables. Variables we are trying to predict are known as dependant variables.
+
+When the outcome we are trying to predict depends on more than one variable, we can make a more complicated model that takes this higher dimensionality into account. As long as they are relevant to the problem faced, using more predictor variables can help us to get a better prediction.
+
+As seen before, the following image shows a simple linear regression:
+
+![](https://miro.medium.com/max/30/1*LuwSoQw01wd3u9ruliSw6w.png?q=20)
+
+![](https://miro.medium.com/max/603/1*LuwSoQw01wd3u9ruliSw6w.png)
+
+And the following picture shows a fitted hyperplane of multiple linear regression with two features.
+
+![](https://miro.medium.com/max/30/1*uqZFeQ0MlZ8nhaX2c4bAWw.png?q=20)
+
+![](https://miro.medium.com/max/464/1*uqZFeQ0MlZ8nhaX2c4bAWw.png)
+
+As we add more predictors, we add more dimensions to the problem and it becomes harder to visualize it, but the core of the process remains the same.
+
+#### **7. Linear Regression Warnings**
+
+Linear regression comes with a set of assumptions and we should take into account that it is not the best model for every situation.
+
+**a\) Linear Regression works best when data is linear:**
+
+It produces a straight line from the training data. If the relastionship in the training data is not really linear, wewill need to either make adjustments \(transforming training data\), add features or use other model.
+
+**b\) Linear Regression is sensitive to outliers:**
+
+Linear regression tries to fit a best line among the training data. If the dataset has some outlying extreme values that do not fit a general pattern, linear regression models can be heavily impacted by the presence of outliers. We will have to watch out for these outliers and normally remove then.
+
+One common method to deal with outliers is to use and alternative method of regression which specially robust against this extreme values. This method is called RANdom Sample Consensus \(RNASAC\) algorithm, which fits the model to the inliers subset of data. The algorithm performs the following steps:
+
+* It selects a random number of samples to be inliers and fit the model.
+* It tests all other data points against the fitted model and add the ones that fall within the user-chosen value.
+* Repeats the fitting of the model with the new points.
+* Compute the error of the fitted model against the inliers.
+* End the algorithm if the perfomance meets a certain user-defined threshold or a number of iterations is reached. Otherwise, it goes back to the first step.
+
+  
+8**. Polynomial Regression**
+
+Polynomial regression is a special case of multiple linear[r](https://en.wikipedia.org/wiki/Regression_analysis)egression analysis in which the relationship between the independetn variable_x_and the dependent variable_y_is modelled as an_n_th degree polynomial in_x_. In other words, when our data distribution is more complex than a linear one, and we generate a curve using linear models to fit non-linear data.
+
+The independent \(or explanatory\) variables resulting from the polynomial expansion of the predictor variables are known as higher-degree terms. It has been used to describe nonlinear phenomena such as the growth rate of tissues and the progression of disease epidemics.
+
+![](https://miro.medium.com/max/30/1*7rsG2HMIuNrtRhRWSCZvJQ.png?q=20)
+
+![](https://miro.medium.com/max/582/1*7rsG2HMIuNrtRhRWSCZvJQ.png)
+
+#### 9**. Regularization**
+
+Regularization, is a widely used method to deal with overfitting. It is done mainly by the following techniques:
+
+1. Reducing the model’s size: Reducing the number of learnable parameters in the model, and with them its learning capacity. The goal is to get to a sweet spot between too much and not enough learning capacity. Unfortunately, there aren’t any magical formulas to determine this balance, it must be tested and evaluated by setting different number of parameters and observing its performance.
+2. Adding weight regularization: In general, the simpler the model the better. As long it can learn well, a simpler model is much less likely to overfit. A common way to achieve this, is to constraint the complexity of the network by forcing its weights to only take small values, regularizating the distribution of weight values. This is done by adding to the loss function of the network a cost associated with having large weights. The cost comes in two ways:
+
+* L1 regularization: The cost is proportional to the absolute value of the weight coefficients \(L1 norm of the weights\).
+* L2 regularization: The cost is proportional to the square of the value of the weight coefficients \(l2 norm of the weights\)
+
+![](https://miro.medium.com/max/30/0*ITv81egIxcJdJEbk?q=20)
+
+![](https://miro.medium.com/max/550/0*ITv81egIxcJdJEbk)
+
+To decide which of them to apply to our model, is recommended to keep the following information in mind and take into account the nature of our problem:
+
+![](https://miro.medium.com/max/30/0*6aQbHz4Kx8PWJ7sa?q=20)
+
+![](https://miro.medium.com/max/389/0*6aQbHz4Kx8PWJ7sa)
+
+* The λ Parameter: It is the computed error by regularization. If we have a large λ, then we are punishing complexity and will end up with a simpler model. If we have a small λ we will end up with a complex model.
+
 #### **9. Evaluation Metrics**
 
 In order to keep track of how well our model is performing, we need to set up some evaluation metrics. This evaluatioin metric is the error computed from the generated line \(or hyperplane\) to the real points and will be the function to minimize by the gradient descent .

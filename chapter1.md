@@ -45,6 +45,12 @@ False Positive Rate = False Positives/All Negatives
 
 **Overfitting**: Model does not do well in test set. Error due to variance
 
+**Cross Validation**: Splitting training data to training data and cross validation data\(for testing the model\)
+
+**Model Complexity graph:**
+
+![](/assets/Screenshot 2019-06-10 at 4.17.30 PM.png)
+
 **K-fold cross validation**: This approach involves randomly dividing the set of observations into k groups, or folds, of approximately equal size. The first fold is treated as a validation set, and the method is fit on the remaining k − 1 folds.
 
 ![](/assets/Screenshot 2019-08-08 at 2.57.28 PM.png)
@@ -52,6 +58,8 @@ False Positive Rate = False Positives/All Negatives
 **We first get a model with polynomial\(Degree=1\) then we use the training data to get the slope, curve etc\(parameter\) then using cross validation we find the F1 score using which we select the best model. Then we use the testing data to find out if our model is indeed good. So parameters are coefficients of of our polynomials. Below are for Logistic regression, Decision tree and SVM**
 
 ![](/assets/Screenshot 2019-08-08 at 3.08.19 PM.png)![](/assets/Screenshot 2019-08-08 at 3.14.40 PM.png)![](/assets/Screenshot 2019-08-08 at 3.16.29 PM.png)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Regression**: a measure of the relation between the mean value of one variable \(e.g. output\) and corresponding values of other variables \(e.g. time and cost\).
 
@@ -120,10 +128,6 @@ Log Loss Error function:
 Activation function It’s just a thing function that you use to get the output of node. It is also known as **Transfer Function**
 
 **Sigmoid** to convert number between 0 and 1. Add weights subtract bias and then sigmoid it
-
-Model Complexity Graph:
-
-![](/assets/Screenshot 2019-06-10 at 4.17.30 PM.png)
 
 One can identify the optimal number of **epochs** from the graph drawn between epochs and the training-validation loss or graph drawn between epochs and training-validation accuracy
 

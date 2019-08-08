@@ -47,7 +47,13 @@ False Positive Rate = False Positives/All Negatives
 
 **K-fold cross validation**: This approach involves randomly dividing the set of observations into k groups, or folds, of approximately equal size. The first fold is treated as a validation set, and the method is fit on the remaining k − 1 folds.
 
-![](/assets/Screenshot 2019-08-08 at 2.57.28 PM.png)![](/assets/Screenshot 2019-08-08 at 3.08.19 PM.png)
+![](/assets/Screenshot 2019-08-08 at 2.57.28 PM.png)
+
+**We first get a model with polynomial\(Degree=1\) then we use the training data to get the slope, curve etc\(parameter\) then using cross validation we find the F1 score using which we select the best model. Then we use the testing data to find out if our model is indeed good. So parameters are coefficients of of our polynomials. Below are for Logistic regression, Decision tree and SVM**
+
+![](/assets/Screenshot 2019-08-08 at 3.08.19 PM.png)![](/assets/Screenshot 2019-08-08 at 3.14.40 PM.png)![](/assets/Screenshot 2019-08-08 at 3.16.29 PM.png)
+
+
 
 
 

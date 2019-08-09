@@ -14,6 +14,30 @@ They do this by providing a way to calculate the ‘posterior’ probability of 
 
 ![](https://miro.medium.com/max/700/1*Lt8E08oxEnnRegLbNBzNAg.png)
 
+We assume the following:
+
+`P(D)`is the probability of a person having Diabetes. It's value is`0.01`or in other words, 1% of the general population has diabetes\(Disclaimer: these values are assumptions and are not reflective of any medical study\).
+
+`P(Pos)`is the probability of getting a positive test result.
+
+`P(Neg)`is the probability of getting a negative test result.
+
+`P(Pos|D)`is the probability of getting a positive result on a test done for detecting diabetes, given that you have diabetes. This has a value`0.9`. In other words the test is correct 90% of the time. This is also called the Sensitivity or True Positive Rate.
+
+`P(Neg|~D)`is the probability of getting a negative result on a test done for detecting diabetes, given that you do not have diabetes. This also has a value of`0.9`and is therefore correct, 90% of the time. This is also called the Specificity or True Negative Rate.
+
+The Bayes formula is as follows:
+
+![](http://localhost:8888/notebooks/Desktop/DataScience/Udacity/mlnd_projects/spam_classifier/images/bayes_formula.png)
+
+* `P(A)`is the prior probability of A occurring independently. In our example this is`P(D)`. This value is given to us.
+
+* `P(B)`is the prior probability of B occurring independently. In our example this is`P(Pos)`.
+
+* `P(A|B)`is the posterior probability that A occurs given B. In our example this is`P(D|Pos)`. That is,**the probability of an individual having diabetes, given that, that individual got a positive test result. This is the value that we are looking to calculate.**
+
+* `P(B|A)`is the likelihood probability of B occurring, given A. In our example this is`P(Pos|D)`. This value is given to us.
+
 # Example {#3716}
 
 We will introduce the main concepts regarding Navive Bayes algorithm, by studying an example:
@@ -76,7 +100,7 @@ One thing to consider is the independence of these features amongst each other. 
 
 This is the 'Naive' bit of the theorem where it considers each feature to be independent of each other which may not always be the case and hence that can affect the final judgement.
 
-In short, Bayes Theorem calculates the probability of a certain event happening \(in our case, a message being spam\) based on the joint probabilistic distributions of certain other events \(in our case, the appearance of certain words in a message\). 
+In short, Bayes Theorem calculates the probability of a certain event happening \(in our case, a message being spam\) based on the joint probabilistic distributions of certain other events \(in our case, the appearance of certain words in a message\).
 
 The steps to perform in order to be able to use the Naive Bayes Algorithm to solve classification problems like the previous problem is:
 
@@ -99,18 +123,18 @@ Whereas **the main disadvantages** of using this method **are:**
 * The naive assumption of independence is very unlikely to match real-world data.
 * When the test data set has a feature that has not been observed in the training se, the model will assign a 0 probability to it and will be useless to make predictions. One of the main methods to avoid this, is the smoothing technique, being the Laplace estimation one of the most popular ones.
 
-## Applications of Naive Bayes Algorithms
+## Applications of Naive Bayes Algorithms
 
-* **Real time Prediction: **
-  Naive Bayes is an eager learning classifier and it is sure fast. Thus, it could be used for making predictions in real time.
-* **Multi class Prediction: **
+* **Real time Prediction: **
+  Naive Bayes is an eager learning classifier and it is sure fast. Thus, it could be used for making predictions in real time.
+* **Multi class Prediction: **
   This algorithm is also well known for multi class prediction feature. Here we can predict the probability of multiple classes of target variable.
 * **Text classification/ Spam Filtering/ Sentiment Analysis:**
-   Naive Bayes classifiers mostly used in text classification \(due to better result in multi class problems and independence rule\) have higher success rate as compared to other algorithms. As a result, it is widely used in Spam filtering \(identify spam e-mail\) and Sentiment Analysis \(in social media analysis, to identify positive and negative customer sentiments\)
-* **Recommendation System: **
+   Naive Bayes classifiers mostly used in text classification \(due to better result in multi class problems and independence rule\) have higher success rate as compared to other algorithms. As a result, it is widely used in Spam filtering \(identify spam e-mail\) and Sentiment Analysis \(in social media analysis, to identify positive and negative customer sentiments\)
+* **Recommendation System: **
   Naive Bayes Classifier and
   [Collaborative Filtering](https://en.wikipedia.org/wiki/Collaborative_filtering)
-  together builds a Recommendation System that uses machine learning and data mining techniques to filter unseen information and predict whether a user would like a given resource or not
+  together builds a Recommendation System that uses machine learning and data mining techniques to filter unseen information and predict whether a user would like a given resource or not
 
 
 

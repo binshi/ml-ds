@@ -28,7 +28,7 @@ We assume the following:
 
 The Bayes formula is as follows:
 
-![](http://localhost:8888/notebooks/Desktop/DataScience/Udacity/mlnd_projects/spam_classifier/images/bayes_formula.png)
+![](/assets/NaiveBayes.png)
 
 * `P(A)`is the prior probability of A occurring independently. In our example this is`P(D)`. This value is given to us.
 
@@ -37,6 +37,14 @@ The Bayes formula is as follows:
 * `P(A|B)`is the posterior probability that A occurs given B. In our example this is`P(D|Pos)`. That is,**the probability of an individual having diabetes, given that, that individual got a positive test result. This is the value that we are looking to calculate.**
 
 * `P(B|A)`is the likelihood probability of B occurring, given A. In our example this is`P(Pos|D)`. This value is given to us.
+
+Putting our values into the formula for Bayes theorem we get:
+
+`P(D|Pos) = P(D) * P(Pos|D) / P(Pos)`
+
+The probability of getting a positive test result`P(Pos)`can be calculated using the Sensitivity and Specificity as follows:
+
+`P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]`
 
 # Example {#3716}
 

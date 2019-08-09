@@ -22,6 +22,17 @@ Polynomial kernel![](/assets/Screenshot 2019-08-09 at 6.16.22 PM.png)![](/assets
 
 ### ![](/assets/Screenshot 2019-08-09 at 6.32.12 PM.png)![](/assets/Screenshot 2019-08-09 at 6.34.31 PM.png)
 
+### Hyperparameters {#hyperparameters}
+
+When we define the model, we can specify the hyperparameters. As we've seen in this section, the most common ones are
+
+* `C`: The C parameter.
+
+* `kernel`: The kernel. The most common ones are 'linear', 'poly', and 'rbf'.
+
+* `degree`: If the kernel is polynomial, this is the maximum degree of the monomials in the kernel.
+* `gamma`: If the kernel is rbf, this is the gamma parameter.
+
 #### Usage
 
 Linear kernels are good for text and they are needed for performance if you have a lot of data.
@@ -44,7 +55,7 @@ If you data lives on a graph, you might want a Diffusion Kernel.
 
 if you can't find a Kernel or Regularizer that represents your problem, then build the features yourself, and run a L1-SVM.
 
-[https://www.quora.com/Why-does-RBF-kernel-generally-outperforms-linear-or-polynomial-kernels/answer/Ferenc-Husz%C3%A1r?utm\_medium=organic&utm\_source=google\_rich\_qa&utm\_campaign=google\_rich\_qa](https://www.researchgate.net/deref/https%3A%2F%2Fwww.quora.com%2FWhy-does-RBF-kernel-generally-outperforms-linear-or-polynomial-kernels%2Fanswer%2FFerenc-Husz%25C3%25A1r%3Futm_medium%3Dorganic%26utm_source%3Dgoogle_rich_qa%26utm_campaign%3Dgoogle_rich_qa)
+[https://www.quora.com/Why-does-RBF-kernel-generally-outperforms-linear-or-polynomial-kernels/answer/Ferenc-Husz%C3%A1r?utm\_medium=organic&utm\_source=google\_rich\_qa&utm\_campaign=google\_rich\_qa](https://www.researchgate.net/deref/https%3A%2F%2Fwww.quora.com%2FWhy-does-RBF-kernel-generally-outperforms-linear-or-polynomial-kernels%2Fanswer%2FFerenc-Husz%C3%A1r%3Futm_medium%3Dorganic%26utm_source%3Dgoogle_rich_qa%26utm_campaign%3Dgoogle_rich_qa)
 
 [https://www.quora.com/Why-does-RBF-kernel-generally-outperforms-linear-or-polynomial-kernels?utm\_medium=organic&utm\_source=google\_rich\_qa&utm\_campaign=google\_rich\_qa](https://www.researchgate.net/deref/https%3A%2F%2Fwww.quora.com%2FWhy-does-RBF-kernel-generally-outperforms-linear-or-polynomial-kernels%3Futm_medium%3Dorganic%26utm_source%3Dgoogle_rich_qa%26utm_campaign%3Dgoogle_rich_qa)
 

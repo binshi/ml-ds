@@ -10,13 +10,15 @@ C is just a constant that attaches itself to the classification error.
 
 ![](/assets/Screenshot 2019-08-09 at 6.07.52 PM.png)
 
-## Kernel Trick: 
+## Kernel Trick:
 
 Kernels are functions that help us to classify the data. The degree of a polynomial is the hyperparameter we train to find the best possible model.
 
 Think in Higher dimensions\(with multiple planes\) or use a circle.![](/assets/Screenshot 2019-08-09 at 6.10.42 PM.png)
 
 Polynomial kernel![](/assets/Screenshot 2019-08-09 at 6.16.22 PM.png)![](/assets/Screenshot 2019-08-09 at 6.20.32 PM.png)
+
+### RBF kernels\(Radial Basis Functions Kernel\)
 
 
 

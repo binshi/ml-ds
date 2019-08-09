@@ -14,7 +14,7 @@ Boosting is an approach to machine learning based on the idea of creating a high
 
 for a learned classifier to be effective and accurate in its predictions, it should meet three conditions: \(1\) it should have been trained on “enough” training examples; \(2\) it should provide a good fit to those training examples \(usually meaning that it should have low training error\); and \(3\) it should be “simple.” This last condition, our expectation that simpler rules are better, is often referred to as Occam’s razor.
 
-##### Adaboost:
+##### Adaboost: [http://rob.schapire.net/papers/explaining-adaboost.pdf](http://rob.schapire.net/papers/explaining-adaboost.pdf)
 
 Fit the model as accurately as possible. Pick the next model and use it on the same data by increasing the weights of the misclassified points from first model which will result in the moodel classifying the misclassified points correctly and so on.
 

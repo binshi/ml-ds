@@ -1,5 +1,7 @@
 Source: [https://towardsdatascience.com/supervised-learning-basics-of-classification-and-main-algorithms-c16b06806cd3](https://towardsdatascience.com/supervised-learning-basics-of-classification-and-main-algorithms-c16b06806cd3)
 
+[https://github.com/ctufts/Cheat\_Sheets/wiki/Classification-Model-Pros-and-Cons](https://github.com/ctufts/Cheat_Sheets/wiki/Classification-Model-Pros-and-Cons)
+
 Classification is a subcategory of supervised learning where the goal is to predict the categorical class labels \(discrete, unoredered values, group membership\) of new instances based on past observations.
 
 There are two main types of classification problems:

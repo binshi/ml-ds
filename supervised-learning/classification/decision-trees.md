@@ -1,0 +1,4 @@
+\_A **decision tree** is drawn upside down with its root at the top. \_In the image on the left, the bold text in black represents a condition/**internal node**, based on which the tree splits into branches/**edges**. The end of the branch that doesn’t split anymore is the decision/**leaf. **
+
+**Entropy:** This is a measure of uncertainty. Entropy is a measure of how messy the data is.  Hence High knowledge means low entropy and low knowledge means high entropy. Decision trees are here to tidy the dataset by looking at the values of the feature vector associated with each data point. Based on the values of each feature, decisions are made that eventually leads to a leaf and an answer. At each step, each branching, you want to decrease the entropy, so this quantity is computed before the cut and after the cut. If it decreases, the split is validated and we can proceed to the next step, otherwise, we must try to split with another feature or stop this branch.
+

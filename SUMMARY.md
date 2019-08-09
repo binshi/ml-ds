@@ -9,6 +9,7 @@
   * [Classification](supervised-learning/classification.md)
     * [Decision Trees](supervised-learning/classification/decision-trees.md)
     * [Naive Bayes](supervised-learning/classification/naive-bayes.md)
+    * [SVM](supervised-learning/classification/svm.md)
 * [Unsupervised learning](unsupervised-learning.md)
   * [PCA](unsupervised-learning/pca.md)
   * [Outliers](unsupervised-learning/outliers.md)

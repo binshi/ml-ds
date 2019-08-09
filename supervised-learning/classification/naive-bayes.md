@@ -160,17 +160,17 @@ Whereas **the main disadvantages** of using this method **are:**
   [Collaborative Filtering](https://en.wikipedia.org/wiki/Collaborative_filtering)
   together builds a Recommendation System that uses machine learning and data mining techniques to filter unseen information and predict whether a user would like a given resource or not
 
+## Model Evaluation
 
+**Accuracy **measures how often the classifier makes the correct prediction. It’s the ratio of the number of correct predictions to the total number of predictions \(the number of test data points\).
 
+**Precision **tells us what proportion of messages we classified as spam, actually were spam. It is a ratio of true positives\(words classified as spam, and which are actually spam\) to all positives\(all words classified as spam, irrespective of whether that was the correct classification\), in other words it is the ratio of
 
+`[True Positives/(True Positives + False Positives)]`
 
+**Recall\(sensitivity\) **tells us what proportion of messages that actually were spam were classified by us as spam. It is a ratio of true positives\(words classified as spam, and which are actually spam\) to all the words that were actually spam, in other words it is the ratio of
 
+`[True Positives/(True Positives + False Negatives)]`
 
-
-
-
-
-
-
-
+For classification problems that are skewed in their classification distributions like in our case, for example if we had a 100 text messages and only 2 were spam and the rest 98 weren't, accuracy by itself is not a very good metric. We could classify 90 messages as not spam \(including the 2 that were spam but we classify them as not spam, hence they would be false negatives\) and 10 as spam \(all 10 false positives\) and still get a reasonably good accuracy score. For such cases, precision and recall come in very handy. These two metrics can be combined to get the F1 score, which is the weighted average of the precision and recall scores. This score can range from 0 to 1, with 1 being the best possible F1 score.
 

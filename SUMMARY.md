@@ -8,6 +8,7 @@
   * [Linear Regression](supervised-learning/linear-regression.md)
   * [Classification](supervised-learning/classification.md)
     * [Decision Trees](supervised-learning/classification/decision-trees.md)
+    * [Naive Bayes](supervised-learning/classification/naive-bayes.md)
 * [Unsupervised learning](unsupervised-learning.md)
   * [PCA](unsupervised-learning/pca.md)
   * [Outliers](unsupervised-learning/outliers.md)

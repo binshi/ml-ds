@@ -46,6 +46,20 @@ The probability of getting a positive test result`P(Pos)`can be calculated using
 
 `P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]`
 
+**Using all of this information we can calculate our posteriors as follows:**
+
+The probability of an individual having diabetes, given that, that individual got a positive test result:
+
+`P(D|Pos) = (P(D) * Sensitivity)) / P(Pos)`
+
+The probability of an individual not having diabetes, given that, that individual got a positive test result:
+
+`P(~D|Pos) = (P(~D) * (1-Specificity)) / P(Pos)`
+
+The sum of our posteriors will always equal`1`.
+
+The term 'Naive' in Naive Bayes comes from the fact that the algorithm considers the features that it is using to make the predictions to be independent of each other, which may not always be the case. So in our Diabetes example, we are considering only one feature, that is the test result. Say we added another feature, 'exercise'. Let's say this feature has a binary value of`0`and`1`, where the former signifies that the individual exercises less than or equal to 2 days a week and the latter signifies that the individual exercises greater than or equal to 3 days a week. If we had to use both of these features, namely the test result and the value of the 'exercise' feature, to compute our final probabilities, Bayes' theorem would fail. Naive Bayes' is an extension of Bayes' theorem that assumes that all the features are independent of each other.
+
 # Example {#3716}
 
 We will introduce the main concepts regarding Navive Bayes algorithm, by studying an example:
@@ -117,6 +131,8 @@ The steps to perform in order to be able to use the Naive Bayes Algorithm to sol
 3. The Naive Bayes equation is used to compute the posterior probability of each class.
 4. The class with the higher posterior probability is the outcome of the prediction.
 
+# ![](/assets/Screenshot 2019-08-09 at 5.02.42 PM.png)![](/assets/Screenshot 2019-08-09 at 5.03.20 PM.png) {#6b7b}
+
 # Strengths and Weaknesses of Naive Bayes {#6b7b}
 
 **The main strengths are:**
@@ -143,6 +159,18 @@ Whereas **the main disadvantages** of using this method **are:**
   Naive Bayes Classifier and
   [Collaborative Filtering](https://en.wikipedia.org/wiki/Collaborative_filtering)
   together builds a Recommendation System that uses machine learning and data mining techniques to filter unseen information and predict whether a user would like a given resource or not
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

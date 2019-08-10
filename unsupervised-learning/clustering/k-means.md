@@ -2,6 +2,8 @@
 
 Source: [http://www.naftaliharris.com/blog/visualizing-k-means-clustering/](http://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
 
+[https://www.datascience.com/blog/k-means-clustering](https://www.datascience.com/blog/k-means-clustering)
+
 A cluster refers to a collection of data points aggregated together because of certain similarities.
 
 K-Means clustering intends to partition n objects into k clusters in which each object belongs to the cluster with the nearest mean. This method produces exactly k different clusters of greatest possible distinction. The best number of clusters k leading to the greatest separation \(distance\) is not known as a priori and must be computed from the data. The objective of K-Means clustering is to minimize total intra-cluster variance, or, the squared error function:
@@ -33,11 +35,11 @@ K-Means is relatively an efficient method. However, we need to specify the numbe
 
 ### Choosing K
 
-The algorithm described above finds the clusters and data set labels for a particular pre-chosen_K_. To find the number of clusters in the data, the user needs to run the _K_-means clustering algorithm for a range of_K_ values and compare the results. In general, there is no method for determining exact value of _K_, but an accurate estimate can be obtained using the following techniques.
+The algorithm described above finds the clusters and data set labels for a particular pre-chosen_K_. To find the number of clusters in the data, the user needs to run the _K_-means clustering algorithm for a range of_K_ values and compare the results. In general, there is no method for determining exact value of _K_, but an accurate estimate can be obtained using the following techniques.
 
-One of the metrics that is commonly used to compare results across different values of _K_ is the mean distance between data points and their cluster centroid. Since increasing the number of clusters will always reduce the distance to data points, increasing _K_ will_always_decrease this metric, to the extreme of reaching zero when _K_ is the same as the number of data points. Thus, this metric cannot be used as the sole target. Instead, mean distance to the centroid as a function of _K_ is plotted and the "elbow point," where the rate of decrease sharply shifts, can be used to roughly determine _K_.
+One of the metrics that is commonly used to compare results across different values of _K_ is the mean distance between data points and their cluster centroid. Since increasing the number of clusters will always reduce the distance to data points, increasing _K_ will_always\_decrease this metric, to the extreme of reaching zero when \_K_ is the same as the number of data points. Thus, this metric cannot be used as the sole target. Instead, mean distance to the centroid as a function of _K_ is plotted and the "elbow point," where the rate of decrease sharply shifts, can be used to roughly determine _K_.
 
-A number of other techniques exist for validating _K_, including cross-validation, information criteria, the information theoretic jump method, the silhouette method, and the G-means algorithm. In addition, monitoring the distribution of data points across groups provides insight into how the algorithm is splitting the data for each _K_.
+A number of other techniques exist for validating _K_, including cross-validation, information criteria, the information theoretic jump method, the silhouette method, and the G-means algorithm. In addition, monitoring the distribution of data points across groups provides insight into how the algorithm is splitting the data for each _K_.
 
 ![](https://www.datascience.com/hs-fs/hubfs/Blog/introduction-to-k-means-clustering-elbow-point-example.png?width=760&height=411&name=introduction-to-k-means-clustering-elbow-point-example.png "introduction-to-k-means-clustering-elbow-point-example.png")
 
@@ -65,6 +67,4 @@ This is a versatile algorithm that can be used for any type of grouping. Some ex
   * Group valid activity to clean up outlier detection
 
 In addition, monitoring if a tracked data point switches between groups over time can be used to detect meaningful changes in the data.
-
-
 

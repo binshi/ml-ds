@@ -15,6 +15,7 @@
   * [Outliers](unsupervised-learning/outliers.md)
   * [Clustering](unsupervised-learning/clustering.md)
     * [K-Means](unsupervised-learning/clustering/k-means.md)
+    * [Hierarchical and DBSCAN Clustering](unsupervised-learning/clustering/hierarchical-and-density-based-clustering.md)
 * [Deep Learning](deep-learning.md)
   * [CNN](deep-learning/cnn.md)
   * [RNN](deep-learning/rnn.md)

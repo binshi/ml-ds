@@ -17,6 +17,7 @@
     * [K-Means](unsupervised-learning/clustering/k-means.md)
     * [Hierarchical](unsupervised-learning/clustering/hierarchical-and-density-based-clustering.md)
     * [DBSCAN](unsupervised-learning/clustering/dbscan.md)
+    * [Gaussian Mixture Models](unsupervised-learning/clustering/gaussian-mixture-model.md)
 * [Deep Learning](deep-learning.md)
   * [CNN](deep-learning/cnn.md)
   * [RNN](deep-learning/rnn.md)

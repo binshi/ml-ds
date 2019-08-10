@@ -14,5 +14,9 @@ Silhoutte coefficient should not be used for DBSCCAN as the score rewards compac
 
 Silhoutte coefficient shortcomings![](/assets/Screenshot 2019-08-10 at 6.42.27 PM.png)
 
-Validation for DBSCAN: Density Based Clustering Validation - http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=83C3BD5E078B1444CB26E243975507E1?doi=10.1.1.707.9034&rep=rep1&type=pdf
+Validation for DBSCAN: Density Based Clustering Validation - [http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=83C3BD5E078B1444CB26E243975507E1?doi=10.1.1.707.9034&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=83C3BD5E078B1444CB26E243975507E1?doi=10.1.1.707.9034&rep=rep1&type=pdf)
+
+Silhouette analysis can be used to study the separation distance between the resulting clusters. The silhouette plot displays a measure of how close each point in one cluster is to points in the neighboring clusters and thus provides a way to assess parameters like number of clusters visually. This measure has a range of \[-1, 1\].
+
+Silhouette coefficients \(as these values are referred to as\) near +1 indicate that the sample is far away from the neighboring clusters. A value of 0 indicates that the sample is on or very close to the decision boundary between two neighboring clusters and negative values indicate that those samples might have been assigned to the wrong cluster.
 

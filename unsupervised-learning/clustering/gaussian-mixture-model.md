@@ -12,5 +12,7 @@ A Gaussian mixture model is a probabilistic model that assumes all the data poin
 
 #### Overview Of The Expectation Maximization Algorithm![](/assets/Screenshot 2019-08-10 at 4.45.40 PM.png)
 
+![](/assets/Screenshot 2019-08-10 at 4.52.02 PM.png)![](/assets/Screenshot 2019-08-10 at 4.53.33 PM.png)
 
+For cluster A![](/assets/Screenshot 2019-08-10 at 4.57.27 PM.png)![](/assets/Screenshot 2019-08-10 at 4.58.15 PM.png)![](/assets/Screenshot 2019-08-10 at 4.58.37 PM.png)![](/assets/Screenshot 2019-08-10 at 5.00.21 PM.png)
 

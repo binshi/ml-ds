@@ -14,7 +14,7 @@
   * [PCA](unsupervised-learning/pca.md)
   * [Outliers](unsupervised-learning/outliers.md)
   * [Clustering](unsupervised-learning/clustering.md)
-  * [K-Means](unsupervised-learning/k-means.md)
+    * [K-Means](unsupervised-learning/clustering/k-means.md)
 * [Deep Learning](deep-learning.md)
   * [CNN](deep-learning/cnn.md)
   * [RNN](deep-learning/rnn.md)

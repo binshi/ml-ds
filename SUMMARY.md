@@ -18,6 +18,7 @@
     * [Hierarchical](unsupervised-learning/clustering/hierarchical-and-density-based-clustering.md)
     * [DBSCAN](unsupervised-learning/clustering/dbscan.md)
     * [Gaussian Mixture Models](unsupervised-learning/clustering/gaussian-mixture-model.md)
+    * [Clustering Validation](unsupervised-learning/clustering/clustering-validation.md)
 * [Deep Learning](deep-learning.md)
   * [CNN](deep-learning/cnn.md)
   * [RNN](deep-learning/rnn.md)

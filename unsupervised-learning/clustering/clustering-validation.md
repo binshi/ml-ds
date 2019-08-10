@@ -8,5 +8,11 @@ Generally, clustering validation statistics can be categorized into 3 classes\(C
 2. **External cluster validation**, which consists in comparing the results of a cluster analysis to an externally known result, such as externally provided class labels. It measures the extent to which cluster labels match externally supplied class labels. Since we know the “true” cluster number in advance, this approach is mainly used for selecting the right clustering algorithm for a specific data set.
 3. **Relative cluster validation**, which evaluates the clustering structure by varying different parameter values for the same algorithm \(e.g.,: varying the number of clusters k\). It’s generally used for determining the optimal number of clusters.
 
-![](/assets/Screenshot 2019-08-10 at 5.20.45 PM.png)![](/assets/Screenshot 2019-08-10 at 5.23.09 PM.png)![](/assets/Screenshot 2019-08-10 at 5.24.46 PM.png)![](/assets/Screenshot 2019-08-10 at 5.27.43 PM.png)
+![](/assets/Screenshot 2019-08-10 at 5.20.45 PM.png)![](/assets/Screenshot 2019-08-10 at 5.23.09 PM.png)![](/assets/Screenshot 2019-08-10 at 5.24.46 PM.png)![](/assets/Screenshot 2019-08-10 at 5.27.43 PM.png)![](/assets/Screenshot 2019-08-10 at 6.36.16 PM.png)![](/assets/Screenshot 2019-08-10 at 6.37.21 PM.png)![](/assets/Screenshot 2019-08-10 at 6.38.43 PM.png)
+
+Silhoutte coefficient should not be used for DBSCCAN as the score rewards compact, dense well separated clusters but does not take into coonsideration noise.![](/assets/Screenshot 2019-08-10 at 6.39.40 PM.png)
+
+Silhoutte coefficient shortcomings![](/assets/Screenshot 2019-08-10 at 6.42.27 PM.png)
+
+Validation for DBSCAN: Density Based Clustering Validation - http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=83C3BD5E078B1444CB26E243975507E1?doi=10.1.1.707.9034&rep=rep1&type=pdf
 

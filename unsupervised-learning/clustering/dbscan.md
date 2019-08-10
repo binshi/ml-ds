@@ -26,6 +26,14 @@ The parameter estimation is a problem for every data mining task. To choose good
 
 ![](/assets/Screenshot 2019-08-10 at 12.32.21 PM.png)
 
+#### Why should we use DBSCAN?
+
+The DBSCAN algorithm should be used to find associations and structures in data that are hard to find manually but that can be relevant and useful to find patterns and predict trends.
+
+Clustering methods are usually used in biology, medicine, social sciences, archaeology, marketing, characters recognition, management systems and so on.
+
+Let’s think in a practical use of DBSCAN. Suppose we have an e-commerce and we want to improve our sales by recommending relevant products to our customers. We don’t know exactly what our customers are looking for but based on a data set we can predict and recommend a relevant product to a specific customer. We can apply the DBSCAN to our data set \(based on the e-commerce database\) and find clusters based on the products that the users have bought. Using this clusters we can find similarities between customers, for example, the customer A have bought 1 pen, 1 book and 1 scissors and the customer B have bought 1 book and 1 scissors, then we can recommend 1 pen to the customer B. This is just a little example of use of DBSCAN, but it can be used in a lot of applications in several areas.
+
 #### Advantages:
 
 * We don't need to specify the number of clusters

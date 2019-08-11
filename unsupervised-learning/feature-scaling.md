@@ -4,6 +4,8 @@
 
 [https://sebastianraschka.com/Articles/2014\_about\_feature\_scaling.html](https://sebastianraschka.com/Articles/2014_about_feature_scaling.html)
 
+[https://www.kaggle.com/rtatman/data-cleaning-challenge-scale-and-normalize-data?scriptVersionId=2945378](https://www.kaggle.com/rtatman/data-cleaning-challenge-scale-and-normalize-data?scriptVersionId=2945378)
+
 Feature scaling can vary your results a lot while using certain algorithms and have a minimal or no effect in others. To understand this, let’s look why features need to be scaled, varieties of scaling methods and when we should scale our features.
 
 #### Why Scaling

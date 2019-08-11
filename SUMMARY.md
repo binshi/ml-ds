@@ -11,7 +11,6 @@
     * [SVM](supervised-learning/classification/svm.md)
     * [Ensemble Methods](supervised-learning/classification/ensemble-methods.md)
 * [Unsupervised learning](unsupervised-learning.md)
-  * [Outliers](unsupervised-learning/outliers.md)
   * [Clustering](unsupervised-learning/clustering.md)
     * [K-Means](unsupervised-learning/clustering/k-means.md)
     * [Hierarchical](unsupervised-learning/clustering/hierarchical-and-density-based-clustering.md)

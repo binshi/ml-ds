@@ -2,6 +2,8 @@
 
 [http://setosa.io/ev/principal-component-analysis/](http://setosa.io/ev/principal-component-analysis/)
 
+[https://sebastianraschka.com/Articles/2014\_about\_feature\_scaling.html](https://sebastianraschka.com/Articles/2014_about_feature_scaling.html)
+
 Feature scaling can vary your results a lot while using certain algorithms and have a minimal or no effect in others. To understand this, let’s look why features need to be scaled, varieties of scaling methods and when we should scale our features.
 
 #### Why Scaling

@@ -19,8 +19,8 @@
     * [Gaussian Mixture Models](unsupervised-learning/clustering/gaussian-mixture-model.md)
     * [Clustering Validation](unsupervised-learning/clustering/clustering-validation.md)
   * [Feature Scaling](unsupervised-learning/feature-scaling.md)
-    * PCA
-  * Dimensionality Reduction
+  * [Dimensionality Reduction](unsupervised-learning/dimensionality-reduction.md)
+  * [PCA](unsupervised-learning/pca.md)
 * [Deep Learning](deep-learning.md)
   * [CNN](deep-learning/cnn.md)
   * [RNN](deep-learning/rnn.md)

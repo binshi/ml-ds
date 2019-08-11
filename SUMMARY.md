@@ -19,7 +19,9 @@
     * [Clustering Validation](unsupervised-learning/clustering/clustering-validation.md)
   * [Feature Scaling](unsupervised-learning/feature-scaling.md)
   * [Dimensionality Reduction](unsupervised-learning/dimensionality-reduction.md)
-  * [PCA](unsupervised-learning/pca.md)
+    * [PCA](unsupervised-learning/dimensionality-reduction/pca.md)
+    * [Random Projection](unsupervised-learning/dimensionality-reduction/random-projection.md)
+    * ICA
 * [Deep Learning](deep-learning.md)
   * [CNN](deep-learning/cnn.md)
   * [RNN](deep-learning/rnn.md)

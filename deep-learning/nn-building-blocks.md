@@ -16,5 +16,9 @@ Softmax function, _activation function_ that turns numbers aka logits into proba
 
 #### ![](/assets/Screenshot 2019-08-12 at 9.48.09 AM.png)One hot encoding
 
-![](/assets/Screenshot 2019-08-12 at 9.49.54 AM.png)
+#### ![](/assets/Screenshot 2019-08-12 at 9.49.54 AM.png)Maximum Likelihood \(Importance of probabilities\)
+
+To maximize the probability in the left figure to meet the probability on the right so that it classifies properly is maximum likelihood. The model classifies most points correctly with P\(all\) indicating how accurate the model is. **Hence maximizing the probability is minimizing the error function**.![](/assets/Screenshot 2019-08-12 at 9.53.26 AM.png)**log function turns products into sum**
+
+
 

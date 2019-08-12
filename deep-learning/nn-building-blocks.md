@@ -34,5 +34,5 @@ Converting the above product of probabilities to sum using log. A good model wit
 
 #### ![](/assets/Screenshot 2019-08-12 at 10.38.11 AM.png)Gradient Descent
 
-![](/assets/Screenshot 2019-08-12 at 10.39.40 AM.png)![](/assets/Screenshot 2019-08-12 at 10.41.36 AM.png)
+![](/assets/Screenshot 2019-08-12 at 10.39.40 AM.png)![](/assets/Screenshot 2019-08-12 at 10.41.36 AM.png)![](/assets/Screenshot 2019-08-12 at 10.46.52 AM.png)![](/assets/Screenshot 2019-08-12 at 10.54.51 AM.png)
 

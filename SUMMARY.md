@@ -26,7 +26,6 @@
   * [CNN](deep-learning/cnn.md)
   * [RNN](deep-learning/rnn.md)
   * [LSTM](deep-learning/lstm.md)
-  * [Multi Layer Perceptron](deep-learning/multi-layer-perceptron.md)
   * [Semantic Segmentation](deep-learning/semantic-segmentation.md)
   * [Concepts](deep-learning/data-manipulation.md)
     * [Activation Function](deep-learning/data-manipulation/activation-function.md)

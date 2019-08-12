@@ -1,4 +1,4 @@
-## Neural Network Building Blocks
+## Neural Network Building Blocks - Linear
 
 ## ![](/assets/Screenshot 2019-08-12 at 9.04.18 AM.png)![](/assets/Screenshot 2019-08-12 at 9.07.31 AM.png)![](/assets/Screenshot 2019-08-12 at 9.16.37 AM.png)![](/assets/Screenshot 2019-08-12 at 9.18.26 AM.png)Error Function
 

@@ -6,5 +6,9 @@
 
 ###### log-loss error function
 
-The error function should be continuous and differentiable![](/assets/Screenshot 2019-08-12 at 9.31.19 AM.png)
+#### The error function should be continuous and differentiable![](/assets/Screenshot 2019-08-12 at 9.31.19 AM.png)![](/assets/Screenshot 2019-08-12 at 9.36.24 AM.png)![](/assets/Screenshot 2019-08-12 at 9.38.03 AM.png)![](/assets/Screenshot 2019-08-12 at 9.38.38 AM.png)
+
+#### Softmax function
+
+
 

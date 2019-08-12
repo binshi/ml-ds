@@ -53,7 +53,7 @@ If we calculate the derivative of the point at the extreme left oor right it is 
 
 # Keras Optimizers {#keras-optimizers}
 
-There are many optimizers in Keras, that we encourage you to explore further, in this [link](https://keras.io/optimizers/), or in this excellent [blog post](http://ruder.io/optimizing-gradient-descent/index.html#rmsprop). These optimizers use a combination of the tricks above, plus a few others. Some of the most common are:
+Most popular gradient-based optimization algorithms in Keras, that we encourage you to explore further, in this [link](https://keras.io/optimizers/), or in this excellent [blog post](http://ruder.io/optimizing-gradient-descent/index.html#rmsprop). These optimizers use a combination of the tricks above, plus a few others. Some of the most common are:
 
 #### SGD {#sgd}
 

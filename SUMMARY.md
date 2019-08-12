@@ -33,6 +33,7 @@
     * [Optimizers](deep-learning/data-manipulation/optimizers.md)
     * [Cost/Loss Function](deep-learning/data-manipulation/loss-function.md)
   * [Reinforcement learning](deep-learning/reinforcement-learning.md)
+  * [NN building blocks](deep-learning/nn-building-blocks.md)
 * [Tools](tools.md)
 * [Links](links.md)
 * [Appendix](chapter1.md)

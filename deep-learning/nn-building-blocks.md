@@ -32,5 +32,7 @@ Converting the above product of probabilities to sum using log. A good model wit
 
 ![](/assets/Screenshot 2019-08-12 at 10.31.17 AM.png)**Binary classification**![](/assets/Screenshot 2019-08-12 at 10.32.46 AM.png)**Multiclass error function**![](/assets/Screenshot 2019-08-12 at 10.33.43 AM.png)To minimize start with random weights and use gradient descent:
 
-![](/assets/Screenshot 2019-08-12 at 10.38.11 AM.png)
+#### ![](/assets/Screenshot 2019-08-12 at 10.38.11 AM.png)Gradient Descent
+
+![](/assets/Screenshot 2019-08-12 at 10.39.40 AM.png)![](/assets/Screenshot 2019-08-12 at 10.41.36 AM.png)
 

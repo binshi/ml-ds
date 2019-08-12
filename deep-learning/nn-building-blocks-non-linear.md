@@ -23,3 +23,25 @@ Try to call the boundary towards the misclassified point and update the weights 
 
 ![](/assets/Screenshot 2019-08-12 at 11.57.43 AM.png)![](/assets/Screenshot 2019-08-12 at 12.00.33 PM.png)![](/assets/Screenshot 2019-08-12 at 12.02.02 PM.png)![](/assets/Screenshot 2019-08-12 at 12.02.31 PM.png)![](/assets/Screenshot 2019-08-12 at 12.02.58 PM.png)![](/assets/Screenshot 2019-08-12 at 12.07.56 PM.png)![](/assets/Screenshot 2019-08-12 at 12.10.21 PM.png)![](/assets/Screenshot 2019-08-12 at 12.11.35 PM.png)![](/assets/Screenshot 2019-08-12 at 12.18.08 PM.png)![](/assets/Screenshot 2019-08-12 at 12.18.31 PM.png)![](/assets/Screenshot 2019-08-12 at 5.09.22 PM.png)
 
+#### Training Optimization
+
+##### Model Complexity Graph
+
+![](/assets/Screenshot 2019-08-12 at 6.19.47 PM.png)![](/assets/Screenshot 2019-08-12 at 6.21.04 PM.png)
+
+**Subtle overfitting**
+
+![](/assets/Screenshot 2019-08-12 at 6.23.31 PM.png)![](/assets/Screenshot 2019-08-12 at 6.26.37 PM.png)**Regularization to punish large coefficients**![](/assets/Screenshot 2019-08-12 at 6.28.26 PM.png)![](/assets/Screenshot 2019-08-12 at 6.31.43 PM.png)**Dropout**
+
+Dropout is a regularization method that approximates training a large number of neural networks with different architectures in parallel. During training, some number of layer outputs are randomly ignored or “_dropped out_.” This has the effect of making the layer look-like and be treated-like a layer with a different number of nodes and connectivity to the prior layer. In effect, each update to a layer during training is performed with a different “_view_” of the configured layer.
+
+**Local Minima**![](/assets/Screenshot 2019-08-12 at 6.37.02 PM.png)
+
+**Vanishing Gradient**
+
+If we calculate the derivative of the point at the extreme left oor right it is almost 0. Derivative is what tells us in which direction to move.
+
+![](/assets/Screenshot 2019-08-12 at 6.38.05 PM.png)![](/assets/Screenshot 2019-08-12 at 6.39.27 PM.png)
+
+**Resolution to solve vanishing gradient**![](/assets/Screenshot 2019-08-12 at 6.40.07 PM.png)![](/assets/Screenshot 2019-08-12 at 6.40.35 PM.png)![](/assets/Screenshot 2019-08-12 at 6.41.33 PM.png)
+

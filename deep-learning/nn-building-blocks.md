@@ -20,5 +20,13 @@ Softmax function, _activation function_ that turns numbers aka logits into proba
 
 To maximize the probability in the left figure to meet the probability on the right so that it classifies properly is maximum likelihood. The model classifies most points correctly with P\(all\) indicating how accurate the model is. **Hence maximizing the probability is minimizing the error function**.![](/assets/Screenshot 2019-08-12 at 9.53.26 AM.png)**log function turns products into sum**
 
+#### Cross Entropy\(Error function\)
 
+Converting the above product of probabilities to sum using log. A good model with give a low cross entropy while a bad model will give a high entropy. A higher cross entropy implies a lower probability of the event.
+
+##### ![](/assets/Screenshot 2019-08-12 at 10.02.55 AM.png)![](/assets/Screenshot 2019-08-12 at 10.03.56 AM.png)**Goal: Minimize the Cross Entropy**
+
+![](/assets/Screenshot 2019-08-12 at 10.12.25 AM.png)![](/assets/Screenshot 2019-08-12 at 10.09.40 AM.png)**Multi class cross entropy**
+
+![](/assets/Screenshot 2019-08-12 at 10.16.26 AM.png)
 

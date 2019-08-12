@@ -35,6 +35,10 @@ Try to call the boundary towards the misclassified point and update the weights 
 
 Dropout is a regularization method that approximates training a large number of neural networks with different architectures in parallel. During training, some number of layer outputs are randomly ignored or “_dropped out_.” This has the effect of making the layer look-like and be treated-like a layer with a different number of nodes and connectivity to the prior layer. In effect, each update to a layer during training is performed with a different “_view_” of the configured layer.
 
+* Dropout forces a neural network to learn more robust features that are useful in conjunction with many different random subsets of the other neurons.
+* Dropout roughly doubles the number of iterations required to converge. However, training time for each epoch is less.
+* With H hidden units, each of which can be dropped, we have 2^H possible models. In testing phase, the entire network is considered and each activation is reduced by a factor _p._
+
 **Local Minima**![](/assets/Screenshot 2019-08-12 at 6.37.02 PM.png)
 
 **Vanishing Gradient**
@@ -44,4 +48,26 @@ If we calculate the derivative of the point at the extreme left oor right it is 
 ![](/assets/Screenshot 2019-08-12 at 6.38.05 PM.png)![](/assets/Screenshot 2019-08-12 at 6.39.27 PM.png)
 
 **Resolution to solve vanishing gradient**![](/assets/Screenshot 2019-08-12 at 6.40.07 PM.png)![](/assets/Screenshot 2019-08-12 at 6.40.35 PM.png)![](/assets/Screenshot 2019-08-12 at 6.41.33 PM.png)
+
+**Learning Rate**![](/assets/Screenshot 2019-08-12 at 6.50.10 PM.png)To avoid local minima![](/assets/Screenshot 2019-08-12 at 6.50.45 PM.png)![](/assets/Screenshot 2019-08-12 at 6.52.13 PM.png)
+
+# Keras Optimizers {#keras-optimizers}
+
+There are many optimizers in Keras, that we encourage you to explore further, in this [link](https://keras.io/optimizers/), or in this excellent [blog post](http://ruder.io/optimizing-gradient-descent/index.html#rmsprop). These optimizers use a combination of the tricks above, plus a few others. Some of the most common are:
+
+#### SGD {#sgd}
+
+This is Stochastic Gradient Descent. It uses the following parameters:
+
+* Learning rate.
+* Momentum \(This takes the weighted average of the previous steps, in order to get a bit of momentum and go over bumps, as a way to not get stuck in local minima\).
+* Nesterov Momentum \(This slows down the gradient when it's close to the solution\).
+
+#### Adam {#adam}
+
+Adam \(Adaptive Moment Estimation\) uses a more complicated exponential decay that consists of not just considering the average \(first moment\), but also the variance \(second moment\) of the previous steps.
+
+#### RMSProp {#rmsprop}
+
+RMSProp \(RMS stands for Root Mean Squared Error\) decreases the learning rate by dividing it by an exponentially decaying average of squared gradients.
 

@@ -4,9 +4,9 @@
 
 [https://medium.com/datadriveninvestor/gradient-descent-5a13f385d403](https://medium.com/datadriveninvestor/gradient-descent-5a13f385d403)
 
-https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f
+[https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f](https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f)
 
-https://www.kdnuggets.com/2017/04/simple-understand-gradient-descent-algorithm.html
+[https://www.kdnuggets.com/2017/04/simple-understand-gradient-descent-algorithm.html](https://www.kdnuggets.com/2017/04/simple-understand-gradient-descent-algorithm.html)
 
 #### Batch Gradient Descent {#f213}
 
@@ -24,7 +24,7 @@ In batch gradient we**use the entire dataset to compute the gradient of the cost
 
 #### Stochastic Gradient descent {#8e93}
 
-In stochastic gradient descent we**use a single datapoint or example to calculate the gradient and update the weights with every iteration**. We first need to**shuffle the dataset so that we get a completely randomized dataset**. As the dataset is randomized and weights are updated for each single example, update of the weights and the cost function will be noisy jumping all over the place as shown below. Random sample helps to arrive at a global minima and avoids getting stuck at a local minima.
+In stochastic gradient descent we **use a single datapoint or example to calculate the gradient and update the weights with every iteration**. We first need to **shuffle the dataset so that we get a completely randomized dataset**. As the dataset is randomized and weights are updated for each single example, update of the weights and the cost function will be noisy jumping all over the place as shown below. Random sample helps to arrive at a global minima and avoids getting stuck at a local minima.
 
 **Advantages of Stochastic Gradient Descent**
 

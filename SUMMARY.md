@@ -21,7 +21,7 @@
   * [Dimensionality Reduction](unsupervised-learning/dimensionality-reduction.md)
     * [PCA](unsupervised-learning/dimensionality-reduction/pca.md)
     * [Random Projection](unsupervised-learning/dimensionality-reduction/random-projection.md)
-    * ICA
+    * [ICA](unsupervised-learning/dimensionality-reduction/ica.md)
 * [Deep Learning](deep-learning.md)
   * [CNN](deep-learning/cnn.md)
   * [RNN](deep-learning/rnn.md)

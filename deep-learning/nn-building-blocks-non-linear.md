@@ -21,5 +21,5 @@ Now, we're ready to get our hands into training a neural network. For this, we'l
 
 Try to call the boundary towards the misclassified point and update the weights to w1' and w2'![](/assets/Screenshot 2019-08-12 at 11.54.11 AM.png)![](/assets/Screenshot 2019-08-12 at 11.54.48 AM.png)**Multi-Layer Perceptrons**
 
-![](/assets/Screenshot 2019-08-12 at 11.57.43 AM.png)![](/assets/Screenshot 2019-08-12 at 12.00.33 PM.png)![](/assets/Screenshot 2019-08-12 at 12.02.02 PM.png)![](/assets/Screenshot 2019-08-12 at 12.02.31 PM.png)![](/assets/Screenshot 2019-08-12 at 12.02.58 PM.png)
+![](/assets/Screenshot 2019-08-12 at 11.57.43 AM.png)![](/assets/Screenshot 2019-08-12 at 12.00.33 PM.png)![](/assets/Screenshot 2019-08-12 at 12.02.02 PM.png)![](/assets/Screenshot 2019-08-12 at 12.02.31 PM.png)![](/assets/Screenshot 2019-08-12 at 12.02.58 PM.png)![](/assets/Screenshot 2019-08-12 at 12.07.56 PM.png)![](/assets/Screenshot 2019-08-12 at 12.10.21 PM.png)![](/assets/Screenshot 2019-08-12 at 12.11.35 PM.png)![](/assets/Screenshot 2019-08-12 at 12.18.08 PM.png)![](/assets/Screenshot 2019-08-12 at 12.18.31 PM.png)
 

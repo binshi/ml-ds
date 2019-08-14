@@ -118,5 +118,17 @@ When constructing a network for classification, the final layer in the network s
 
 **Max Pooling Layer**![](/assets/Screenshot 2019-08-14 at 12.12.36 PM.png)
 
-**Global Average Pooling layer**![](/assets/Screenshot 2019-08-14 at 12.13.39 PM.png)![](/assets/Screenshot 2019-08-14 at 12.21.23 PM.png)![](/assets/Screenshot 2019-08-14 at 12.22.36 PM.png)Pooling increases depth![](/assets/Screenshot 2019-08-14 at 12.22.40 PM.png)![](/assets/Screenshot 2019-08-14 at 12.26.21 PM.png)![](/assets/Screenshot 2019-08-14 at 12.27.41 PM.png)![](/assets/Screenshot 2019-08-14 at 1.22.09 PM.png)![](/assets/Screenshot 2019-08-14 at 1.22.18 PM.png)
+#### **Global Average Pooling layer**![](/assets/Screenshot 2019-08-14 at 12.13.39 PM.png)![](/assets/Screenshot 2019-08-14 at 12.21.23 PM.png)![](/assets/Screenshot 2019-08-14 at 12.22.36 PM.png)Pooling increases depth![](/assets/Screenshot 2019-08-14 at 12.22.40 PM.png)![](/assets/Screenshot 2019-08-14 at 12.26.21 PM.png)![](/assets/Screenshot 2019-08-14 at 12.27.41 PM.png)![](/assets/Screenshot 2019-08-14 at 1.22.09 PM.png)![](/assets/Screenshot 2019-08-14 at 1.22.18 PM.png)Image Augmentation![](/assets/Screenshot 2019-08-14 at 4.03.13 PM.png)
+
+### Optional Resources {#optional-resources}
+
+* Check out the [AlexNet](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) paper!
+* Read more about [VGGNet](https://arxiv.org/pdf/1409.1556.pdf) here.
+* The [ResNet](https://arxiv.org/pdf/1512.03385v1.pdf) paper can be found here.
+* Here's the Keras [documentation](https://keras.io/applications/) for accessing some famous CNN architectures.
+* Read this [detailed treatment](http://neuralnetworksanddeeplearning.com/chap5.html) of the vanishing gradients problem.
+* Here's a GitHub [repository](https://github.com/jcjohnson/cnn-benchmarks) containing benchmarks for different CNN architectures.
+* Visit the [ImageNet Large Scale Visual Recognition Competition \(ILSVRC\)](http://www.image-net.org/challenges/LSVRC/) website.
+
+
 

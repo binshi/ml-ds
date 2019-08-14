@@ -88,5 +88,31 @@ When constructing a network for classification, the final layer in the network s
 
 ![](/assets/Screenshot 2019-08-14 at 7.16.45 AM.png)In the above graph the intersection between validation and training is the best number of epochs. Lower the validation loss better the model.
 
-**ModelCheckPoint: ** 
+**ModelCheckPoint: **
+
+https://keras.io/callbacks/\#modelcheckpoint
+
+http://machinelearningmastery.com/check-point-deep-learning-models-keras/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

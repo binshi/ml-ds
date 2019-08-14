@@ -80,11 +80,13 @@ When constructing a network for classification, the final layer in the network s
 
 **Transfer learning**: [https://www.hackerearth.com/practice/machine-learning/transfer-learning/transfer-learning-intro/tutorial/](https://www.hackerearth.com/practice/machine-learning/transfer-learning/transfer-learning-intro/tutorial/)
 
-
-
 #### Categorical Cross Entropy\(To measure loss\)
 
 ![](/assets/Screenshot 2019-08-14 at 7.12.52 AM.png)
 
-![](/assets/Screenshot 2019-08-14 at 7.13.05 AM.png)
+#### ![](/assets/Screenshot 2019-08-14 at 7.13.05 AM.png)**Model Validation**
+
+![](/assets/Screenshot 2019-08-14 at 7.16.45 AM.png)In the above graph the intersection between validation and training is the best number of epochs. Lower the validation loss better the model.
+
+**ModelCheckPoint: ** 
 

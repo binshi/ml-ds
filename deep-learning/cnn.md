@@ -104,7 +104,7 @@ Padding: Valid\(without padding\) and only those areas where the entire filter c
 
 **Pooling**
 
-https://keras.io/layers/pooling/
+[https://keras.io/layers/pooling/](https://keras.io/layers/pooling/)
 
 Neighboring pixels in images tend to have similar values, so conv layers will typically also produce similar values for neighboring pixels in outputs. As a result, **much of the information contained in a conv layer’s output is redundant**. For example, if we use an edge-detecting filter and find a strong edge at a certain location, chances are that we’ll also find relatively strong edges at locations 1 pixel shifted from the original one. However,**these are all the same edge! **We’re not finding anything new.
 
@@ -118,5 +118,5 @@ When constructing a network for classification, the final layer in the network s
 
 **Max Pooling Layer**![](/assets/Screenshot 2019-08-14 at 12.12.36 PM.png)
 
-**Global Average Pooling layer**![](/assets/Screenshot 2019-08-14 at 12.13.39 PM.png)![](/assets/Screenshot 2019-08-14 at 12.21.23 PM.png)![](/assets/Screenshot 2019-08-14 at 12.22.36 PM.png)Pooling increases depth![](/assets/Screenshot 2019-08-14 at 12.22.40 PM.png)
+**Global Average Pooling layer**![](/assets/Screenshot 2019-08-14 at 12.13.39 PM.png)![](/assets/Screenshot 2019-08-14 at 12.21.23 PM.png)![](/assets/Screenshot 2019-08-14 at 12.22.36 PM.png)Pooling increases depth![](/assets/Screenshot 2019-08-14 at 12.22.40 PM.png)![](/assets/Screenshot 2019-08-14 at 12.26.21 PM.png)
 

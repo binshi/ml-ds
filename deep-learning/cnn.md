@@ -118,5 +118,5 @@ When constructing a network for classification, the final layer in the network s
 
 **Max Pooling Layer**![](/assets/Screenshot 2019-08-14 at 12.12.36 PM.png)
 
-**Global Average Pooling layer**![](/assets/Screenshot 2019-08-14 at 12.13.39 PM.png)![](/assets/Screenshot 2019-08-14 at 12.21.23 PM.png)![](/assets/Screenshot 2019-08-14 at 12.22.36 PM.png)Pooling increases depth![](/assets/Screenshot 2019-08-14 at 12.22.40 PM.png)![](/assets/Screenshot 2019-08-14 at 12.26.21 PM.png)
+**Global Average Pooling layer**![](/assets/Screenshot 2019-08-14 at 12.13.39 PM.png)![](/assets/Screenshot 2019-08-14 at 12.21.23 PM.png)![](/assets/Screenshot 2019-08-14 at 12.22.36 PM.png)Pooling increases depth![](/assets/Screenshot 2019-08-14 at 12.22.40 PM.png)![](/assets/Screenshot 2019-08-14 at 12.26.21 PM.png)![](/assets/Screenshot 2019-08-14 at 12.27.41 PM.png)![](/assets/Screenshot 2019-08-14 at 1.22.09 PM.png)![](/assets/Screenshot 2019-08-14 at 1.22.18 PM.png)
 

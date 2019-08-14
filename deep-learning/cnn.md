@@ -120,7 +120,7 @@ When constructing a network for classification, the final layer in the network s
 
 #### **Global Average Pooling layer**![](/assets/Screenshot 2019-08-14 at 12.13.39 PM.png)![](/assets/Screenshot 2019-08-14 at 12.21.23 PM.png)![](/assets/Screenshot 2019-08-14 at 12.22.36 PM.png)Pooling increases depth![](/assets/Screenshot 2019-08-14 at 12.22.40 PM.png)![](/assets/Screenshot 2019-08-14 at 12.26.21 PM.png)![](/assets/Screenshot 2019-08-14 at 12.27.41 PM.png)![](/assets/Screenshot 2019-08-14 at 1.22.09 PM.png)![](/assets/Screenshot 2019-08-14 at 1.22.18 PM.png)Image Augmentation![](/assets/Screenshot 2019-08-14 at 4.03.13 PM.png)
 
-### Optional Resources {#optional-resources}
+### CNN architecture Resources {#optional-resources}
 
 * Check out the [AlexNet](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) paper!
 * Read more about [VGGNet](https://arxiv.org/pdf/1409.1556.pdf) here.
@@ -129,6 +129,23 @@ When constructing a network for classification, the final layer in the network s
 * Read this [detailed treatment](http://neuralnetworksanddeeplearning.com/chap5.html) of the vanishing gradients problem.
 * Here's a GitHub [repository](https://github.com/jcjohnson/cnn-benchmarks) containing benchmarks for different CNN architectures.
 * Visit the [ImageNet Large Scale Visual Recognition Competition \(ILSVRC\)](http://www.image-net.org/challenges/LSVRC/) website.
+
+### CNN Visualization Resources {#-really-cool-optional-resources}
+
+If you would like to know more about interpreting CNNs and convolutional layers in particular, you are encouraged to check out these resources:
+
+* Here's a [section](http://cs231n.github.io/understanding-cnn/) from the Stanford's CS231n course on visualizing what CNNs learn.
+* Check out this [demonstration](https://aiexperiments.withgoogle.com/what-neural-nets-see) of a cool [OpenFrameworks](http://openframeworks.cc/) app that visualizes CNNs in real-time, from user-supplied video!
+* Here's a [demonstration](https://www.youtube.com/watch?v=AgkfIQ4IGaM&t=78s) of another visualization tool for CNNs. If you'd like to learn more about how these visualizations are made, check out this [video](https://www.youtube.com/watch?v=ghEmQSxT6tw&t=5s).
+* Read this[Keras blog post](https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html)on visualizing how CNNs see the world. In this post, you can find an accessible introduction to Deep Dreams, along with code for writing your own deep dreams in Keras. When you've read that:
+
+  * Also check out this [music video](https://www.youtube.com/watch?v=XatXy6ZhKZw) that makes use of Deep Dreams \(look at 3:15-3:40\)!
+  * Create your own Deep Dreams \(without writing any code!\) using this [website](https://deepdreamgenerator.com/).
+
+* If you'd like to read more about interpretability of CNNs:
+
+  * Here's an [article](https://blog.openai.com/adversarial-example-research/) that details some dangers from using deep learning models \(that are not yet interpretable\) in real-world applications.
+  * There's a lot of active research in this area. [These authors](https://arxiv.org/abs/1611.03530) recently made a step in the right direction.
 
 
 

@@ -56,8 +56,6 @@ Check out the [list of available optimizers](https://keras.io/optimizers/) in Ke
 * There are many callbacks \(such as ModelCheckpoint\) that you can use to monitor your model during the training process. If you'd like, check out the [**details**](https://keras.io/callbacks/#modelcheckpoint) here. You're encouraged to begin with learning more about the EarlyStopping callback. If you'd like to see another code example of ModelCheckpoint, check out  [**this blog**](http://machinelearningmastery.com/check-point-deep-learning-models-keras/)  
   .
 
-
-
 **Transfer learning**: [https://www.hackerearth.com/practice/machine-learning/transfer-learning/transfer-learning-intro/tutorial/](https://www.hackerearth.com/practice/machine-learning/transfer-learning/transfer-learning-intro/tutorial/)
 
 #### Categorical Cross Entropy\(To measure loss\)
@@ -106,6 +104,8 @@ Padding: Valid\(without padding\) and only those areas where the entire filter c
 
 **Pooling**
 
+https://keras.io/layers/pooling/
+
 Neighboring pixels in images tend to have similar values, so conv layers will typically also produce similar values for neighboring pixels in outputs. As a result, **much of the information contained in a conv layer’s output is redundant**. For example, if we use an edge-detecting filter and find a strong edge at a certain location, chances are that we’ll also find relatively strong edges at locations 1 pixel shifted from the original one. However,**these are all the same edge! **We’re not finding anything new.
 
 Pooling layers solve this problem. All they do is reduce the size of the input it’s given by \(you guessed it\)\_pooling\_values together in the input. The pooling is usually done by a simple operation like`max`,`min`, or`average`. To perform \_max \_pooling, we traverse the input image in 2x2 blocks \(because pool size = 2\) and put the \_max \_value into the output image at the corresponding pixel. **Pooling divides the input’s width and height by the pool size**. For our MNIST CNN, we’ll place a Max Pooling layer with a pool size of 2 right after our initial conv layer. The pooling layer will transform a 26x26x8 input into a 13x13x8 output
@@ -118,5 +118,5 @@ When constructing a network for classification, the final layer in the network s
 
 **Max Pooling Layer**![](/assets/Screenshot 2019-08-14 at 12.12.36 PM.png)
 
-**Global Average Pooling layer**![](/assets/Screenshot 2019-08-14 at 12.13.39 PM.png)
+**Global Average Pooling layer**![](/assets/Screenshot 2019-08-14 at 12.13.39 PM.png)![](/assets/Screenshot 2019-08-14 at 12.21.23 PM.png)![](/assets/Screenshot 2019-08-14 at 12.22.36 PM.png)Pooling increases depth![](/assets/Screenshot 2019-08-14 at 12.22.40 PM.png)
 

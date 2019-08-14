@@ -102,5 +102,5 @@ When constructing a network for classification, the final layer in the network s
 
 ![](/assets/Screenshot 2019-08-14 at 7.31.50 AM.png)![](/assets/Screenshot 2019-08-14 at 7.33.07 AM.png)![](/assets/Screenshot 2019-08-14 at 7.33.50 AM.png)**CNN**
 
-![](/assets/Screenshot 2019-08-14 at 7.39.25 AM.png)![](/assets/Screenshot 2019-08-14 at 7.39.48 AM.png)
+![](/assets/Screenshot 2019-08-14 at 7.39.25 AM.png)![](/assets/Screenshot 2019-08-14 at 7.39.48 AM.png)**Create you own filter**: http://setosa.io/ev/image-kernels/
 

@@ -102,5 +102,15 @@ When constructing a network for classification, the final layer in the network s
 
 ![](/assets/Screenshot 2019-08-14 at 7.31.50 AM.png)![](/assets/Screenshot 2019-08-14 at 7.33.07 AM.png)![](/assets/Screenshot 2019-08-14 at 7.33.50 AM.png)**CNN**
 
-![](/assets/Screenshot 2019-08-14 at 7.39.25 AM.png)![](/assets/Screenshot 2019-08-14 at 7.39.48 AM.png)**Create you own filter**: http://setosa.io/ev/image-kernels/
+![](/assets/Screenshot 2019-08-14 at 7.39.25 AM.png)![](/assets/Screenshot 2019-08-14 at 7.39.48 AM.png)**Create you own filter**: [http://setosa.io/ev/image-kernels/](http://setosa.io/ev/image-kernels/)
+
+![](/assets/Screenshot 2019-08-14 at 7.49.05 AM.png)For RGB images:
+
+![](/assets/Screenshot 2019-08-14 at 7.51.19 AM.png)![](/assets/Screenshot 2019-08-14 at 8.00.27 AM.png)![](/assets/Screenshot 2019-08-14 at 8.01.06 AM.png)**Stride and Padding**
+
+Stride the number of columns by which the filter is moved
+
+Padding: Valid\(without padding\) and only those areas where the entire filter can be moved is used. In Same, 0 padding is used.![](/assets/stride.png)![](/assets/conv.png)
+
+![](/assets/Screenshot 2019-08-14 at 12.05.06 PM.png)![](/assets/Screenshot 2019-08-14 at 12.05.17 PM.png)![](/assets/Screenshot 2019-08-14 at 12.05.27 PM.png)
 

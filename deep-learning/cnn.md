@@ -94,5 +94,11 @@ When constructing a network for classification, the final layer in the network s
 
 [http://machinelearningmastery.com/check-point-deep-learning-models-keras/](http://machinelearningmastery.com/check-point-deep-learning-models-keras/)
 
+![](/assets/Screenshot 2019-08-14 at 7.28.21 AM.png)
+
+![](/assets/Screenshot 2019-08-14 at 7.31.08 AM.png)
+
 ![](/assets/Screenshot 2019-08-14 at 7.25.31 AM.png)
+
+![](/assets/Screenshot 2019-08-14 at 7.31.50 AM.png)![](/assets/Screenshot 2019-08-14 at 7.33.07 AM.png)![](/assets/Screenshot 2019-08-14 at 7.33.50 AM.png)
 

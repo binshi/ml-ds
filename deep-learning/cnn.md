@@ -90,29 +90,9 @@ When constructing a network for classification, the final layer in the network s
 
 **ModelCheckPoint: **
 
-https://keras.io/callbacks/\#modelcheckpoint
+[https://keras.io/callbacks/\#modelcheckpoint](https://keras.io/callbacks/#modelcheckpoint)
 
-http://machinelearningmastery.com/check-point-deep-learning-models-keras/
+[http://machinelearningmastery.com/check-point-deep-learning-models-keras/](http://machinelearningmastery.com/check-point-deep-learning-models-keras/)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](/assets/Screenshot 2019-08-14 at 7.25.31 AM.png)
 

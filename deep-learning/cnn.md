@@ -151,7 +151,7 @@ If you would like to know more about interpreting CNNs and convolutional layers 
 
 Let’s look at an example CNN to see how it works in action.
 
-The CNN we will look at is trained on ImageNet as described in[this paper](hhttps://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)by Zeiler and Fergus. In the images below \(from the same paper\), we’ll see_what_each layer in this network detects and see_how_each layer detects more and more complex ideas.
+The CNN we will look at is trained on ImageNet as described in[this paper](hhttps://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)by Zeiler and Fergus. In the images below \(from the same paper\), we’ll see\_what\_each layer in this network detects and see\_how\_each layer detects more and more complex ideas.
 
 [![](https://video.udacity-data.com/topher/2017/April/58e91f1e_layer-1-grid/layer-1-grid.png)Example patterns that cause activations in the first layer of the network. These range from simple diagonal lines \(top left\) to green blobs \(bottom middle\).](https://classroom.udacity.com/nanodegrees/nd009t/parts/d0974b3b-0900-4f45-bb95-f7f867a10329/modules/921922f7-359e-4998-9e56-d7336861f8ae/lessons/52fc79a7-13ff-4065-b3c6-8203ec9ef60c/concepts/cbf65dc4-c0b4-44c5-81c6-5997e409cb75#)
 

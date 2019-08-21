@@ -319,11 +319,7 @@ The only hyperparameter that we will need to tune is the _K_ number of trees. No
 
 # K-Nearest Neighbors \(KNN\) {#4ba5}
 
-K-nearest neighbor algorithms or KNN, belongs to a special type of machine learning models that are frequently called ‘lazy algorithms’.
-
-They receive this name because they do not learn how to discriminate the dataset with an optimized function, but memorize the dataset instead.
-
-The name ‘lazy algorithm’ also refers to the kind of algorithms called nonparametric. These are instance-based algorithms, they are characterized by memorizing the training dataset, and lazy learning is a specific case of these algorithms, asociated with zero computational cost during the learning.
+K-nearest neighbor algorithms or KNN, belongs to a special type of machine learning models that are frequently called ‘lazy algorithms’. They receive this name because they do not learn how to discriminate the dataset with an optimized function, but memorize the dataset instead. The name ‘lazy algorithm’ also refers to the kind of algorithms called nonparametric. These are instance-based algorithms, they are characterized by memorizing the training dataset, and lazy learning is a specific case of these algorithms, asociated with zero computational cost during the learning.
 
 **The algorithm**
 

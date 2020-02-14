@@ -82,6 +82,8 @@ Data Visualization in Python [https://lnkd.in/enTYSHW](https://lnkd.in/enTYSHW)
 
 Cifar10: [https://github.com/keras-team/keras/blob/master/examples/cifar10\_cnn.py](https://github.com/keras-team/keras/blob/master/examples/cifar10_cnn.py)
 
+[https://lodev.org/cgtutor/filtering.html](https://lodev.org/cgtutor/filtering.html)
+
 ### Optional Resources {#optional-resources}
 
 * Check out the [AlexNet](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) paper!

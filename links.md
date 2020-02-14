@@ -100,3 +100,5 @@ Cifar10: [https://github.com/keras-team/keras/blob/master/examples/cifar10\_cnn.
 
 [https://deepmind.com/blog/alphago-zero-learning-scratch/](https://deepmind.com/blog/alphago-zero-learning-scratch/)
 
+Overview of mini-batch gradient descent: [http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture\_slides\_lec6.pdf](http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf)
+

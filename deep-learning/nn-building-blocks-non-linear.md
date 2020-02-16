@@ -35,6 +35,12 @@ Try to call the boundary towards the misclassified point and update the weights 
 
 Dropout is a regularization method that approximates training a large number of neural networks with different architectures in parallel. During training, some number of layer outputs are randomly ignored or “_dropped out_.” This has the effect of making the layer look-like and be treated-like a layer with a different number of nodes and connectivity to the prior layer. In effect, each update to a layer during training is performed with a different “_view_” of the configured layer.
 
+The idea behind Dropouts is that they remove a random number of neurons in your neural network. This works very well for two reasons: The first is that neighboring neurons often end up with similar weights, which can lead to overfitting, so dropping some out at random can remove this. The second is that often a neuron can over-weigh the input from a neuron in the previous layer, and can over specialize as a result. Thus, dropping out can break the neural network out of this potential bad habit!
+
+Check out Andrew's terrific video explaining dropouts here:[https://www.youtube.com/watch?v=ARq74QuavAo](https://www.youtube.com/watch?v=ARq74QuavAo)
+
+
+
 * Dropout forces a neural network to learn more robust features that are useful in conjunction with many different random subsets of the other neurons.
 * Dropout roughly doubles the number of iterations required to converge. However, training time for each epoch is less.
 * With H hidden units, each of which can be dropped, we have 2^H possible models. In testing phase, the entire network is considered and each activation is reduced by a factor _p._

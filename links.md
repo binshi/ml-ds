@@ -104,3 +104,7 @@ Overview of mini-batch gradient descent: [http://www.cs.toronto.edu/~tijmen/csc3
 
 Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal Loss and all those confusing names: [https://gombru.github.io/2018/05/23/cross\_entropy\_loss/](https://gombru.github.io/2018/05/23/cross_entropy_loss/)
 
+[https://towardsdatascience.com/all-machine-learning-models-explained-in-6-minutes-9fe30ff6776a](https://towardsdatascience.com/all-machine-learning-models-explained-in-6-minutes-9fe30ff6776a)
+
+
+

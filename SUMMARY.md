@@ -44,4 +44,5 @@
   * [Model and Cost function](andrewng/sub-article.md)
 * [Interview](interview.md)
 * [Misc](misc.md)
+* [ML-strategy](ml-strategy.md)
 

@@ -108,3 +108,5 @@ Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax
 
 [https://www.tensorflow.org/guide/keras/overview](https://www.tensorflow.org/guide/keras/overview)
 
+[https://www.newgenapps.com/blog/precision-vs-recall-accuracy-paradox-machine-learning](https://www.newgenapps.com/blog/precision-vs-recall-accuracy-paradox-machine-learning)
+

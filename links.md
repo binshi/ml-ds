@@ -112,3 +112,5 @@ Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax
 
 [https://static.coggle.it/diagram/WHeBqDIrJRk-kDDY/t/categories-of-algorithms-non-exhaustive](https://static.coggle.it/diagram/WHeBqDIrJRk-kDDY/t/categories-of-algorithms-non-exhaustive)
 
+Interactive demonstrations for ML courses: [http://arogozhnikov.github.io/2016/04/28/demonstrations-for-ml-courses.html](http://arogozhnikov.github.io/2016/04/28/demonstrations-for-ml-courses.html)
+

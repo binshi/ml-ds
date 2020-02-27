@@ -110,3 +110,5 @@ Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax
 
 [https://www.newgenapps.com/blog/precision-vs-recall-accuracy-paradox-machine-learning](https://www.newgenapps.com/blog/precision-vs-recall-accuracy-paradox-machine-learning)
 
+[https://static.coggle.it/diagram/WHeBqDIrJRk-kDDY/t/categories-of-algorithms-non-exhaustive](https://static.coggle.it/diagram/WHeBqDIrJRk-kDDY/t/categories-of-algorithms-non-exhaustive)
+
